@@ -1,0 +1,44 @@
+[
+  {
+    "account_id": "ACC-001",
+    "name": "Pellwick Freight Holdings",
+    "name_variants": ["Pellwick Freight", "Pellwick"],
+    "parent_account_id": null,
+    "domain": "pellwickfreight.example",
+    "industry": "Freight and logistics",
+    "is_customer": false,
+    "account_owner": null,
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-002",
+    "name": "Pellwick Freight (Marketing)",
+    "name_variants": ["PWF Marketing"],
+    "parent_account_id": "ACC-001",
+    "domain": "pellwickfreight.example",
+    "industry": "Freight and logistics",
+    "is_customer": true,
+    "account_owner": "Riley Chen",
+    "arr_usd": 86000,
+    "licensed_seats": 120,
+    "renewal_date": "2026-11-20",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-003",
+    "name": "Pellwick Dental Group",
+    "name_variants": ["Pellwick Dental", "PDG"],
+    "parent_account_id": null,
+    "domain": "pellwickdental.example",
+    "industry": "Dental practice group",
+    "is_customer": true,
+    "account_owner": "Tess Harlow",
+    "arr_usd": 24000,
+    "licensed_seats": 40,
+    "renewal_date": "2027-03-01",
+    "activity": []
+  }
+]

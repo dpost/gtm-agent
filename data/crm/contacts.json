@@ -1,0 +1,38 @@
+[
+  {
+    "contact_id": "CON-010",
+    "account_id": "ACC-002",
+    "name": "Dana Ruiz",
+    "title": "VP Marketing",
+    "email": "dana.ruiz@pellwickfreight.example",
+    "role_tags": ["champion"],
+    "last_updated": "2026-05-12",
+    "employment_history": [
+      {"account_id": "ACC-002", "company": "Pellwick Freight", "title": "VP Marketing", "start": "2023-02-01", "end": null}
+    ]
+  },
+  {
+    "contact_id": "CON-011",
+    "account_id": "ACC-002",
+    "name": "Sam Whitfield",
+    "title": "CMO",
+    "email": "sam.whitfield@pellwickfreight.example",
+    "role_tags": ["economic_buyer"],
+    "last_updated": "2026-05-12",
+    "employment_history": [
+      {"account_id": "ACC-002", "company": "Pellwick Freight", "title": "CMO", "start": "2021-09-01", "end": null}
+    ]
+  },
+  {
+    "contact_id": "CON-020",
+    "account_id": "ACC-003",
+    "name": "Imani Brooks",
+    "title": "Director of Practice Operations",
+    "email": "imani.brooks@pellwickdental.example",
+    "role_tags": ["champion"],
+    "last_updated": "2026-08-20",
+    "employment_history": [
+      {"account_id": "ACC-003", "company": "Pellwick Dental Group", "title": "Director of Practice Operations", "start": "2022-04-01", "end": null}
+    ]
+  }
+]

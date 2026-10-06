@@ -1,0 +1,16 @@
+[
+  {
+    "case_id": "L-001",
+    "lead_id": "L-001",
+    "relationship_status": "at_risk_department",
+    "alert_level": "caution",
+    "related_account_ids_required": ["ACC-001", "ACC-002"],
+    "related_account_ids_forbidden": ["ACC-003"],
+    "required_flags": [
+      {"type": "renewal_risk", "any_source": ["usage:ACC-002", "crm:opp/OPP-004"]},
+      {"type": "champion_change", "any_source": ["transcript:T-0003"]}
+    ],
+    "forbidden_flag_types": ["warm_reference"],
+    "action_intent": "Coordinate with Riley Chen before calling; do not pitch."
+  }
+]

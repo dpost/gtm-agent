@@ -1,0 +1,28 @@
+transcript_id: T-0003
+account_id: ACC-002
+date: 2026-09-27
+call_type: Check-in
+contact_ids: CON-010
+participants: Riley Chen (Larkspur Analytics, account owner); Dana Ruiz (VP Marketing, Pellwick Freight)
+---
+Riley Chen: Thanks for joining, Dana. I wanted to walk through the renewal plan for November.
+
+Dana Ruiz: Before we do, I have news. The reorg went through. I'm moving to the Operations team at the end of October.
+
+Riley Chen: Congratulations. Who will own Larkspur on the marketing side after you move?
+
+Dana Ruiz: That's the honest problem. Nobody has been named for the tool yet. My replacement as VP hasn't been hired, and the team leads are stretched.
+
+Riley Chen: Understood. I've noticed fewer people logging in the last few weeks. Is that related?
+
+Dana Ruiz: Probably. A few of the heavy users moved teams already, and the campaign reporting work is in limbo until the new structure settles.
+
+Riley Chen: What does that mean for the renewal?
+
+Dana Ruiz: Sam wants a budget review before he signs anything. He asked me to pull together what the team actually uses, and right now the numbers aren't great. I'd plan for him to push on seat count.
+
+Riley Chen: That's helpful to know early. Could we set up time with Sam directly before you move?
+
+Dana Ruiz: I'll try. His calendar is rough this month. I'll introduce you over email.
+
+Riley Chen: Thank you. I'll put together a usage summary he can look at.

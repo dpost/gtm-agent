@@ -1,0 +1,22 @@
+transcript_id: T-0001
+account_id: ACC-002
+date: 2026-06-10
+call_type: QBR
+contact_ids: CON-010
+participants: Riley Chen (Larkspur Analytics, account owner); Dana Ruiz (VP Marketing, Pellwick Freight)
+---
+Riley Chen: Thanks for making time, Dana. I pulled the quarter's numbers before the call. Your team has about ninety-five people active every week out of a hundred and twenty seats, which is one of the best ratios we see.
+
+Dana Ruiz: That tracks. The campaign dashboards are basically the first tab everyone opens on Monday now. Before Larkspur we were losing two days a week stitching reports together by hand. That's mostly gone.
+
+Riley Chen: That was the pain you flagged last year, so it's good to hear it landed. Anything that still feels slow?
+
+Dana Ruiz: Attribution for the trade show program. We'd love to see event spend next to pipeline without exporting to a spreadsheet.
+
+Riley Chen: I can set up a session with our solutions team on that. It's a common ask and there's a template that gets you most of the way.
+
+Dana Ruiz: Great. Honestly, the team is happy. Sam mentioned the dashboards in the last leadership meeting as an example of something that just works.
+
+Riley Chen: That's great to hear. Renewal is in November, so let's plan to talk about the plan for next year in early September.
+
+Dana Ruiz: Sounds good. Send me a few times.

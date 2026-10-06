@@ -4,7 +4,7 @@ Working notes for the lead brief prototype.
 
 ## Later
 
-- **Structured outputs for the final brief.** `output_config.format` with the Brief JSON schema, instead of parse plus one retry. A candidate for the Oct 13 "one change".
+- **Structured outputs for the final brief.** `output_config.format` with the Brief JSON schema, instead of parse plus one retry. A candidate for the Oct 13 "one change". Seen on the first live eval run (Oct 6): the model's first answer added a field outside the schema (`flags_note`), validation rejected it, and the one retry fixed it. Structured outputs would rule this out and save the retry's cost and latency.
 - **Server-side refusal fallback** (`fallbacks: "default"`) is left out. On the current agent model it only reroutes `cyber` and `frontier_llm` declines, neither plausible for sales briefs, and a silent switch to another model would muddy eval comparisons. Refusals fail loudly instead.
 - **Smarter `search_accounts`.** Match on email domain, fuzzy names, and the reverse substring direction (a variant inside the query, e.g. "Pellwick Freight Inc").
 - **`search_transcripts` returns full text.** Fine at 2 to 3 short transcripts per account. Revisit (snippets plus a `get_transcript` tool) if transcripts grow.

@@ -10,4 +10,5 @@ def no_api_calls(monkeypatch):
         raise RuntimeError("tests must not call the Anthropic API; pass a fake client")
 
     monkeypatch.setattr(anthropic, "Anthropic", refuse)
-    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    for name in ("LEAD_BRIEF_ANTHROPIC_API_KEY", "ANTHROPIC_API_KEY"):
+        monkeypatch.delenv(name, raising=False)

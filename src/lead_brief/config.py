@@ -24,6 +24,20 @@ PROMPTS_DIR = Path(__file__).resolve().parent / "prompts"
 AGENT_PROMPT_PATH = PROMPTS_DIR / "agent_system.md"
 
 
+# Cloud sessions strip ANTHROPIC_API_KEY (Claude Code reserves it for its own login),
+# so the project-specific name is checked first. ANTHROPIC_API_KEY still works locally.
+API_KEY_ENV_VARS = ("LEAD_BRIEF_ANTHROPIC_API_KEY", "ANTHROPIC_API_KEY")
+
+
+def api_key() -> str | None:
+    """The first non-empty key named in API_KEY_ENV_VARS, or None."""
+    for name in API_KEY_ENV_VARS:
+        value = os.environ.get(name, "").strip()
+        if value:
+            return value
+    return None
+
+
 def load_env(path: Path = REPO_ROOT / ".env") -> None:
     """Read KEY=VALUE lines from a gitignored .env into os.environ, without overriding."""
     if not path.exists():

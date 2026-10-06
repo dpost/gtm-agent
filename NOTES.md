@@ -17,4 +17,5 @@ Working notes for the lead brief prototype.
 - The lead record goes into the first user message, cited as `crm:lead/L-001`. None of the five SPEC tools fetches a lead.
 - `call_context_note` holds one or two sentences on the lead themself and their inbound request (who, what they asked for, when).
 - `.env` is read by a 10-line loader in `config.py` rather than adding `python-dotenv`.
+- The API key is read from `LEAD_BRIEF_ANTHROPIC_API_KEY` first, then `ANTHROPIC_API_KEY`. Cloud environments strip `ANTHROPIC_API_KEY`, and their API credentials feature never attaches keys to `api.anthropic.com`, so the project-specific variable is the only way to run live in a cloud session. Use a dedicated key with a low spend limit there, since environment variables are readable inside sessions.
 - At the 10-call cap, extra calls in the same turn get an error result, and the next request sends `tool_choice: none` with the same `tools` list, so the history stays append-only.

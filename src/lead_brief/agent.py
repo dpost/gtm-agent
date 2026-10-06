@@ -71,7 +71,11 @@ def brief_lead(lead_id: str, client=None) -> Brief:
     lead = data_store.get_lead(lead_id)
     if client is None:
         config.load_env()
-        client = anthropic.Anthropic()
+        key = config.api_key()
+        if key is None:
+            names = " or ".join(config.API_KEY_ENV_VARS)
+            raise BriefError(f"No API key found. Set {names} in the environment or a gitignored .env.")
+        client = anthropic.Anthropic(api_key=key)
     system = system_prompt()
     messages = [{"role": "user", "content": lead_message(lead)}]
     tool_calls = 0

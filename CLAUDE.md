@@ -13,7 +13,7 @@ A pre-call brief agent for SDRs, plus the eval harness that measures it. Given a
 3. **No em dashes** in any Markdown, docstring, comment, prompt, or generated text. Use a colon, comma, period, or parentheses.
 4. **No agent frameworks.** The tool-use loop is hand-written on the Anthropic Python SDK. Do not add LangChain, LangGraph, LlamaIndex, CrewAI, or similar. Ask before adding any new dependency.
 5. **Read-only agent.** No tool writes to the data.
-6. **Secrets.** The API key comes from `ANTHROPIC_API_KEY` in the environment or a gitignored `.env`. Never commit keys, never print them.
+6. **Secrets.** The API key comes from `LEAD_BRIEF_ANTHROPIC_API_KEY` or `ANTHROPIC_API_KEY`, in the environment or a gitignored `.env`; `config.api_key()` checks them in that order. Cloud sessions strip `ANTHROPIC_API_KEY` (Claude Code reserves it for its own login), so use `LEAD_BRIEF_ANTHROPIC_API_KEY` there. Never commit keys, never print them.
 7. **Scope.** Check SPEC.md's "Out of scope for v1" before building anything not in the current task. If something would be nice to have, add it to `NOTES.md` under "Later" and keep going.
 
 ## Stack

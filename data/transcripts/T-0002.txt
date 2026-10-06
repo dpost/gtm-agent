@@ -1,0 +1,20 @@
+transcript_id: T-0002
+account_id: ACC-002
+date: 2026-08-14
+call_type: Check-in
+contact_ids: CON-010
+participants: Riley Chen (Larkspur Analytics, account owner); Dana Ruiz (VP Marketing, Pellwick Freight)
+---
+Riley Chen: Quick check-in before the renewal conversation. How did the attribution template work out?
+
+Dana Ruiz: We got it running for the trade show program. A couple of people use it every week. It's useful.
+
+Riley Chen: Good. Usage still looks solid on our side, a little softer than June but nothing unusual for August.
+
+Dana Ruiz: People are on vacation, so that makes sense. One thing I should mention: there's a reorg being discussed at the leadership level. Nothing is decided, and I don't know yet what it means for marketing.
+
+Riley Chen: Thanks for the heads-up. Is there anything I can do to help while that plays out?
+
+Dana Ruiz: Not yet. Let's keep the September call and I'll know more by then.
+
+Riley Chen: Will do. I'll send an agenda the week before.

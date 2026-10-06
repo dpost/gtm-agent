@@ -1,0 +1,22 @@
+transcript_id: T-0004
+account_id: ACC-003
+date: 2026-08-20
+call_type: Check-in
+contact_ids: CON-020
+participants: Tess Harlow (Larkspur Analytics, account owner); Imani Brooks (Director of Practice Operations, Pellwick Dental Group)
+---
+Tess Harlow: Hi Imani, thanks for the time. How are things across the practices?
+
+Imani Brooks: Busy, in a good way. We opened the fourth location in July and the scheduling dashboards made the rollout much easier.
+
+Tess Harlow: That's great to hear. Usage has been steady, close to ninety percent of seats active every week.
+
+Imani Brooks: The front desk managers live in it. The chair utilization report is the one everyone asks about.
+
+Tess Harlow: Anything you'd like us to improve?
+
+Imani Brooks: Mostly more of the same. If the new location keeps growing we may need a few more seats next spring.
+
+Tess Harlow: Easy to add when you're ready. I'll check back in the new year.
+
+Imani Brooks: Perfect. Thanks, Tess.

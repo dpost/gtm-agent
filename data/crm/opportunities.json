@@ -1,0 +1,19 @@
+[
+  {
+    "opp_id": "OPP-004",
+    "account_id": "ACC-002",
+    "name": "PWF Marketing renewal",
+    "type": "renewal",
+    "stage": "Renewal: Negotiation",
+    "status": "open",
+    "owner": "Riley Chen",
+    "amount_usd": 86000,
+    "close_date": "2026-11-20",
+    "closed_lost_reason": null,
+    "meddpicc": {
+      "champion": {"value": "Dana Ruiz, VP Marketing", "contact_id": "CON-010", "last_updated": "2026-05-12"},
+      "economic_buyer": {"value": "Sam Whitfield, CMO", "contact_id": "CON-011", "last_updated": "2026-05-12"},
+      "pain": {"value": "Campaign reporting takes two days per week", "last_updated": "2026-05-12"}
+    }
+  }
+]

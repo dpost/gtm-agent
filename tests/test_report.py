@@ -52,11 +52,13 @@ def test_report_shows_the_lead_input_the_retry_and_expected_vs_got():
     r = result()
     r.lead = data_store.get_lead("L-001")
     r.trace = [
-        {"kind": "tool", "name": "search_accounts", "input": {"name": "Pellwick Freight"}, "is_error": False},
+        {"kind": "tool", "name": "search_accounts", "input": {"name": "Pellwick Freight"},
+         "output": '{"matches": [{"account_id": "ACC-001"}]}', "is_error": False},
         {"kind": "retry", "error": "1 validation error for Brief", "output": '{"alert_level": "caution",'},
     ]
     html = report.render([r], META)
     assert "Marcus Oyelaran" in html and "Inbound demo request on 2026-10-05" in html
     assert "1 retry" in html and "1 validation error for Brief" in html
+    assert '<details class="tool">' in html and '&quot;account_id&quot;: &quot;ACC-001&quot;' in html  # result, indented
     assert "ACC-001, ACC-002; not ACC-003" in html  # related_accounts: answer key column
     assert r.retries == 1

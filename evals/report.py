@@ -68,8 +68,14 @@ def _pct(n: int, total: int) -> str:
     return f"{100 * n / total:.0f}%" if total else "n/a"
 
 
-def _level(level: str) -> str:
-    return f'<span class="level level-{escape(level)}">{escape(level.replace("_", " "))}</span>'
+def _level(level: str, mismatch: bool = False) -> str:
+    """Alert level as a loudness meter: one to three bars. Neutral on purpose: loudness is the
+    expected answer, not a result, so it never borrows the pass or fail colors."""
+    bars = "".join(f'<i class="{"on" if n <= LOUDNESS[level] else ""}"></i>' for n in range(3))
+    return (
+        f'<span class="level{" mismatch" if mismatch else ""}"><span class="meter" aria-hidden="true">{bars}</span>'
+        f'{escape(level.replace("_", " "))}</span>'
+    )
 
 
 def _chip(text: str, tone: str) -> str:
@@ -111,12 +117,27 @@ def _args(tool_input: dict) -> str:
     return ", ".join(f"{escape(k)}={escape(json.dumps(v))}" for k, v in tool_input.items())
 
 
+def _pretty(text: str) -> str:
+    """Tool results are JSON text; indent them for reading, and show anything else as is."""
+    try:
+        return json.dumps(json.loads(text), indent=2, ensure_ascii=False)
+    except ValueError:
+        return text
+
+
 def _run_html(r: CaseResult) -> str:
     items, retries = [], []
     for event in r.trace:
         if event["kind"] == "tool":
             tag = _chip("error", "bad") if event["is_error"] else ""
-            items.append(f'<li><code class="call">{escape(event["name"])}({_args(event["input"])})</code>{tag}</li>')
+            call = f'<code class="call">{escape(event["name"])}({_args(event["input"])})</code>{tag}'
+            if "output" in event:
+                items.append(
+                    f'<li><details class="tool"><summary>{call}</summary>'
+                    f'<pre>{escape(_pretty(event["output"]))}</pre></details></li>'
+                )
+            else:
+                items.append(f"<li>{call}</li>")
         elif event["kind"] == "skipped":
             items.append(
                 f'<li class="muted"><code class="call">{escape(event["name"])}({_args(event["input"])})</code>'
@@ -133,9 +154,12 @@ def _run_html(r: CaseResult) -> str:
     tools = sum(e["kind"] == "tool" for e in r.trace)
     outcome = (
         f'<p class="error">No valid brief. {escape(r.error or "")}</p>' if r.error
-        else f'<p class="muted">{tools} tool calls, {r.seconds:.1f}s, then the brief.</p>'
+        else f'<p class="muted">{tools} tool call{"" if tools == 1 else "s"}, {r.seconds:.1f}s, then the brief.</p>'
     )
-    calls = f'<ol class="calls">{"".join(items)}</ol>' if items else '<p class="muted">No tool calls recorded.</p>'
+    calls = (
+        f'<p class="muted hint">Click a call to see what the tool returned.</p><ol class="calls">{"".join(items)}</ol>'
+        if items else '<p class="muted">No tool calls recorded.</p>'
+    )
     return calls + "".join(retries) + outcome
 
 
@@ -148,7 +172,7 @@ def _brief_html(brief: Brief) -> str:
         for f in brief.flags
     ) or '<li class="muted">No flags.</li>'
     return f"""
-        <div class="brief-card level-edge-{escape(brief.alert_level)}">
+        <div class="brief-card">
           <div class="brief-top">{_level(brief.alert_level)}
             <span class="muted">{escape(SITUATIONS.get(brief.relationship_status, brief.relationship_status))}, accounts {escape(accounts)}</span>
           </div>
@@ -188,7 +212,13 @@ def _score_html(r: CaseResult) -> str:
 
 def _case_html(r: CaseResult, open_by_default: bool) -> str:
     case = r.case
-    got = _level(r.brief.alert_level) if r.brief else _chip("no brief", "bad")
+    expected = case["alert_level"]
+    if r.brief is None:
+        levels = f'<span class="k">key</span>{_level(expected)}{_chip("no brief", "bad")}'
+    elif r.brief.alert_level == expected:
+        levels = f'{_level(expected)}<span class="match">matches key</span>'
+    else:
+        levels = f'<span class="k">key</span>{_level(expected)}<span class="k">brief</span>{_level(r.brief.alert_level, True)}'
     chips = "".join([
         _chip(r.failure_mode, "bad") if r.failure_mode else "",
         _chip(f"{r.retries} retry" if r.retries == 1 else f"{r.retries} retries", "warn") if r.retries else "",
@@ -202,7 +232,7 @@ def _case_html(r: CaseResult, open_by_default: bool) -> str:
       <span class="verdict">{"Pass" if r.passed else "Fail"}</span>
       <span class="case-id">{escape(case["case_id"])}</span>
       <span class="who"><b>{who}</b> <span class="muted">{company}</span></span>
-      <span class="levels"><span class="k">key</span>{_level(case["alert_level"])}<span class="k">brief</span>{got}{chips}</span>
+      <span class="levels">{levels}{chips}</span>
       <span class="num muted">{r.seconds:.1f}s</span>
     </summary>
     <div class="flow">
@@ -243,6 +273,12 @@ def render(results: list[CaseResult], meta: dict[str, str]) -> str:
         _tile("Agent errors", str(errors), "no valid brief", "bad" if errors else ""),
         _tile("Median time", f"{statistics.median(seconds):.1f}s" if seconds else "n/a", f"{sum(seconds):.0f}s total"),
     ])
+    legend = (
+        '<span class="legend-lead">Alert level is how loud the brief should be. The answer key sets it, and the brief has to match.</span>'
+        f'<span>{_level("routine")} quiet: skim and dial</span>'
+        f'<span>{_level("heads_up")} an opening to use</span>'
+        f'<span>{_level("caution")} a risk: change the approach</span>'
+    )
     params = "".join(f"<span>{escape(k)} <b>{escape(v)}</b></span>" for k, v in meta.items())
     check_note = f" ({errors} agent errors not scored)" if errors else ""
     check_rows = "".join(_bar_row(n, CHECK_HELP.get(n, ""), sum(v), len(v)) for n, v in by_check.items())
@@ -264,7 +300,6 @@ def render(results: list[CaseResult], meta: dict[str, str]) -> str:
   --paper: #f4f5f7; --surface: #ffffff; --ink: #171b23; --muted: #5d6573; --rule: #dde1e8; --wash: #eceef3;
   --accent: #3446a6;
   --pass: #1d7348; --pass-wash: #e3f2ea; --fail: #b02a1f; --fail-wash: #fbe8e5; --warn: #8a5a00; --warn-wash: #fbf0d9;
-  --routine: #5d6573; --heads_up: #8a5a00; --caution: #b02a1f;
   --sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 }}
@@ -273,7 +308,6 @@ def render(results: list[CaseResult], meta: dict[str, str]) -> str:
     --paper: #121419; --surface: #1a1d24; --ink: #e8eaf0; --muted: #9aa1ae; --rule: #2d323c; --wash: #23272f;
     --accent: #9cadff;
     --pass: #63c690; --pass-wash: #17301f; --fail: #f08a80; --fail-wash: #3a1c19; --warn: #e2b450; --warn-wash: #33290f;
-    --routine: #9aa1ae; --heads_up: #e2b450; --caution: #f08a80;
     color-scheme: dark;
   }}
 }}
@@ -281,7 +315,6 @@ def render(results: list[CaseResult], meta: dict[str, str]) -> str:
   --paper: #121419; --surface: #1a1d24; --ink: #e8eaf0; --muted: #9aa1ae; --rule: #2d323c; --wash: #23272f;
   --accent: #9cadff;
   --pass: #63c690; --pass-wash: #17301f; --fail: #f08a80; --fail-wash: #3a1c19; --warn: #e2b450; --warn-wash: #33290f;
-  --routine: #9aa1ae; --heads_up: #e2b450; --caution: #f08a80;
   color-scheme: dark;
 }}
 * {{ box-sizing: border-box; }}
@@ -302,6 +335,9 @@ code {{ background: var(--wash); padding: 1px 5px; border-radius: 4px; overflow-
 
 .intro {{ display: flex; flex-direction: column; gap: 10px; }}
 .lede {{ max-width: 68ch; font-size: 16px; }}
+.legend {{ display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; font-size: 13.5px; color: var(--muted); }}
+.legend-lead {{ flex-basis: 100%; }}
+.legend .level {{ margin-right: 6px; }}
 .params {{ display: flex; flex-wrap: wrap; gap: 4px 18px; font: 12.5px var(--mono); color: var(--muted); }}
 .params b {{ color: var(--ink); font-weight: 500; }}
 
@@ -333,10 +369,16 @@ details.case[open] > summary {{ border-bottom: 1px solid var(--rule); }}
 .k {{ font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }}
 .num {{ font-variant-numeric: tabular-nums; }}
 
-.level {{ font-size: 12px; font-weight: 600; padding: 1px 8px; border-radius: 10px; border: 1.5px solid currentColor; white-space: nowrap; }}
-.level-routine {{ color: var(--routine); }}
-.level-heads_up {{ color: var(--heads_up); }}
-.level-caution {{ color: var(--caution); }}
+.level {{ display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; white-space: nowrap;
+  padding: 1px 8px 1px 6px; border-radius: 4px; background: var(--wash); color: var(--ink); }}
+.level.mismatch {{ background: var(--fail-wash); color: var(--fail); }}
+.meter {{ display: inline-flex; align-items: flex-end; gap: 2px; height: 12px; }}
+.meter i {{ display: block; width: 4px; border-radius: 1px; background: var(--rule); }}
+.meter i:nth-child(1) {{ height: 5px; }}
+.meter i:nth-child(2) {{ height: 8px; }}
+.meter i:nth-child(3) {{ height: 12px; }}
+.meter i.on {{ background: currentColor; }}
+.match {{ font-size: 12.5px; color: var(--pass); }}
 .chip {{ font-size: 12px; font-weight: 600; padding: 1px 8px; border-radius: 10px; white-space: nowrap; margin-left: 6px; }}
 .chip-bad {{ color: var(--fail); background: var(--fail-wash); }}
 .chip-warn {{ color: var(--warn); background: var(--warn-wash); }}
@@ -358,9 +400,20 @@ dl.fields dt {{ color: var(--muted); }}
 dl.fields dd {{ margin: 0; min-width: 0; overflow-wrap: anywhere; }}
 .cite {{ margin-top: 10px; }}
 
+.hint {{ font-size: 13px; margin-bottom: 6px; }}
 ol.calls {{ margin: 0 0 10px; padding-left: 22px; display: flex; flex-direction: column; gap: 5px; }}
 ol.calls li::marker {{ color: var(--muted); font: 12px var(--mono); }}
 code.call {{ background: none; padding: 0; }}
+details.tool > summary {{ cursor: pointer; list-style: none; display: flex; align-items: baseline; gap: 6px;
+  border-radius: 4px; padding: 1px 4px; margin-left: -4px; }}
+details.tool > summary::-webkit-details-marker {{ display: none; }}
+details.tool > summary::before {{ content: "▸"; color: var(--accent); font-size: 11px; flex: none; transition: transform .15s; }}
+details.tool[open] > summary::before {{ transform: rotate(90deg); }}
+details.tool > summary:hover {{ background: var(--wash); }}
+details.tool > summary:hover code.call {{ color: var(--accent); }}
+details.tool pre {{ margin: 6px 0 4px; padding: 10px 12px; background: var(--wash); border-radius: 6px;
+  white-space: pre-wrap; overflow-wrap: anywhere; max-height: 360px; overflow: auto; font-size: 12px; }}
+@media (prefers-reduced-motion: reduce) {{ details.tool > summary::before {{ transition: none; }} }}
 .retry {{ display: flex; flex-direction: column; gap: 6px; margin-bottom: 10px; }}
 .retry .chip {{ margin: 0 6px 0 0; }}
 details.raw summary {{ cursor: pointer; color: var(--accent); font-size: 13.5px; }}
@@ -368,10 +421,8 @@ details.raw pre {{ margin: 6px 0 0; padding: 10px; background: var(--wash); bord
   overflow-wrap: anywhere; max-height: 220px; overflow: auto; }}
 .error {{ color: var(--fail); background: var(--fail-wash); padding: 8px 10px; border-radius: 6px; overflow-wrap: anywhere; }}
 
-.brief-card {{ max-width: 760px; border: 1px solid var(--rule); border-top: 4px solid var(--routine); border-radius: 8px;
+.brief-card {{ max-width: 760px; border: 1px solid var(--rule); border-radius: 8px;
   padding: 14px 18px; display: flex; flex-direction: column; gap: 8px; background: var(--surface); }}
-.level-edge-heads_up {{ border-top-color: var(--heads_up); }}
-.level-edge-caution {{ border-top-color: var(--caution); }}
 .brief-top {{ display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font-size: 13.5px; }}
 .brief-headline {{ font-size: 17px; font-weight: 600; line-height: 1.4; text-wrap: balance; }}
 ul.flags {{ list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }}
@@ -421,6 +472,7 @@ footer {{ font-size: 13px; color: var(--muted); }}
     <p class="lede">Each case gives the agent one inbound sales lead. The agent looks the company up in a synthetic CRM,
       a product usage scorecard, and call transcripts, then writes a pre-call brief for the rep. Code scores the brief
       against an answer key written before the data. A case passes only if every check passes.</p>
+    <div class="legend">{legend}</div>
     <div class="params">{params}</div>
   </header>
   <div class="tiles">{tiles}</div>

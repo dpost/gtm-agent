@@ -164,4 +164,5 @@ def test_trace_records_tool_calls_and_the_retry():
     brief_lead("L-001", client=client, trace=trace)
     assert [e["kind"] for e in trace] == ["tool", "retry"]
     assert trace[0]["name"] == "search_accounts" and trace[0]["input"] == {"name": "Pellwick Freight"}
+    assert "ACC-001" in trace[0]["output"] and trace[0]["is_error"] is False
     assert trace[1]["output"] == '{"alert_level": "caution",'

@@ -1,0 +1,32 @@
+transcript_id: T-0007
+account_id: ACC-006
+date: 2026-09-29
+call_type: Check-in
+contact_ids: CON-032
+participants: Abel Okafor (Larkspur Analytics, account owner); Harriet Osei (Paralegal Operations Lead, Strand Mercer)
+---
+Abel Okafor: Hi Harriet, thanks for making time. This is just a friendly check-in, nothing formal. How are things going with the matter reporting dashboards?
+
+Harriet Osei: Good to hear from you, Abel. Things are going well. I've been running matter reporting here since 2019, and the team relies on it every morning.
+
+Abel Okafor: That's great to hear. On our side, usage looks healthy. About 40 of your 45 licensed seats are active each week.
+
+Harriet Osei: That sounds right. The five who aren't in weekly are mostly attorneys who only look at matter summaries when a partner asks for them.
+
+Abel Okafor: Makes sense. Is there anything about the dashboards that's getting in the way for the team?
+
+Harriet Osei: Not really. The morning views load fine and people know where to find things. I do have a small ask, though.
+
+Abel Okafor: Of course, go ahead.
+
+Harriet Osei: We'd like a new report template that shows open matters grouped by supervising attorney, with the status of each one. Right now we build it by hand every Friday.
+
+Abel Okafor: That's a reasonable request. Could you send me an example of how you build it today, so I can see the columns and the grouping you want?
+
+Harriet Osei: Yes, I'll send you the spreadsheet we use this afternoon.
+
+Abel Okafor: Perfect. I'll review it, check with our product team on the best way to set it up, and get back to you with next steps.
+
+Harriet Osei: Thanks, Abel. I appreciate the quick response.
+
+Abel Okafor: Anytime, Harriet. Talk soon.

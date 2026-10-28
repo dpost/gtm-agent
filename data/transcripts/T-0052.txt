@@ -1,0 +1,30 @@
+transcript_id: T-0052
+account_id: ACC-049
+date: 2026-09-02
+call_type: Check-in
+contact_ids: CON-070
+participants: Tess Harlow (Larkspur Analytics, account owner); Shay Mulgrew (Taproom Operations Manager, Graywater Brewing)
+---
+Tess Harlow: Hi Shay, thanks for making time. This is just a friendly check-in, nothing formal. How are things at the taproom?
+
+Shay Mulgrew: Busy, in a good way. Late summer has been strong for us, and the patio has been full most weekends.
+
+Tess Harlow: Glad to hear it. I was looking at usage on our side, and the taproom sales dashboards are some of the most opened views in your account.
+
+Shay Mulgrew: That doesn't surprise me. My shift leads check them every morning. We look at pours by tap, food attach rate, and how the weekend compares to the last one.
+
+Tess Harlow: That's great. Overall, about 21 of your 25 licensed seats are active each week, so adoption looks healthy.
+
+Shay Mulgrew: Yeah, that sounds right. The four who aren't in there much are mostly part-time folks and one person who handles events.
+
+Tess Harlow: That makes sense. Is there anything about the dashboards you wish worked differently?
+
+Shay Mulgrew: One thing. I'd like to see sales by tap handle grouped by beer style, so I can tell whether the lagers are pulling their weight versus the seasonal sours.
+
+Tess Harlow: That's a reasonable grouping. I'll check how to set that up with a custom field and send you a short walkthrough.
+
+Shay Mulgrew: Perfect, thank you. That would help a lot before we plan the fall tap list.
+
+Tess Harlow: Happy to. I'll get that over to you this week, and we can catch up again next month.
+
+Shay Mulgrew: Sounds good. Talk soon, Tess.

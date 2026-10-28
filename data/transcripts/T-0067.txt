@@ -1,0 +1,30 @@
+transcript_id: T-0067
+account_id: ACC-058
+date: 2026-05-20
+call_type: QBR
+contact_ids: CON-080
+participants: Sofia Brandt (Larkspur Analytics, account owner); Daniel Ferreira (Data Platform Lead, Halstead Water)
+---
+Sofia Brandt: Thanks for making time, Daniel. This is our quarterly review for Halstead, and I wanted to start with the water network dashboards. How have they been landing with your team?
+
+Daniel Ferreira: Really well. The pressure zone dashboard has become the first thing the operations group opens in the morning. Before, they were pulling spreadsheets together by hand.
+
+Sofia Brandt: That's great to hear. On our side, about 61 of your 75 licensed seats are active each week, which is a healthy level of adoption.
+
+Daniel Ferreira: That matches what I see. The engineers and the field supervisors are in there constantly. The people who aren't are mostly in finance and a few in administration.
+
+Sofia Brandt: Would it help if I ran a short session for those groups? I could focus on the reports that matter to them, like the cost per repair view.
+
+Daniel Ferreira: Yes, that would be useful. The leak detection view is also getting attention. The team caught a slow loss in one district much earlier than they normally would have.
+
+Sofia Brandt: That's exactly what we hoped the dashboards would do. Is there anything you wish they did that they don't yet?
+
+Daniel Ferreira: I'd like to combine the maintenance history with the flow data in a single view. Right now we switch between two dashboards to see both.
+
+Sofia Brandt: That's doable. I'll set up time with one of our solution engineers to walk through options with you and your analysts.
+
+Daniel Ferreira: Perfect. Send me a couple of time slots and I'll bring two of my analysts along.
+
+Sofia Brandt: Will do. I'll send those slots today, along with a proposed date for the finance and admin session.
+
+Daniel Ferreira: Sounds good. Thanks, Sofia. This was a productive review.

@@ -11,9 +11,409 @@
     "close_date": "2026-11-20",
     "closed_lost_reason": null,
     "meddpicc": {
-      "champion": {"value": "Dana Ruiz, VP Marketing", "contact_id": "CON-010", "last_updated": "2026-05-12"},
-      "economic_buyer": {"value": "Sam Whitfield, CMO", "contact_id": "CON-011", "last_updated": "2026-05-12"},
-      "pain": {"value": "Campaign reporting takes two days per week", "last_updated": "2026-05-12"}
+      "champion": {
+        "value": "Dana Ruiz, VP Marketing",
+        "contact_id": "CON-010",
+        "last_updated": "2026-05-12"
+      },
+      "economic_buyer": {
+        "value": "Sam Whitfield, CMO",
+        "contact_id": "CON-011",
+        "last_updated": "2026-05-12"
+      },
+      "pain": {
+        "value": "Campaign reporting takes two days per week",
+        "last_updated": "2026-05-12"
+      }
+    }
+  },
+  {
+    "opp_id": "OPP-005",
+    "account_id": "ACC-005",
+    "name": "Corvane revenue analytics",
+    "type": "new_business",
+    "stage": "Closed Lost",
+    "status": "closed_lost",
+    "owner": "Owen Castellano",
+    "amount_usd": 42000,
+    "close_date": "2026-04-10",
+    "closed_lost_reason": "Budget",
+    "meddpicc": {}
+  },
+  {
+    "opp_id": "OPP-006",
+    "account_id": "ACC-007",
+    "name": "Marlowe Ridge renewal",
+    "type": "renewal",
+    "stage": "Renewal: Proposal",
+    "status": "open",
+    "owner": "Sofia Brandt",
+    "amount_usd": 22000,
+    "close_date": "2026-12-01",
+    "closed_lost_reason": null,
+    "meddpicc": {}
+  },
+  {
+    "opp_id": "OPP-007",
+    "account_id": "ACC-017",
+    "name": "Orrin Pets renewal",
+    "type": "renewal",
+    "stage": "Renewal: Proposal",
+    "status": "open",
+    "owner": "Tess Harlow",
+    "amount_usd": 15000,
+    "close_date": "2026-11-05",
+    "closed_lost_reason": null,
+    "meddpicc": {}
+  },
+  {
+    "opp_id": "OPP-008",
+    "account_id": "ACC-029",
+    "name": "Cobaltline Plumbing sales reporting",
+    "type": "new_business",
+    "stage": "Closed Lost",
+    "status": "closed_lost",
+    "owner": "Owen Castellano",
+    "amount_usd": 18000,
+    "close_date": "2026-02-20",
+    "closed_lost_reason": "Price",
+    "meddpicc": {}
+  },
+  {
+    "opp_id": "OPP-009",
+    "account_id": "ACC-031",
+    "name": "Bramblecote Category renewal",
+    "type": "renewal",
+    "stage": "Renewal: Proposal",
+    "status": "open",
+    "owner": "Sofia Brandt",
+    "amount_usd": 76000,
+    "close_date": "2026-11-30",
+    "closed_lost_reason": null,
+    "meddpicc": {
+      "champion": {
+        "value": "Naomi Kerr, Head of Category Insights",
+        "contact_id": "CON-049",
+        "last_updated": "2026-04-02"
+      },
+      "economic_buyer": {
+        "value": "Ralph Dunmore, Commercial Director",
+        "contact_id": "CON-050",
+        "last_updated": "2026-04-02"
+      },
+      "pain": {
+        "value": "Promotion analysis takes a week per retailer",
+        "last_updated": "2026-04-02"
+      }
+    }
+  },
+  {
+    "opp_id": "OPP-010",
+    "account_id": "ACC-034",
+    "name": "NGHS Population Health renewal",
+    "type": "renewal",
+    "stage": "Renewal: Negotiation",
+    "status": "open",
+    "owner": "Nikhil Varma",
+    "amount_usd": 132000,
+    "close_date": "2026-12-15",
+    "closed_lost_reason": null,
+    "meddpicc": {
+      "champion": {
+        "value": "Simone Achterberg, Director of Population Health Analytics",
+        "contact_id": "CON-052",
+        "last_updated": "2026-06-10"
+      },
+      "economic_buyer": {
+        "value": "Gareth Pollard, CFO",
+        "contact_id": "CON-053",
+        "last_updated": "2026-06-10"
+      },
+      "pain": {
+        "value": "Care gap reports are three weeks stale",
+        "last_updated": "2026-06-10"
+      }
+    }
+  },
+  {
+    "opp_id": "OPP-011",
+    "account_id": "ACC-037",
+    "name": "Arvelle Procurement renewal",
+    "type": "renewal",
+    "stage": "Renewal: Proposal",
+    "status": "open",
+    "owner": "Lucas Moretti",
+    "amount_usd": 54000,
+    "close_date": "2026-11-12",
+    "closed_lost_reason": null,
+    "meddpicc": {
+      "champion": {
+        "value": "Henrietta Vos, Procurement Analytics Lead",
+        "contact_id": "CON-054",
+        "last_updated": "2026-05-01"
+      },
+      "economic_buyer": {
+        "value": "Anders Kjeldsen, VP Procurement",
+        "contact_id": "CON-055",
+        "last_updated": "2026-05-01"
+      },
+      "pain": {
+        "value": "No view of spend by supplier across plants",
+        "last_updated": "2026-05-01"
+      }
+    }
+  },
+  {
+    "opp_id": "OPP-012",
+    "account_id": "ACC-039",
+    "name": "Wexmoor Network Planning renewal",
+    "type": "renewal",
+    "stage": "Renewal: Discovery",
+    "status": "open",
+    "owner": "Grace Adeyemi",
+    "amount_usd": 90000,
+    "close_date": "2026-12-01",
+    "closed_lost_reason": null,
+    "meddpicc": {
+      "champion": {
+        "value": "Rupert Glass, Director of Network Planning",
+        "contact_id": "CON-056",
+        "last_updated": "2026-03-10"
+      },
+      "economic_buyer": {
+        "value": "Leona Fitz, CTO",
+        "contact_id": "CON-057",
+        "last_updated": "2026-03-10"
+      },
+      "pain": {
+        "value": "Capacity forecasts built by hand each quarter",
+        "last_updated": "2026-03-10"
+      }
+    }
+  },
+  {
+    "opp_id": "OPP-013",
+    "account_id": "ACC-042",
+    "name": "Vantris Revenue Cycle renewal",
+    "type": "renewal",
+    "stage": "Renewal: Proposal",
+    "status": "open",
+    "owner": "Kendall Ross",
+    "amount_usd": 104000,
+    "close_date": "2026-11-25",
+    "closed_lost_reason": null,
+    "meddpicc": {
+      "champion": {
+        "value": "Delphine Arceneaux, VP Revenue Cycle",
+        "contact_id": "CON-059",
+        "last_updated": "2026-05-20"
+      },
+      "economic_buyer": {
+        "value": "Stuart Ingram, CFO",
+        "contact_id": "CON-060",
+        "last_updated": "2026-05-20"
+      },
+      "pain": {
+        "value": "Denials tracked in spreadsheets per clinic",
+        "last_updated": "2026-05-20"
+      }
+    }
+  },
+  {
+    "opp_id": "OPP-014",
+    "account_id": "ACC-043",
+    "name": "Pemberton store reporting",
+    "type": "new_business",
+    "stage": "Closed Lost",
+    "status": "closed_lost",
+    "owner": "Owen Castellano",
+    "amount_usd": 68000,
+    "close_date": "2026-05-29",
+    "closed_lost_reason": "Price",
+    "meddpicc": {}
+  },
+  {
+    "opp_id": "OPP-015",
+    "account_id": "ACC-044",
+    "name": "Silverbrook actuarial analytics",
+    "type": "new_business",
+    "stage": "Closed Lost",
+    "status": "closed_lost",
+    "owner": "Jordan Pike",
+    "amount_usd": 95000,
+    "close_date": "2026-06-30",
+    "closed_lost_reason": "No decision",
+    "meddpicc": {}
+  },
+  {
+    "opp_id": "OPP-016",
+    "account_id": "ACC-045",
+    "name": "Duskfield operations analytics",
+    "type": "new_business",
+    "stage": "Closed Lost",
+    "status": "closed_lost",
+    "owner": "Sofia Brandt",
+    "amount_usd": 61000,
+    "close_date": "2026-03-18",
+    "closed_lost_reason": "Lost to competitor",
+    "meddpicc": {}
+  },
+  {
+    "opp_id": "OPP-017",
+    "account_id": "ACC-046",
+    "name": "Fenwick finance and store analytics",
+    "type": "new_business",
+    "stage": "Closed Lost",
+    "status": "closed_lost",
+    "owner": "Abel Okafor",
+    "amount_usd": 120000,
+    "close_date": "2026-07-22",
+    "closed_lost_reason": "Timing",
+    "meddpicc": {}
+  },
+  {
+    "opp_id": "OPP-018",
+    "account_id": "ACC-048",
+    "name": "Graywater fleet analytics",
+    "type": "new_business",
+    "stage": "Closed Lost",
+    "status": "closed_lost",
+    "owner": "Jordan Pike",
+    "amount_usd": 57000,
+    "close_date": "2026-08-14",
+    "closed_lost_reason": "Missing feature",
+    "meddpicc": {}
+  },
+  {
+    "opp_id": "OPP-019",
+    "account_id": "ACC-050",
+    "name": "Kinsale finance reporting",
+    "type": "new_business",
+    "stage": "Closed Lost",
+    "status": "closed_lost",
+    "owner": "Mei Lindqvist",
+    "amount_usd": 45000,
+    "close_date": "2024-11-08",
+    "closed_lost_reason": "Price",
+    "meddpicc": {}
+  },
+  {
+    "opp_id": "OPP-020",
+    "account_id": "ACC-050",
+    "name": "Kinsale operations analytics",
+    "type": "new_business",
+    "stage": "Closed Lost",
+    "status": "closed_lost",
+    "owner": "Mei Lindqvist",
+    "amount_usd": 52000,
+    "close_date": "2026-06-05",
+    "closed_lost_reason": "Champion left",
+    "meddpicc": {}
+  },
+  {
+    "opp_id": "OPP-021",
+    "account_id": "ACC-054",
+    "name": "Ashby Lane Dental renewal",
+    "type": "renewal",
+    "stage": "Renewal: Proposal",
+    "status": "open",
+    "owner": "Nikhil Varma",
+    "amount_usd": 19000,
+    "close_date": "2026-11-18",
+    "closed_lost_reason": null,
+    "meddpicc": {}
+  },
+  {
+    "opp_id": "OPP-022",
+    "account_id": "ACC-060",
+    "name": "Redfern project controls analytics",
+    "type": "new_business",
+    "stage": "Proposal",
+    "status": "open",
+    "owner": "Jordan Pike",
+    "amount_usd": 72000,
+    "close_date": "2026-11-14",
+    "closed_lost_reason": null,
+    "meddpicc": {
+      "champion": {
+        "value": "Moira Castell, VP Project Controls",
+        "contact_id": "CON-083",
+        "last_updated": "2026-09-22"
+      },
+      "pain": {
+        "value": "Cost overruns found a month late",
+        "last_updated": "2026-09-22"
+      }
+    }
+  },
+  {
+    "opp_id": "OPP-023",
+    "account_id": "ACC-063",
+    "name": "Thistlecombe Resorts revenue analytics",
+    "type": "new_business",
+    "stage": "Discovery",
+    "status": "open",
+    "owner": "Mei Lindqvist",
+    "amount_usd": 55000,
+    "close_date": "2026-12-18",
+    "closed_lost_reason": null,
+    "meddpicc": {
+      "champion": {
+        "value": "Inez Calder, Resorts Revenue Director",
+        "contact_id": "CON-084",
+        "last_updated": "2026-10-01"
+      },
+      "pain": {
+        "value": "Rate decisions made without occupancy forecasts",
+        "last_updated": "2026-10-01"
+      }
+    }
+  },
+  {
+    "opp_id": "OPP-024",
+    "account_id": "ACC-064",
+    "name": "Stonemere broker analytics",
+    "type": "new_business",
+    "stage": "Evaluation",
+    "status": "open",
+    "owner": "Owen Castellano",
+    "amount_usd": 48000,
+    "close_date": "2026-11-30",
+    "closed_lost_reason": null,
+    "meddpicc": {
+      "champion": {
+        "value": "Felicity Barrow, COO",
+        "contact_id": "CON-085",
+        "last_updated": "2026-09-25"
+      },
+      "economic_buyer": {
+        "value": "Felicity Barrow, COO",
+        "contact_id": "CON-085",
+        "last_updated": "2026-09-25"
+      }
+    }
+  },
+  {
+    "opp_id": "OPP-025",
+    "account_id": "ACC-066",
+    "name": "Everhart member analytics",
+    "type": "new_business",
+    "stage": "Proposal",
+    "status": "open",
+    "owner": "Lucas Moretti",
+    "amount_usd": 39000,
+    "close_date": "2026-10-30",
+    "closed_lost_reason": null,
+    "meddpicc": {
+      "champion": {
+        "value": "Noemi Brandvold, Director of Customer Analytics",
+        "contact_id": "CON-087",
+        "last_updated": "2026-09-25"
+      },
+      "pain": {
+        "value": "Member churn spotted only after accounts close",
+        "last_updated": "2026-09-25"
+      }
     }
   }
 ]

@@ -1,0 +1,30 @@
+transcript_id: T-0080
+account_id: ACC-068
+date: 2024-06-20
+call_type: Intro call
+contact_ids: CON-089
+participants: Kendall Ross (Larkspur Analytics, account owner); Wilhelmina Royce (Operations Manager, Alderton Foods)
+---
+Kendall Ross: Thanks for making time, Wilhelmina. I'd like to hear how warehouse reporting works for your team today, and then I can show you where Larkspur tends to fit.
+
+Wilhelmina Royce: Sure. Right now we pull data from a few different systems and build most of the reports in spreadsheets. It works, but it takes someone half a day each week to put together.
+
+Kendall Ross: That's common for teams at your stage. Which reports matter most to you? Inventory levels, order accuracy, or something else?
+
+Wilhelmina Royce: Mostly inventory turnover and how fast orders go out the door. Our leadership asks for both every Monday.
+
+Kendall Ross: Got it. Larkspur can connect those sources and refresh the numbers automatically, so Monday's report is already built when people sit down.
+
+Wilhelmina Royce: That would help. The bigger question is timing, though. We have a new warehouse opening soon, and everything about our reporting will change once it's running.
+
+Kendall Ross: That makes sense. Would it be better to wait until the new site is live before we go deeper?
+
+Wilhelmina Royce: As operations manager at Alderton Foods, I'd want to see this again once our new warehouse opens.
+
+Kendall Ross: Happy to do that. I'll send you a short overview of the warehouse reporting templates so you have something to look at in the meantime.
+
+Wilhelmina Royce: Please do. It would also help to know what setup looks like for a second location.
+
+Kendall Ross: I'll include that. Once the new warehouse is open, we can set up a follow-up call and walk through it with both sites in mind.
+
+Wilhelmina Royce: Sounds good. Send the overview over and I'll share it with my team.

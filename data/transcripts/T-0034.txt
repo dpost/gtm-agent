@@ -1,0 +1,30 @@
+transcript_id: T-0034
+account_id: ACC-034
+date: 2026-09-30
+call_type: Check-in
+contact_ids: CON-052, CON-053
+participants: Nikhil Varma (Larkspur Analytics, account owner); Simone Achterberg (Director of Population Health Analytics, NGHS Population Health); Gareth Pollard (CFO, NGHS Population Health)
+---
+Nikhil Varma: Thanks for making time, Gareth, Simone. I know this is a tough conversation, so I'd like to start with where things stand. We see about 87 of the 180 licensed seats active each week.
+
+Gareth Pollard: That's the number I wanted to talk about. Finance has put a freeze on all software renewals until January, and anything that renews before then has to come back smaller.
+
+Nikhil Varma: Understood. Can you tell me how much smaller you're expecting, or is that still open?
+
+Gareth Pollard: It's open. I need to see what the team actually uses, and right now half the seats look idle. I can't defend paying for 180 when 87 are active.
+
+Simone Achterberg: I'll be honest, that's fair. We rolled out broadly last year, and a lot of people logged in a few times and never came back. The core analysts use it every day.
+
+Nikhil Varma: That matches what I see. The daily users are concentrated in your analytics group, and the rest are occasional. Simone, which of the occasional users do you think would come back with some training?
+
+Simone Achterberg: Maybe a handful in the care management team. Most of the others don't need their own seat. They just need the reports the analysts produce.
+
+Gareth Pollard: Then that's where I'd cut. Nikhil, I'd like a proposal sized to the people who really use the product.
+
+Nikhil Varma: I can do that. I'll pull seat activity by user so you and Simone can review it together and agree on a number that fits real usage.
+
+Simone Achterberg: Please include how often each person logs in. That will make it easier to decide who keeps a seat.
+
+Gareth Pollard: And I need it in a form I can take to the finance committee, so keep it simple.
+
+Nikhil Varma: Will do. I'll send the activity breakdown and a draft proposal, and we can go through both together before anything goes to your committee.

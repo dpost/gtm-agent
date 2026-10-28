@@ -1,0 +1,28 @@
+transcript_id: T-0079
+account_id: ACC-067
+date: 2024-09-12
+call_type: Intro call
+contact_ids: CON-088
+participants: Grace Adeyemi (Larkspur Analytics, account owner); Pavel Novak (Data Analyst, Corbel Architecture)
+---
+Grace Adeyemi: Hi Pavel, thanks for making time. I'm Grace from Larkspur Analytics. I wanted to introduce us and hear a bit about how your team works with data at Corbel.
+
+Pavel Novak: Thanks, Grace. Happy to chat. I mostly build reports on project timelines and staffing for our design teams. A lot of it is spreadsheets right now.
+
+Grace Adeyemi: That's common with architecture firms. Which part takes the most time, pulling the data together or building the reports?
+
+Pavel Novak: Pulling it together, honestly. Hours come from one system, project budgets from another, and I reconcile them by hand every month.
+
+Grace Adeyemi: Got it. That's the kind of work we help with, connecting those sources so the reports update on their own. Is anyone else on the team feeling the same pain?
+
+Pavel Novak: A couple of the project managers, yes. I should be upfront though. I'm an analyst here, so I can't buy anything, but my director might look at this next year.
+
+Grace Adeyemi: I appreciate you saying that, and no pressure at all. Would it help if I sent a short overview you could pass along to your director when the timing is right?
+
+Pavel Novak: That would be great. Keep it brief, she doesn't read long documents.
+
+Grace Adeyemi: Understood, one page. And would it be okay if I checked back with you early next year?
+
+Pavel Novak: Sure, that works. I'll let her know to expect it.
+
+Grace Adeyemi: Perfect. Thanks again, Pavel. I'll send that overview this week.

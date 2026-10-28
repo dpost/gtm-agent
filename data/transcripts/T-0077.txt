@@ -1,0 +1,30 @@
+transcript_id: T-0077
+account_id: ACC-066
+date: 2026-09-03
+call_type: Discovery
+contact_ids: CON-087
+participants: Lucas Moretti (Larkspur Analytics, account owner); Noemi Brandvold (Director of Customer Analytics, Everhart CU)
+---
+Lucas Moretti: Thanks for making time, Noemi. I'd like to understand how Everhart tracks member churn today, and then we can talk about whether Larkspur fits. Where does the reporting stand right now?
+
+Noemi Brandvold: Right now it's mostly spreadsheets. My team pulls account closures from the core system each month and matches them against product data by hand. It takes a few days, and by the time leadership sees it, the numbers are already stale.
+
+Lucas Moretti: That's common. When you say churn, are you counting full account closures, or also members who go dormant?
+
+Noemi Brandvold: Both, and that's part of the problem. We don't have a shared definition. Retail banking counts a closure. Marketing counts anyone with no activity for a stretch. So the two reports never agree.
+
+Lucas Moretti: So agreeing on a definition would come before any tooling. Who would need to sign off on that?
+
+Noemi Brandvold: Probably me, the head of retail, and someone from compliance. I can get those people in a room, but I want to know what a tool could do before I ask for their time.
+
+Lucas Moretti: Fair. Larkspur can pull from your core system and your digital banking data, and you can set up segments like early dormancy so the team sees risk before a member closes. I can show you a sample dashboard built around that kind of view.
+
+Noemi Brandvold: That would help. I'd also want to know how much work it takes on my side to get the data connected. My analysts are stretched thin.
+
+Lucas Moretti: I'll bring someone from our solutions team to the next call who can walk through the connection steps and what we'd need from your IT group. Is there anything else you want covered?
+
+Noemi Brandvold: Yes, how the reports get shared. Our branch managers aren't analysts, so they need something simple they can open and understand quickly.
+
+Lucas Moretti: Good, I'll make sure the demo includes a branch manager view. I'll send a short summary of today's conversation and a few times for the follow-up.
+
+Noemi Brandvold: Sounds good. I'll start talking to retail and compliance about the definition in the meantime.

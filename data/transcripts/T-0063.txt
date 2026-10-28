@@ -1,0 +1,30 @@
+transcript_id: T-0063
+account_id: ACC-055
+date: 2026-06-11
+call_type: QBR
+contact_ids: CON-078
+participants: Lucas Moretti (Larkspur Analytics, account owner); Katherine Moreau (Finance Systems Manager, Corrigan)
+---
+Lucas Moretti: Katherine, thanks for making time. This is our quarterly review, and I wanted to start by saying the freight cost dashboards you built are some of the best examples we see from any customer.
+
+Katherine Moreau: Thanks, Lucas. That's good to hear. They've made a real difference for my team. We used to spend the first week of every month reconciling carrier invoices by hand.
+
+Lucas Moretti: That's what I hoped to hear. On usage, about 84 of your 95 licensed seats are active each week. That's a strong adoption rate for a deployment this size.
+
+Katherine Moreau: I'm pleased with that. The dispatch managers and the regional finance analysts are in there constantly. The cost per mile view gets opened before almost every weekly operations meeting.
+
+Lucas Moretti: Which view do people ask you about most?
+
+Katherine Moreau: The lane level breakdown. Operations can see which lanes are running over budget and talk about it with real data instead of gut feel. It has changed how those meetings go.
+
+Lucas Moretti: That's a great outcome. Is there anything about the dashboards that still frustrates your team?
+
+Katherine Moreau: Only small things. Some of the fuel surcharge filters take a moment to load, and a few people want to save their own default views.
+
+Lucas Moretti: Both are easy to look at. I'll have our support team review the surcharge filter performance, and I'll show you how saved views work so you can pass it along.
+
+Katherine Moreau: Perfect. If I can roll that out to the remaining users, I think we'll close the gap on those inactive seats.
+
+Lucas Moretti: That would be great. I'll send over a short guide this week, and we can check in again next quarter to see how it landed.
+
+Katherine Moreau: Sounds good. Thanks, Lucas.

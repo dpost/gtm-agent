@@ -1,0 +1,30 @@
+transcript_id: T-0059
+account_id: ACC-052
+date: 2026-08-26
+call_type: Check-in
+contact_ids: CON-075
+participants: Grace Adeyemi (Larkspur Analytics, account owner); Dmitri Hale (Senior Manager, Sales Operations, Lockridge)
+---
+Grace Adeyemi: Hi Dmitri, thanks for making time. How are things on your side this week?
+
+Dmitri Hale: Busy, but good. I wanted to be upfront about why I asked for this call. This is my last call as Lockridge's Larkspur admin, because I'm starting as head of revenue operations at Brightmoor Payments next month.
+
+Grace Adeyemi: Congratulations, that's a big step. I'm sorry to lose you as a partner, but I'm glad for you. When is your last day?
+
+Dmitri Hale: I'll be wrapping up over the next couple of weeks, so there's time to hand things off properly.
+
+Grace Adeyemi: That helps. Do you know who will take over the admin role for Lockridge?
+
+Dmitri Hale: Someone on the sales operations team will pick it up. I'll make an introduction by email so you have a name and contact before I go.
+
+Grace Adeyemi: Perfect. For context, we're seeing about 43 of your 50 licensed seats active each week, so the team is using it consistently.
+
+Dmitri Hale: That matches what I see. The recruiters rely on the pipeline dashboards, and the leadership group checks the weekly summary.
+
+Grace Adeyemi: Good to hear. I'll put together a short handoff document covering your current setup and the reports your team uses most, and share it with you and your successor.
+
+Dmitri Hale: That would be great. I'll review it before I leave so nothing gets missed.
+
+Grace Adeyemi: Will do. Thank you for all your work on this, Dmitri. I'll send the document this week.
+
+Dmitri Hale: Thanks, Grace. It's been a pleasure working with you.

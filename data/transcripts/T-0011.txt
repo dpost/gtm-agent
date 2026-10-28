@@ -1,0 +1,32 @@
+transcript_id: T-0011
+account_id: ACC-011
+date: 2026-09-16
+call_type: Check-in
+contact_ids: CON-036
+participants: Priya Nandakumar (Larkspur Analytics, account owner); Gideon Barlow (VP Finance, Ostrander Finance)
+---
+Priya Nandakumar: Hi Gideon, thanks for making time. This is just a friendly check-in. How are things going with the Finance team on Larkspur?
+
+Gideon Barlow: Pretty well, honestly. The team has settled into it. Month-end reporting is a lot less painful than it used to be.
+
+Priya Nandakumar: Glad to hear that. On our side, I see about 74 of your 90 licensed seats active each week, which is strong for a team that size.
+
+Gideon Barlow: That matches what I see. Most of the analysts are in there daily, and the controllers check the dashboards before our weekly review.
+
+Priya Nandakumar: Which dashboards are getting the most use?
+
+Gideon Barlow: The variance tracking view and the cash forecast workbook. We built both ourselves in the spring, and now people rely on them without being asked.
+
+Priya Nandakumar: That's the best kind of adoption. Is there anything that's still frustrating for the team?
+
+Gideon Barlow: Nothing major. A few people want faster refresh on the forecast workbook, but that's a small thing. Mostly we're just using it.
+
+Priya Nandakumar: I'll pass that refresh note along to our product team. Anything else you'd like from me?
+
+Gideon Barlow: Not really, but one thing came to mind. If other teams at Ostrander want to see it, I'm happy to show them what we built.
+
+Priya Nandakumar: That's generous, thank you. I'll mention it to a few contacts there and we can set something up if anyone is interested.
+
+Gideon Barlow: Sounds good. Just send them my way.
+
+Priya Nandakumar: Will do. I'll follow up by email this week. Thanks again, Gideon.

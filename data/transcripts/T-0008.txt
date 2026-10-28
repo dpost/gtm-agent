@@ -1,0 +1,30 @@
+transcript_id: T-0008
+account_id: ACC-007
+date: 2026-09-21
+call_type: Check-in
+contact_ids: CON-034
+participants: Sofia Brandt (Larkspur Analytics, account owner); Odile Fournier (General Manager, Marlowe Ridge)
+---
+Sofia Brandt: Thanks for making time, Odile. I wanted to check in before we get close to the December renewal. How has the season been treating you?
+
+Odile Fournier: Honestly, it's been rough. The harvest came in light, and everyone here is feeling it. After the harvest numbers came in, the owners want to cut every subscription we can before the December renewal.
+
+Sofia Brandt: I appreciate you telling me that directly. I'd rather hear it now than in November. Can I share what I'm seeing on usage so we're working from the same picture?
+
+Odile Fournier: Please. I assume it's not great.
+
+Sofia Brandt: About 19 of your 35 licensed seats are active each week. That's fewer than earlier in the year, so I understand why it's on the owners' radar.
+
+Odile Fournier: Yes, that's what I expected. Some of the people who logged in last year have been pulled into the vineyard and cellar work, so the dashboards aren't a priority for them right now.
+
+Sofia Brandt: That makes sense. Which teams are still using it regularly?
+
+Odile Fournier: Mostly me, the finance side, and a couple of people in sales. The rest have drifted off.
+
+Sofia Brandt: Then it may be worth looking at whether the license fits the team you have today. I'd rather help you right-size than have you pay for seats nobody touches.
+
+Odile Fournier: I'd need something concrete I can take to the owners. They won't want to hear a general discussion.
+
+Sofia Brandt: Understood. I'll put together a summary of who is active and what the team relies on most, and send it this week.
+
+Odile Fournier: That would help. Send it over and I'll review it before I talk to them.

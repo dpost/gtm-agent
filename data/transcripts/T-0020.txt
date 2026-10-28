@@ -1,0 +1,30 @@
+transcript_id: T-0020
+account_id: ACC-021
+date: 2026-09-28
+call_type: Check-in
+contact_ids: CON-043
+participants: Grace Adeyemi (Larkspur Analytics, account owner); Isaac Mendel (VP Claims Operations, Glenhollow Claims)
+---
+Grace Adeyemi: Hi Isaac, thanks for making time. This is just a friendly check-in, no agenda beyond hearing how things are going with the claims team.
+
+Isaac Mendel: Happy to. Things are going well. The team has settled into the dashboards, and the adjusters use them daily now.
+
+Grace Adeyemi: That matches what I see. About 126 of your 140 licensed seats are active each week, which is strong for a team your size.
+
+Isaac Mendel: That's good to hear. I figured it was high, but I hadn't seen the number.
+
+Grace Adeyemi: Who's using it the most? I'm curious whether it's the senior adjusters or the newer ones.
+
+Isaac Mendel: A mix, honestly. The newer adjusters like the case-trend views, and the senior ones use it to check their own queues. Word has spread to the other desks, and they want in.
+
+Grace Adeyemi: That's a nice problem to have. Is there a plan to bring them on?
+
+Isaac Mendel: We're adding thirty seats next quarter because the adjusters keep asking for access.
+
+Grace Adeyemi: Great, I'm glad to hear it. I can put together a quote and a simple rollout checklist so onboarding is smooth for the new group.
+
+Isaac Mendel: That would help. Can you also include a short training session for the new adjusters?
+
+Grace Adeyemi: Absolutely. I'll set up a session with our onboarding team and send you the options this week.
+
+Isaac Mendel: Perfect. Thanks, Grace.

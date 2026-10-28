@@ -1,0 +1,30 @@
+transcript_id: T-0022
+account_id: ACC-023
+date: 2026-09-17
+call_type: Check-in
+contact_ids: CON-044
+participants: Kendall Ross (Larkspur Analytics, account owner); Farah Siddiqui (Director of Retail Analytics, J&V Retail)
+---
+Kendall Ross: Hi Farah, thanks for making time. This is just a friendly check-in, no agenda beyond hearing how things are going with the dashboards.
+
+Farah Siddiqui: Happy to. Things are going well overall. Store managers check the weekly sell-through dashboard before anything else on Monday.
+
+Kendall Ross: That's great to hear. It matches what I see on our side. About 51 of your 60 licensed seats are active each week, which is strong.
+
+Farah Siddiqui: That sounds right. The managers who use it really lean on it. The ones who don't are mostly newer hires who haven't been through onboarding yet.
+
+Kendall Ross: That's useful to know. Would a short training session for the new managers help? I can set one up with your team.
+
+Farah Siddiqui: Yes, please. If you could keep it to thirty minutes and focus on reading the sell-through view, that would be ideal.
+
+Kendall Ross: Easy enough. What do the managers do with the dashboard once they've looked at it on Monday?
+
+Farah Siddiqui: Mostly they decide what to reorder and what to move between stores. A few of them have started flagging slow items for markdown discussions too.
+
+Kendall Ross: Good. If it would help, I can show you how to add a markdown view alongside the sell-through one.
+
+Farah Siddiqui: I'd like that. Send me a couple of times that work and I'll pull in two of the store managers.
+
+Kendall Ross: Will do. I'll send options this week, along with a few training dates for the newer hires.
+
+Farah Siddiqui: Perfect. Thanks, Kendall.

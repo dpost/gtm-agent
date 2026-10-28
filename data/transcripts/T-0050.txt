@@ -1,0 +1,32 @@
+transcript_id: T-0050
+account_id: ACC-048
+date: 2026-07-01
+call_type: Discovery
+contact_ids: CON-069
+participants: Jordan Pike (Larkspur Analytics, account owner); Bram Hoekstra (Fleet Planning Director, Graywater Shipping)
+---
+Jordan Pike: Thanks for making time, Bram. I know fleet planning is busy. I'd like to understand how your team works today and what you'd want from reporting.
+
+Bram Hoekstra: Sure. Right now we build vessel schedules in spreadsheets and pull port data from a few different sources. It takes a lot of manual work to keep everything lined up.
+
+Jordan Pike: What part of that is the most painful?
+
+Bram Hoekstra: Schedule changes. When a vessel is delayed, we have to update several files by hand, and then the port reports are out of date until someone fixes them.
+
+Jordan Pike: So the main need is a single view of the schedule that updates the port reporting alongside it.
+
+Bram Hoekstra: Exactly. We'd also want to see port call performance over time, like how long vessels wait at berth in each port.
+
+Jordan Pike: That's something we can build. Who would use it day to day?
+
+Bram Hoekstra: The planning team mostly, and a few people in operations who need to read the reports. I'd guess a small group at first.
+
+Jordan Pike: That helps. Do you have data in a system now, or is it mostly files?
+
+Bram Hoekstra: A mix. Schedules are in files, and port data comes from a scheduling system that can export. Our IT group would need to look at how to connect it.
+
+Jordan Pike: Understood. I'll bring one of our solutions engineers to the next call so we can talk through the data connection with your IT contact.
+
+Bram Hoekstra: That works. I'll ask someone from IT to join, and I'll send you a sample of the schedule file beforehand.
+
+Jordan Pike: Perfect. I'll send a short summary of today's notes so you can correct anything I missed.

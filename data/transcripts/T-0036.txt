@@ -1,0 +1,32 @@
+transcript_id: T-0036
+account_id: ACC-037
+date: 2026-09-18
+call_type: Check-in
+contact_ids: CON-054
+participants: Lucas Moretti (Larkspur Analytics, account owner); Henrietta Vos (Procurement Analytics Lead, Arvelle Procurement)
+---
+Lucas Moretti: Thanks for making time, Henrietta. I wanted to check in before we get closer to renewal. How are things going on the procurement side?
+
+Henrietta Vos: Honestly, a bit mixed. I'd rather be direct with you. We've started a trial of a cheaper tool, and procurement leadership wants a side-by-side before the renewal.
+
+Lucas Moretti: I appreciate you telling me that. It's a fair thing for them to ask. Can you tell me what they want to compare?
+
+Henrietta Vos: Mostly cost against actual use. Fewer people are logging in than when we started, and that's the first thing leadership notices.
+
+Lucas Moretti: I looked at the numbers before this call. About 43 of your 75 licensed seats are active each week. That's lower than it should be, and I'd rather we look at it together than ignore it.
+
+Henrietta Vos: That matches what I see. Some of the team went back to spreadsheets for supplier spend reports, and I haven't pushed them to change.
+
+Lucas Moretti: Do you know why they went back? Is it a gap in the product, or did they just never get comfortable with it?
+
+Henrietta Vos: A bit of both. The supplier scorecard dashboard takes too long to set up, so people stopped bothering. The newer team members never got proper training.
+
+Lucas Moretti: Those are both things I can help with. I can run a short training session for the newer people, and we can look at simplifying the scorecard setup. Would that be useful before leadership reviews the comparison?
+
+Henrietta Vos: It would. I don't want the comparison to be unfair to either tool. If usage is low because of setup, that should be part of the picture.
+
+Lucas Moretti: Agreed. I can put together a summary of what your team actually uses and where the gaps are, and you can share it as you see fit. I won't dress it up.
+
+Henrietta Vos: That's what I'd want. Send it over and I'll fold it into the review.
+
+Lucas Moretti: I'll get it to you this week, and I'll propose times for the training session in the same email.

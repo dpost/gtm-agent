@@ -1,0 +1,30 @@
+transcript_id: T-0010
+account_id: ACC-011
+date: 2026-07-08
+call_type: QBR
+contact_ids: CON-036, CON-037
+participants: Priya Nandakumar (Larkspur Analytics, account owner); Gideon Barlow (VP Finance, Ostrander Finance); Lucia Ferrante (CFO, Ostrander Finance)
+---
+Priya Nandakumar: Thanks for making time, Gideon and Lucia. This is our Q2 review for the finance team's close and budget dashboards, and I'd like to start with what's changed since spring.
+
+Lucia Ferrante: Happy to go first. Month-end is noticeably faster. The team used to spend the first week of the month reconciling numbers by hand, and now the close dashboard shows what's still open at any point.
+
+Gideon Barlow: That matches what I see. Controllers flag exceptions earlier, so we aren't chasing them on day four. The accrual review is much less painful too.
+
+Priya Nandakumar: That's great to hear. On usage, about 78 of your 90 licensed seats are active each week, which is a healthy level for a finance group.
+
+Gideon Barlow: That sounds right. The people who aren't in weekly are mostly part-time contributors and a few who only need the budget view around planning time.
+
+Lucia Ferrante: I'm fine with that. I'd rather have the right people on it than force everyone in every week.
+
+Priya Nandakumar: Agreed. How is the budget dashboard working for you? Is the planning cycle using it the way you hoped?
+
+Gideon Barlow: Mostly yes. Department heads can see their variance without emailing us, which has cut a lot of back and forth. I'd like to add a couple of views for the packaging division before the next cycle.
+
+Priya Nandakumar: Good, I can set up a working session with our solutions team to scope those views. Send me a short list of what the packaging division needs to see.
+
+Lucia Ferrante: We'll do that this week. Overall I'm pleased. The faster close has made my monthly reporting to the board much easier.
+
+Priya Nandakumar: Wonderful. I'll send a recap of today and the session invite by tomorrow, and we'll plan the next review for the fall.
+
+Gideon Barlow: Sounds good. Thanks, Priya.

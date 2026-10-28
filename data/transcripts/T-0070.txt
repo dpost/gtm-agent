@@ -1,0 +1,34 @@
+transcript_id: T-0070
+account_id: ACC-060
+date: 2026-08-28
+call_type: Discovery
+contact_ids: CON-083
+participants: Jordan Pike (Larkspur Analytics, account owner); Moira Castell (VP Project Controls, Redfern Construction)
+---
+Jordan Pike: Thanks for making time, Moira. I'd like to understand how Redfern tracks project costs across your job sites today, and then we can see whether Larkspur is a fit. Does that work?
+
+Moira Castell: Sure. Right now each site super submits cost reports into a shared spreadsheet, and my team reconciles everything against the accounting system at month end. It's slow, and by the time we see an overrun the money is already spent.
+
+Jordan Pike: How many days of lag are we talking about between a cost being incurred and your team seeing it?
+
+Moira Castell: It varies by site. Some are close to real time, others are a few weeks behind. I don't have a clean number, which is part of the problem.
+
+Jordan Pike: That makes sense. When an overrun does surface, who finds it first, the site team or your group?
+
+Moira Castell: Usually my group, during reconciliation. Then we go back to the site and ask what happened. Change orders are the worst, because they get approved in the field and don't hit the books for a while.
+
+Jordan Pike: So the gap is mostly in committed costs, not just actual spend.
+
+Moira Castell: Exactly. We can see what we've paid, but not what we've committed to. That's what I'd want fixed first.
+
+Jordan Pike: Good to know. Larkspur can pull from your accounting data and field submissions into one view, and committed versus actual is a common starting dashboard. Who else would need to use it besides your team?
+
+Moira Castell: Project managers for sure, and probably a few finance people. I'd want to keep the site supers out of it at first, so we don't add work for them.
+
+Jordan Pike: That's reasonable. Here's what I suggest as a next step. I'll put together a short outline of how a committed cost view would work using your current data sources, and we can walk through it together.
+
+Moira Castell: That would help. I'd also like to bring in our finance controller for that session, since she owns the accounting system.
+
+Jordan Pike: Perfect. I'll send a few times for next week, and please send me a sample of the spreadsheet your supers use so I can build the outline around it.
+
+Moira Castell: I'll send that over this afternoon.

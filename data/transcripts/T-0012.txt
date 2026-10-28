@@ -1,0 +1,30 @@
+transcript_id: T-0012
+account_id: ACC-014
+date: 2026-06-24
+call_type: QBR
+contact_ids: CON-038, CON-039
+participants: Mei Lindqvist (Larkspur Analytics, account owner); Anika Rao (Director of Clinical Data, Ferncliff Clinical Ops); Paul Merriman (COO, Ferncliff Clinical Ops)
+---
+Mei Lindqvist: Thanks for making time, Anika and Paul. This is our quarterly review, and I want to focus on how the enrollment dashboards are working for your trial teams.
+
+Anika Rao: Happy to. Honestly, they've become the first thing our study managers open on Monday mornings. The site-level enrollment view has cut down a lot of the back and forth over spreadsheets.
+
+Mei Lindqvist: That's great to hear. On usage, about 126 of your 150 licensed seats are active each week, which is a strong adoption level for a rollout this size.
+
+Paul Merriman: That matches what I see. When I sit in on trial status meetings, people are pulling up the dashboards instead of waiting for someone to send a report.
+
+Anika Rao: The biggest win for us has been spotting slow-enrolling sites earlier. Last quarter one of our sites was falling behind, and we saw it in the dashboard before it showed up in any manual report.
+
+Mei Lindqvist: That's exactly the kind of use case we hoped for. Did the team get a chance to try the screen-failure breakdown we added?
+
+Anika Rao: We did, and it's useful. It helps us see where candidates drop out between screening and randomization, and the study leads like having it in the same view.
+
+Paul Merriman: From my side, the value is visibility across programs. I can compare enrollment pace across trials without asking three different teams for updates.
+
+Mei Lindqvist: Good. Is there anything you'd like to see next, either in the dashboards or in how we support your team?
+
+Anika Rao: A few of our newer coordinators could use a short training session on filtering by site and region. That would help the remaining seats get more use.
+
+Mei Lindqvist: I'll set that up. I'll send a couple of times for next month and include a short guide they can use afterward.
+
+Paul Merriman: Sounds good. Thanks, Mei, this was a useful review.

@@ -1,0 +1,32 @@
+transcript_id: T-0046
+account_id: ACC-045
+date: 2026-02-10
+call_type: Discovery
+contact_ids: CON-066
+participants: Sofia Brandt (Larkspur Analytics, account owner); Rosalind Thorne (Analytics Manager, Duskfield)
+---
+Sofia Brandt: Thanks for making time today, Rosalind. I'd like to understand how your team uses data on the operations side, especially for grid assets. Where do you want to start?
+
+Rosalind Thorne: Sure. Right now we track transformer and substation health in a few separate systems. Maintenance records are in one place, sensor readings in another, and outage history in a third. My team spends a lot of time pulling them together by hand.
+
+Sofia Brandt: That's common with utilities. When you pull them together, what are you trying to answer?
+
+Rosalind Thorne: Mostly which assets are likely to fail next and where we should send crews first. Leadership also wants a clearer view of how maintenance spending connects to outage reduction.
+
+Sofia Brandt: How is that handled today? Is it spreadsheets, or do you have a reporting layer on top?
+
+Rosalind Thorne: Mostly spreadsheets and a few dashboards one of my analysts built. They work, but they break when a source system changes. Only a couple of people really understand how they're put together.
+
+Sofia Brandt: That's a risk if one of them is out. Who would use a new tool day to day: your analysts, or also the field operations managers?
+
+Rosalind Thorne: Analysts first. The operations managers would mainly want to view the results, so we'd need something simple for them to open and read without help.
+
+Sofia Brandt: That helps. Larkspur is licensed by seat, so knowing who builds and who only views will shape how we scope it. Is there a data quality issue we should know about early?
+
+Rosalind Thorne: Yes. Older sensor data has gaps, and asset naming isn't consistent between systems. I'd want to be honest about that up front rather than discover it halfway through.
+
+Sofia Brandt: Agreed, and it's better to raise it now. My suggestion is that we schedule a working session where you share a sample of the maintenance and sensor data, and we look at how it would join together.
+
+Rosalind Thorne: That works. I'll pick a representative substation and send over a small extract, with names removed where needed.
+
+Sofia Brandt: Perfect. I'll send a short list of the fields that would be most useful, plus a few times for the working session.

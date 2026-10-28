@@ -1,0 +1,32 @@
+transcript_id: T-0025
+account_id: ACC-026
+date: 2026-07-09
+call_type: QBR
+contact_ids: CON-046
+participants: Abel Okafor (Larkspur Analytics, account owner); Priyanka Sethi (Advancement Data Manager, Tamsworth Advancement)
+---
+Abel Okafor: Thanks for making time, Priyanka. This is our quarterly review, and I wanted to start with the good news. About 34 of your 40 licensed seats are active each week, which is a strong number for a team your size.
+
+Priyanka Sethi: That matches what I see. The gift officers have really taken to the donor dashboards, and a few of them check the pipeline view every Monday before their portfolio meetings.
+
+Abel Okafor: That's great to hear. Which dashboards are getting the most traction right now?
+
+Priyanka Sethi: The donor retention view and the campaign performance dashboard. We used the campaign one to review the spring appeal, and it saved us a lot of manual spreadsheet work.
+
+Abel Okafor: Nice. Did the team find the segmentation filters easy to use for that review?
+
+Priyanka Sethi: Mostly, yes. A couple of newer staff needed a walkthrough, but once they saw how to filter by giving level and last gift date, it clicked.
+
+Abel Okafor: I can set up a short training session for the newer folks if that would help. About thirty minutes, and we can focus on those filters.
+
+Priyanka Sethi: That would be useful. Let's do it before the fall campaign planning starts, so everyone is comfortable going in.
+
+Abel Okafor: Sounds good. Is there anything on the dashboards you wish worked differently?
+
+Priyanka Sethi: One thing. I'd like a cleaner way to compare year over year giving by campaign. Right now I export the data and build that comparison myself.
+
+Abel Okafor: Thanks, that's helpful feedback. I'll pass it to our product team and let you know what I hear back.
+
+Priyanka Sethi: Perfect. Overall I'm happy with how things are going, so thanks for the support this quarter.
+
+Abel Okafor: My pleasure. I'll send over times for the training session this week, and we'll talk again next quarter.

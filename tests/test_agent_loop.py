@@ -152,3 +152,17 @@ def test_system_prompt_is_fully_rendered():
     assert "{brief_schema}" not in prompt and "{max_tool_calls}" not in prompt
     assert f"at most {config.MAX_TOOL_CALLS} tool calls" in prompt
     assert '"recommended_action"' in prompt  # schema inlined
+
+
+def test_trace_records_tool_calls_and_the_retry():
+    client = FakeClient([
+        turn(tool_use("t1", "search_accounts", {"name": "Pellwick Freight"}), stop_reason="tool_use"),
+        final('{"alert_level": "caution",'),
+        final(json.dumps(VALID_BRIEF)),
+    ])
+    trace = []
+    brief_lead("L-001", client=client, trace=trace)
+    assert [e["kind"] for e in trace] == ["tool", "retry"]
+    assert trace[0]["name"] == "search_accounts" and trace[0]["input"] == {"name": "Pellwick Freight"}
+    assert "ACC-001" in trace[0]["output"] and trace[0]["is_error"] is False
+    assert trace[1]["output"] == '{"alert_level": "caution",'

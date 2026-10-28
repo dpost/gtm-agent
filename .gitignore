@@ -12,3 +12,6 @@ dist/
 
 # MLflow
 mlruns/
+
+# Eval reports
+reports/

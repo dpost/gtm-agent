@@ -11,6 +11,8 @@ JUDGE_MODEL = "claude-sonnet-5-5"
 AGENT_EFFORT = "medium"
 AGENT_MAX_TOKENS = 16000
 MAX_TOOL_CALLS = 10
+TRANSCRIPT_MODEL = "claude-sonnet-5-5"  # writes transcript prose in scripts/generate_data.py
+TRANSCRIPT_EFFORT = "low"
 
 # Bump these when a prompt or a tool's behavior changes, so eval runs stay comparable.
 PROMPT_VERSION = "agent-v1"
@@ -22,6 +24,7 @@ DATA_DIR = REPO_ROOT / "data"
 ANSWER_KEY_PATH = DATA_DIR / "answer_key" / "cases.json"
 PROMPTS_DIR = Path(__file__).resolve().parent / "prompts"
 AGENT_PROMPT_PATH = PROMPTS_DIR / "agent_system.md"
+REPORTS_DIR = REPO_ROOT / "reports"  # HTML eval reports, gitignored
 
 
 # Cloud sessions strip ANTHROPIC_API_KEY (Claude Code reserves it for its own login),

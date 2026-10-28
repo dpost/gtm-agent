@@ -1,0 +1,32 @@
+transcript_id: T-0024
+account_id: ACC-025
+date: 2026-09-14
+call_type: Check-in
+contact_ids: CON-045
+participants: Abel Okafor (Larkspur Analytics, account owner); Jonah Whitcombe (Director of Admissions Analytics, Tamsworth Admissions)
+---
+Abel Okafor: Hi Jonah, thanks for making time. Now that the admissions cycle has closed, I wanted to hear how it went on your side.
+
+Jonah Whitcombe: Happy to. It was a good one. The yield forecast was within two percent this cycle, which is the best we've ever done.
+
+Abel Okafor: That's great news. Which parts of the forecast do you think made the difference?
+
+Jonah Whitcombe: Mostly the weekly refresh. We checked the model every Monday during the deposit window, and the counselors trusted the numbers enough to adjust their outreach.
+
+Abel Okafor: That's what we like to hear. On our side, I see about 45 of your 55 licensed seats active each week. Does that match what you see?
+
+Jonah Whitcombe: It does. The core team is in there constantly, and the counselors dip in when they need a list or a segment.
+
+Abel Okafor: Are the other ten seats people who haven't picked it up yet, or just occasional users?
+
+Jonah Whitcombe: A mix. A few are new hires who started over the summer, and a couple are people who only needed it during peak season.
+
+Abel Okafor: Would it help if I ran a short onboarding session for the new hires before the next cycle starts?
+
+Jonah Whitcombe: Yes, that would help a lot. Let's do it in the next few weeks, before things get busy again.
+
+Abel Okafor: Sounds good. I'll send a few options for times and a short agenda.
+
+Jonah Whitcombe: Perfect. Thanks, Abel.
+
+Abel Okafor: Thank you, Jonah. Congratulations again on the forecast.

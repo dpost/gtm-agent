@@ -1,0 +1,30 @@
+transcript_id: T-0038
+account_id: ACC-039
+date: 2026-08-27
+call_type: Check-in
+contact_ids: CON-056
+participants: Grace Adeyemi (Larkspur Analytics, account owner); Rupert Glass (Director of Network Planning, Wexmoor Network Planning)
+---
+Grace Adeyemi: Thanks for making time, Rupert. I wanted to check in on how the team is doing with Larkspur before the end of the quarter.
+
+Rupert Glass: Happy to. Overall it's been going well. The planners use the capacity dashboards a lot, especially when they're preparing regional build proposals.
+
+Grace Adeyemi: Good to hear. On our side, about 80 of your 110 licensed seats are active each week, which is steady for this time of year.
+
+Rupert Glass: That matches what I see. Most of the people who aren't active are newer hires who haven't been set up with training yet. Before we go further, I have some news. I'm handing Larkspur over to Mina Osterberg because I'm moving to the Europe team next month.
+
+Grace Adeyemi: Congratulations, that's a big move. Thanks for telling me early. Is Mina already familiar with the tool?
+
+Rupert Glass: She's used the dashboards as a regular user, but she hasn't handled the admin side or talked with you about the contract. I'd like to get her up to speed over the next few weeks.
+
+Grace Adeyemi: Happy to help with that. I can set up a walkthrough of the admin settings and the seat reporting, and we can include the training for the newer hires at the same time.
+
+Rupert Glass: That would be great. I'll introduce you to her by email this week and copy her on the open items.
+
+Grace Adeyemi: Perfect. Is there anything still unfinished that I should know about before you hand things over?
+
+Rupert Glass: Just the request to add a few more report templates for the planning group. I'll put it in the handoff notes so Mina can pick it up.
+
+Grace Adeyemi: Sounds good. I'll wait for your introduction and then schedule time with Mina. Thanks, Rupert, and good luck with the new team.
+
+Rupert Glass: Thanks, Grace. I'll send that email today.

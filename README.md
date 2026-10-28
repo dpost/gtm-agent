@@ -48,7 +48,7 @@ uv run python -m evals.run_eval
 uv run pytest
 ```
 
-Each eval run also writes a self-contained HTML report to `reports/eval-<timestamp>.html` (gitignored): pass rate, false alarms and buried signals, pass rate by check and by situation, and every case's brief next to its checks.
+Each eval run also writes a self-contained HTML report to `reports/eval-<timestamp>.html` (gitignored): pass rate, false alarms and buried signals, retries, and for each case the lead (input), the agent's tool calls and any retry, the brief (output), and each check's answer key next to what the brief said.
 
 Without `uv`: `python -m venv .venv`, activate it, `pip install -e ".[dev]"`, then drop the `uv run` prefix.
 

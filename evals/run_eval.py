@@ -18,20 +18,23 @@ from lead_brief.agent import brief_lead
 def run_case(case: dict, known_source_ids: set[str], brief_fn=brief_lead) -> CaseResult:
     """Brief one lead, print each check as PASS or FAIL, and return the result."""
     print(f"\n{case['case_id']} (lead {case['lead_id']})")
+    lead = data_store.get_lead(case["lead_id"])
+    trace: list[dict] = []
     start = time.monotonic()
     try:
-        brief = brief_fn(case["lead_id"])
+        brief = brief_fn(case["lead_id"], trace=trace)
     except Exception as e:  # an agent failure is a failed case, not a crashed run
         seconds = time.monotonic() - start
         print(f"  [FAIL] agent error after {seconds:.1f}s: {type(e).__name__}: {e}")
         print("  => FAIL")
-        return CaseResult(case, seconds, error=f"{type(e).__name__}: {e}")
+        return CaseResult(case, seconds, lead=lead, error=f"{type(e).__name__}: {e}", trace=trace)
     seconds = time.monotonic() - start
-    print(f"  {seconds:.1f}s | {brief.alert_level} | {brief.headline}")
+    tools = sum(event["kind"] == "tool" for event in trace)
+    print(f"  {seconds:.1f}s | {tools} tool calls | {brief.alert_level} | {brief.headline}")
     checks = correctness(brief, case, known_source_ids)
     for check in checks:
         print(f"  [{'PASS' if check.passed else 'FAIL'}] {check.name}: {check.detail}")
-    result = CaseResult(case, seconds, brief=brief, checks=checks)
+    result = CaseResult(case, seconds, lead=lead, brief=brief, checks=checks, trace=trace)
     print(f"  => {'PASS' if result.passed else 'FAIL'}")
     return result
 

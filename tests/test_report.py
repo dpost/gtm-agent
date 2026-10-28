@@ -36,10 +36,27 @@ def test_report_shows_cases_checks_and_escapes_text():
 
 
 def test_agent_error_is_a_failed_case_in_the_report(tmp_path):
-    def broken(lead_id):
+    def broken(lead_id, trace):
+        trace.append({"kind": "tool", "name": "search_accounts", "input": {"name": "Pellwick"}, "is_error": False})
         raise RuntimeError("boom")
 
     r = run_case(CASE, KNOWN, brief_fn=broken)
     assert not r.passed and r.error == "RuntimeError: boom"
     path = report.write([r], META, tmp_path / "out" / "report.html")
-    assert "Agent error: RuntimeError: boom" in path.read_text()
+    html = path.read_text()
+    assert "No valid brief. RuntimeError: boom" in html
+    assert "search_accounts(name=&quot;Pellwick&quot;)" in html  # the trace up to the failure is kept
+
+
+def test_report_shows_the_lead_input_the_retry_and_expected_vs_got():
+    r = result()
+    r.lead = data_store.get_lead("L-001")
+    r.trace = [
+        {"kind": "tool", "name": "search_accounts", "input": {"name": "Pellwick Freight"}, "is_error": False},
+        {"kind": "retry", "error": "1 validation error for Brief", "output": '{"alert_level": "caution",'},
+    ]
+    html = report.render([r], META)
+    assert "Marcus Oyelaran" in html and "Inbound demo request on 2026-10-05" in html
+    assert "1 retry" in html and "1 validation error for Brief" in html
+    assert "ACC-001, ACC-002; not ACC-003" in html  # related_accounts: answer key column
+    assert r.retries == 1

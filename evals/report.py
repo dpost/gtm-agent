@@ -1,5 +1,10 @@
-"""Static HTML report for one eval run. Prototype: stdlib only, one self-contained file, no scripts from the web."""
+"""Static HTML report for one eval run. Prototype: stdlib only, one self-contained file.
 
+Each case reads in the order the agent works: the lead (input), the agent run (tool calls, retries),
+the brief (output), and the score against the answer key.
+"""
+
+import json
 import statistics
 from collections import defaultdict
 from dataclasses import dataclass, field
@@ -11,18 +16,44 @@ from lead_brief.schema import Brief
 
 LOUDNESS = {"routine": 0, "heads_up": 1, "caution": 2}
 
+SITUATIONS = {
+    "net_new": "Net new, no relationship",
+    "healthy_department": "Healthy customer, other department",
+    "at_risk_department": "At-risk customer, other department",
+    "closed_lost_history": "Prior closed-lost deal",
+    "job_changer": "Job changer from a customer",
+    "conflict": "Another rep's opp or a stale contact",
+}
+
+CHECK_HELP = {
+    "relationship_status": "Names the right situation, one of six.",
+    "alert_level": "Loudness matches the situation.",
+    "related_accounts": "Links the right accounts and none of the look-alikes.",
+    "required_flags": "Raises each planted risk or opportunity, citing a record that holds it.",
+    "forbidden_flags": "Raises none of the flags that would mislead the rep.",
+    "source_ids_exist": "Every citation points at a real record.",
+}
+
+LEAD_FIELDS = [("title", "Title"), ("company", "Company (as typed)"), ("email", "Email"), ("form_note", "Form note")]
+
 
 @dataclass
 class CaseResult:
     case: dict
     seconds: float
+    lead: dict = field(default_factory=dict)
     brief: Brief | None = None
     checks: list[Check] = field(default_factory=list)
     error: str | None = None
+    trace: list[dict] = field(default_factory=list)
 
     @property
     def passed(self) -> bool:
         return self.error is None and all(c.passed for c in self.checks)
+
+    @property
+    def retries(self) -> int:
+        return sum(event["kind"] == "retry" for event in self.trace)
 
     @property
     def failure_mode(self) -> str | None:
@@ -37,76 +68,151 @@ def _pct(n: int, total: int) -> str:
     return f"{100 * n / total:.0f}%" if total else "n/a"
 
 
-def _bar_row(label: str, passed: int, total: int) -> str:
-    width = 100 * passed / total if total else 0
-    return (
-        f'<tr><td class="label">{escape(label)}</td>'
-        f'<td class="bar"><div class="track"><div class="fill" style="width:{width:.1f}%"></div></div></td>'
-        f'<td class="num">{passed}/{total}</td><td class="num muted">{_pct(passed, total)}</td></tr>'
-    )
+def _level(level: str) -> str:
+    return f'<span class="level level-{escape(level)}">{escape(level.replace("_", " "))}</span>'
 
 
-def _tile(label: str, value: str, note: str = "", tone: str = "") -> str:
+def _chip(text: str, tone: str) -> str:
+    return f'<span class="chip chip-{tone}">{escape(text)}</span>'
+
+
+def _tile(label: str, value: str, note: str, tone: str = "") -> str:
     return (
         f'<div class="tile {tone}"><div class="tile-label">{escape(label)}</div>'
         f'<div class="tile-value">{escape(value)}</div><div class="tile-note">{escape(note)}</div></div>'
     )
 
 
-def _level(level: str) -> str:
-    return f'<span class="level level-{escape(level)}">{escape(level)}</span>'
+def _bar_row(label: str, help_text: str, passed: int, total: int) -> str:
+    width = 100 * passed / total if total else 0
+    return (
+        f'<tr><td><div class="row-label">{escape(label)}</div><div class="row-help">{escape(help_text)}</div></td>'
+        f'<td class="bar"><div class="track"><div class="fill" style="width:{width:.1f}%"></div></div></td>'
+        f'<td class="num">{passed}/{total}</td></tr>'
+    )
+
+
+def _input_html(r: CaseResult) -> str:
+    lead = r.lead
+    if not lead:
+        return f'<p class="muted">Lead <code>{escape(r.case["lead_id"])}</code> not loaded.</p>'
+    rows = "".join(
+        f"<dt>{escape(label)}</dt><dd>{escape(str(lead[key]))}</dd>" for key, label in LEAD_FIELDS if lead.get(key)
+    )
+    request = " on ".join(escape(str(lead[k])) for k in ("source", "created_date") if lead.get(k))
+    return f"""
+        <div class="lead-name">{escape(lead.get("name", ""))}</div>
+        <div class="lead-request">{request}</div>
+        <dl class="fields">{rows}</dl>
+        <div class="cite"><code>{escape(lead.get("source_id", ""))}</code></div>"""
+
+
+def _args(tool_input: dict) -> str:
+    return ", ".join(f"{escape(k)}={escape(json.dumps(v))}" for k, v in tool_input.items())
+
+
+def _run_html(r: CaseResult) -> str:
+    items, retries = [], []
+    for event in r.trace:
+        if event["kind"] == "tool":
+            tag = _chip("error", "bad") if event["is_error"] else ""
+            items.append(f'<li><code class="call">{escape(event["name"])}({_args(event["input"])})</code>{tag}</li>')
+        elif event["kind"] == "skipped":
+            items.append(
+                f'<li class="muted"><code class="call">{escape(event["name"])}({_args(event["input"])})</code>'
+                f'{_chip("not run, call budget used", "muted")}</li>'
+            )
+        elif event["kind"] == "retry":
+            retries.append(f"""
+          <div class="retry">
+            <div>{_chip("retry", "warn")} The final JSON failed validation, so the agent asked the model once for a corrected brief.</div>
+            <details class="raw"><summary>Validation error and rejected output</summary>
+              <pre>{escape(event["error"])}</pre><pre>{escape(event["output"])}</pre>
+            </details>
+          </div>""")
+    tools = sum(e["kind"] == "tool" for e in r.trace)
+    outcome = (
+        f'<p class="error">No valid brief. {escape(r.error or "")}</p>' if r.error
+        else f'<p class="muted">{tools} tool calls, {r.seconds:.1f}s, then the brief.</p>'
+    )
+    calls = f'<ol class="calls">{"".join(items)}</ol>' if items else '<p class="muted">No tool calls recorded.</p>'
+    return calls + "".join(retries) + outcome
 
 
 def _brief_html(brief: Brief) -> str:
     accounts = ", ".join(brief.related_account_ids) or "none"
     flags = "".join(
-        f'<li><span class="flag-type">{escape(f.type)}</span> {escape(f.claim)} '
-        + "".join(f"<code>{escape(s)}</code>" for s in f.source_ids)
+        f'<li><span class="flag-type">{escape(f.type.replace("_", " "))}</span> {escape(f.claim)} '
+        + " ".join(f"<code>{escape(s)}</code>" for s in f.source_ids)
         + "</li>"
         for f in brief.flags
     ) or '<li class="muted">No flags.</li>'
     return f"""
-      <dl class="brief">
-        <dt>Headline</dt><dd>{escape(brief.headline)}</dd>
-        <dt>Relationship</dt><dd>{escape(brief.relationship_status)} (accounts: {escape(accounts)})</dd>
-        <dt>Summary</dt><dd>{escape(brief.summary)}</dd>
-        <dt>Flags</dt><dd><ul class="flags">{flags}</ul></dd>
-        <dt>Call context</dt><dd>{escape(brief.call_context_note)}</dd>
-        <dt>Recommended action</dt><dd>{escape(brief.recommended_action)}</dd>
-      </dl>"""
+        <div class="brief-card level-edge-{escape(brief.alert_level)}">
+          <div class="brief-top">{_level(brief.alert_level)}
+            <span class="muted">{escape(SITUATIONS.get(brief.relationship_status, brief.relationship_status))}, accounts {escape(accounts)}</span>
+          </div>
+          <p class="brief-headline">{escape(brief.headline)}</p>
+          <p>{escape(brief.summary)}</p>
+          <h4>Flags</h4><ul class="flags">{flags}</ul>
+          <dl class="fields">
+            <dt>Call context</dt><dd>{escape(brief.call_context_note)}</dd>
+            <dt>Recommended action</dt><dd>{escape(brief.recommended_action)}</dd>
+          </dl>
+        </div>"""
 
 
-def _case_html(r: CaseResult) -> str:
-    case = r.case
-    got_level = _level(r.brief.alert_level) if r.brief else '<span class="muted">no brief</span>'
-    mode = f'<span class="mode">{escape(r.failure_mode)}</span>' if r.failure_mode else ""
-    headline = escape(r.brief.headline) if r.brief else escape(r.error or "")
-    checks = "".join(
-        f'<li class="{"ok" if c.passed else "bad"}"><span class="mark">{"PASS" if c.passed else "FAIL"}</span>'
-        f"<b>{escape(c.name)}</b> {escape(c.detail)}</li>"
+def _score_html(r: CaseResult) -> str:
+    rows = "".join(
+        f'<tr class="{"ok" if c.passed else "bad"}">'
+        f'<td><div class="row-label">{escape(c.name)}</div><div class="row-help">{escape(CHECK_HELP.get(c.name, ""))}</div></td>'
+        f"<td>{escape(c.expected or c.detail)}</td><td>{escape(c.got)}</td>"
+        f'<td class="result">{"Pass" if c.passed else "Fail"}</td></tr>'
         for c in r.checks
     )
-    body = _brief_html(r.brief) if r.brief else f'<p class="error">Agent error: {escape(r.error or "")}</p>'
+    if r.brief and r.case.get("action_intent"):
+        rows += (
+            '<tr class="unscored"><td><div class="row-label">recommended_action</div>'
+            '<div class="row-help">Judged by the actionability scorer, not built yet.</div></td>'
+            f'<td>{escape(r.case["action_intent"])}</td><td>{escape(r.brief.recommended_action)}</td>'
+            '<td class="result">Not scored</td></tr>'
+        )
+    if not rows:
+        return '<p class="muted">Not scored: the agent produced no brief.</p>'
     return f"""
-  <details class="case {"pass" if r.passed else "fail"}"{"" if r.passed else " open"}>
+        <div class="table-wrap"><table class="score">
+          <thead><tr><th>Check</th><th>Answer key</th><th>Brief</th><th>Result</th></tr></thead>
+          <tbody>{rows}</tbody>
+        </table></div>"""
+
+
+def _case_html(r: CaseResult, open_by_default: bool) -> str:
+    case = r.case
+    got = _level(r.brief.alert_level) if r.brief else _chip("no brief", "bad")
+    chips = "".join([
+        _chip(r.failure_mode, "bad") if r.failure_mode else "",
+        _chip(f"{r.retries} retry" if r.retries == 1 else f"{r.retries} retries", "warn") if r.retries else "",
+        _chip("agent error", "bad") if r.error else "",
+    ])
+    who = escape(r.lead.get("name", case["lead_id"]))
+    company = escape(r.lead.get("company", ""))
+    return f"""
+  <details class="case {"pass" if r.passed else "fail"}"{" open" if open_by_default else ""}>
     <summary>
-      <span class="verdict">{"PASS" if r.passed else "FAIL"}</span>
+      <span class="verdict">{"Pass" if r.passed else "Fail"}</span>
       <span class="case-id">{escape(case["case_id"])}</span>
-      <span class="levels">{_level(case["alert_level"])} <span class="arrow">&rarr;</span> {got_level} {mode}</span>
-      <span class="headline">{headline}</span>
+      <span class="who"><b>{who}</b> <span class="muted">{company}</span></span>
+      <span class="levels"><span class="k">key</span>{_level(case["alert_level"])}<span class="k">brief</span>{got}{chips}</span>
       <span class="num muted">{r.seconds:.1f}s</span>
     </summary>
-    <div class="case-body">
-      <div class="col">
-        <h4>Answer key</h4>
-        <p>Lead <code>{escape(case["lead_id"])}</code>, expected <b>{escape(case["relationship_status"])}</b>.</p>
-        <p class="muted">Intended action: {escape(case.get("action_intent", ""))}</p>
-        <h4>Checks</h4>
-        <ul class="checks">{checks or '<li class="muted">Not scored.</li>'}</ul>
-      </div>
-      <div class="col">
-        <h4>Brief</h4>{body}
-      </div>
+    <div class="flow">
+      <section class="step"><h3><span class="n">1</span>Input: the lead</h3>{_input_html(r)}</section>
+      <section class="step"><h3><span class="n">2</span>Agent run</h3>{_run_html(r)}</section>
+      <section class="step wide"><h3><span class="n">3</span>Output: the brief the rep sees</h3>
+        {_brief_html(r.brief) if r.brief else '<p class="muted">No brief.</p>'}</section>
+      <section class="step wide"><h3><span class="n">4</span>Score against the answer key</h3>
+        <p class="muted">Expected situation: {escape(SITUATIONS.get(case["relationship_status"], case["relationship_status"]))}.</p>
+        {_score_html(r)}</section>
     </div>
   </details>"""
 
@@ -117,6 +223,7 @@ def render(results: list[CaseResult], meta: dict[str, str]) -> str:
     passed = sum(r.passed for r in results)
     false_alarms = sum(r.failure_mode == "false alarm" for r in results)
     buried = sum(r.failure_mode == "buried signal" for r in results)
+    retried = sum(r.retries > 0 for r in results)
     errors = sum(r.error is not None for r in results)
     seconds = [r.seconds for r in results]
 
@@ -128,129 +235,208 @@ def render(results: list[CaseResult], meta: dict[str, str]) -> str:
         by_status[r.case["relationship_status"]].append(r.passed)
 
     tiles = "".join([
-        _tile("Cases passed", f"{passed}/{total}", _pct(passed, total) + " pass all checks",
-              "good" if total and passed == total else ""),
+        _tile("Cases passed", f"{passed}/{total}", f"{_pct(passed, total)} pass every check",
+              "good" if total and passed == total else "bad" if passed < total else ""),
         _tile("False alarms", str(false_alarms), "louder than the key", "bad" if false_alarms else ""),
         _tile("Buried signals", str(buried), "quieter than the key", "bad" if buried else ""),
+        _tile("Needed a retry", str(retried), "invalid JSON on first try", "warn" if retried else ""),
         _tile("Agent errors", str(errors), "no valid brief", "bad" if errors else ""),
-        _tile("Median latency", f"{statistics.median(seconds):.1f}s" if seconds else "n/a",
-              f"{sum(seconds):.0f}s total"),
+        _tile("Median time", f"{statistics.median(seconds):.1f}s" if seconds else "n/a", f"{sum(seconds):.0f}s total"),
     ])
-    params = "".join(f"<span><b>{escape(k)}</b> {escape(v)}</span>" for k, v in meta.items())
-    check_note = f' <span class="muted">({errors} agent errors not scored)</span>' if errors else ""
-    check_rows = "".join(_bar_row(name, sum(v), len(v)) for name, v in by_check.items())
-    status_rows = "".join(_bar_row(name, sum(v), len(v)) for name, v in sorted(by_status.items()))
-    cases = "".join(_case_html(r) for r in results)
+    params = "".join(f"<span>{escape(k)} <b>{escape(v)}</b></span>" for k, v in meta.items())
+    check_note = f" ({errors} agent errors not scored)" if errors else ""
+    check_rows = "".join(_bar_row(n, CHECK_HELP.get(n, ""), sum(v), len(v)) for n, v in by_check.items())
+    status_rows = "".join(
+        _bar_row(SITUATIONS.get(s, s), s, sum(v), len(v)) for s, v in sorted(by_status.items())
+    )
+    cases = "".join(_case_html(r, total <= 5 or not r.passed) for r in results)
 
     return f"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Lead Brief Eval</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
 <style>
+/* Layout: an eval sheet. Summary first, then each case read in the agent's order: lead, run, brief, score. */
 :root {{
-  --bg: #f7f7f5; --surface: #ffffff; --text: #1d1d1b; --muted: #6b6b66; --border: #e3e2dd;
-  --good: #1f7a4d; --good-bg: #e6f3ec; --bad: #b3261e; --bad-bg: #fbe9e7;
-  --accent: #3b5bdb; --track: #ecebe6;
-  --routine: #6b6b66; --heads_up: #9a6700; --caution: #b3261e;
+  --paper: #f4f5f7; --surface: #ffffff; --ink: #171b23; --muted: #5d6573; --rule: #dde1e8; --wash: #eceef3;
+  --accent: #3446a6;
+  --pass: #1d7348; --pass-wash: #e3f2ea; --fail: #b02a1f; --fail-wash: #fbe8e5; --warn: #8a5a00; --warn-wash: #fbf0d9;
+  --routine: #5d6573; --heads_up: #8a5a00; --caution: #b02a1f;
+  --sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 }}
 @media (prefers-color-scheme: dark) {{
-  :root {{
-    --bg: #161615; --surface: #1f1f1d; --text: #ecebe6; --muted: #9b9a94; --border: #33332f;
-    --good: #5cc28f; --good-bg: #183026; --bad: #f2887f; --bad-bg: #3a1d1a;
-    --accent: #8ea6ff; --track: #2c2c29;
-    --routine: #9b9a94; --heads_up: #e3b341; --caution: #f2887f;
+  :root:not([data-theme="light"]) {{
+    --paper: #121419; --surface: #1a1d24; --ink: #e8eaf0; --muted: #9aa1ae; --rule: #2d323c; --wash: #23272f;
+    --accent: #9cadff;
+    --pass: #63c690; --pass-wash: #17301f; --fail: #f08a80; --fail-wash: #3a1c19; --warn: #e2b450; --warn-wash: #33290f;
+    --routine: #9aa1ae; --heads_up: #e2b450; --caution: #f08a80;
+    color-scheme: dark;
   }}
 }}
+:root[data-theme="dark"] {{
+  --paper: #121419; --surface: #1a1d24; --ink: #e8eaf0; --muted: #9aa1ae; --rule: #2d323c; --wash: #23272f;
+  --accent: #9cadff;
+  --pass: #63c690; --pass-wash: #17301f; --fail: #f08a80; --fail-wash: #3a1c19; --warn: #e2b450; --warn-wash: #33290f;
+  --routine: #9aa1ae; --heads_up: #e2b450; --caution: #f08a80;
+  color-scheme: dark;
+}}
 * {{ box-sizing: border-box; }}
-body {{ margin: 0; background: var(--bg); color: var(--text);
-  font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }}
-main {{ max-width: 1100px; margin: 0 auto; padding: 32px 16px 64px; }}
-h1 {{ font-size: 22px; margin: 0 0 4px; }}
-h2 {{ font-size: 15px; margin: 32px 0 12px; }}
-h4 {{ font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 12px 0 6px; }}
-code {{ font: 12px ui-monospace, SFMono-Regular, Menlo, monospace; background: var(--track);
-  padding: 1px 5px; border-radius: 4px; margin-left: 4px; white-space: nowrap; }}
+body {{ margin: 0; background: var(--paper); color: var(--ink); font: 15px/1.55 var(--sans); }}
+main {{ max-width: 1120px; margin: 0 auto; padding-block: 40px 72px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; flex-direction: column; gap: 28px; }}
+h1 {{ font-size: 28px; font-weight: 700; letter-spacing: -0.01em; margin: 0; text-wrap: balance; }}
+h2 {{ font-size: 17px; font-weight: 600; margin: 0; }}
+h3 {{ display: flex; align-items: center; gap: 8px; margin: 0 0 10px; font-size: 12px; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }}
+h4 {{ margin: 12px 0 4px; font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }}
+p {{ margin: 0; }}
+code, pre {{ font-family: var(--mono); font-size: 12.5px; }}
+code {{ background: var(--wash); padding: 1px 5px; border-radius: 4px; overflow-wrap: anywhere; }}
 .muted {{ color: var(--muted); }}
-.params {{ display: flex; flex-wrap: wrap; gap: 6px 16px; color: var(--muted); font-size: 13px; }}
-.params b {{ color: var(--text); font-weight: 600; }}
-.tiles {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-top: 24px; }}
-.tile {{ background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }}
-.tile-label {{ color: var(--muted); font-size: 12px; }}
-.tile-value {{ font-size: 26px; font-weight: 650; font-variant-numeric: tabular-nums; }}
-.tile-note {{ color: var(--muted); font-size: 12px; }}
-.tile.good .tile-value {{ color: var(--good); }}
-.tile.bad .tile-value {{ color: var(--bad); }}
-.grid2 {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 0 24px; }}
-table.bars {{ width: 100%; border-collapse: collapse; background: var(--surface);
-  border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }}
-table.bars td {{ padding: 7px 12px; border-top: 1px solid var(--border); }}
-table.bars tr:first-child td {{ border-top: 0; }}
-td.label {{ white-space: nowrap; }}
-td.bar {{ width: 100%; }}
-td.num, span.num {{ text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }}
-.track {{ height: 8px; background: var(--track); border-radius: 4px; overflow: hidden; }}
-.fill {{ height: 100%; background: var(--accent); border-radius: 4px; }}
-.toolbar {{ display: flex; align-items: center; justify-content: space-between; }}
-.toolbar label {{ color: var(--muted); font-size: 13px; cursor: pointer; }}
+:focus-visible {{ outline: 2px solid var(--accent); outline-offset: 2px; }}
+
+.intro {{ display: flex; flex-direction: column; gap: 10px; }}
+.lede {{ max-width: 68ch; font-size: 16px; }}
+.params {{ display: flex; flex-wrap: wrap; gap: 4px 18px; font: 12.5px var(--mono); color: var(--muted); }}
+.params b {{ color: var(--ink); font-weight: 500; }}
+
+.tiles {{ display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }}
+.tile {{ background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 12px 14px; min-width: 0; }}
+.tile-label {{ font-size: 12.5px; color: var(--muted); }}
+.tile-value {{ font-size: 26px; font-weight: 600; font-variant-numeric: tabular-nums; line-height: 1.3; }}
+.tile-note {{ font-size: 12px; color: var(--muted); }}
+.tile.good .tile-value {{ color: var(--pass); }}
+.tile.bad .tile-value {{ color: var(--fail); }}
+.tile.warn .tile-value {{ color: var(--warn); }}
+
+.cases-head {{ display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }}
+.cases-head label {{ font-size: 13.5px; color: var(--muted); cursor: pointer; display: flex; gap: 6px; align-items: center; }}
+.case-list {{ display: flex; flex-direction: column; gap: 12px; }}
 body.failures-only details.pass {{ display: none; }}
-details.case {{ background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--good);
-  border-radius: 8px; margin-bottom: 8px; }}
-details.case.fail {{ border-left-color: var(--bad); }}
-summary {{ display: grid; grid-template-columns: 44px 64px auto 1fr auto; gap: 12px; align-items: center;
-  padding: 10px 14px; cursor: pointer; list-style: none; }}
-summary::-webkit-details-marker {{ display: none; }}
-.verdict {{ font-size: 11px; font-weight: 700; color: var(--good); }}
-.fail .verdict {{ color: var(--bad); }}
-.case-id {{ font-weight: 600; }}
-.headline {{ overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }}
-.levels {{ white-space: nowrap; }}
-.arrow {{ color: var(--muted); }}
-.level {{ font-size: 11px; font-weight: 600; padding: 2px 7px; border-radius: 10px; border: 1px solid currentColor; }}
+
+details.case {{ background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; }}
+details.case > summary {{ display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; padding: 12px 16px;
+  cursor: pointer; list-style: none; }}
+details.case > summary::-webkit-details-marker {{ display: none; }}
+details.case[open] > summary {{ border-bottom: 1px solid var(--rule); }}
+.verdict {{ font-size: 12px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase;
+  padding: 2px 8px; border-radius: 4px; color: var(--pass); background: var(--pass-wash); }}
+.fail .verdict {{ color: var(--fail); background: var(--fail-wash); }}
+.case-id {{ font: 500 13px var(--mono); }}
+.who {{ flex: 1 1 200px; min-width: 0; }}
+.levels {{ display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }}
+.k {{ font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }}
+.num {{ font-variant-numeric: tabular-nums; }}
+
+.level {{ font-size: 12px; font-weight: 600; padding: 1px 8px; border-radius: 10px; border: 1.5px solid currentColor; white-space: nowrap; }}
 .level-routine {{ color: var(--routine); }}
 .level-heads_up {{ color: var(--heads_up); }}
 .level-caution {{ color: var(--caution); }}
-.mode {{ font-size: 11px; font-weight: 600; color: var(--bad); background: var(--bad-bg);
-  padding: 2px 7px; border-radius: 10px; margin-left: 4px; }}
-.case-body {{ display: grid; grid-template-columns: 1fr 1.4fr; gap: 24px; padding: 0 16px 16px;
-  border-top: 1px solid var(--border); }}
-.case-body p {{ margin: 4px 0; }}
-ul.checks, ul.flags {{ list-style: none; padding: 0; margin: 0; }}
-ul.checks li {{ padding: 3px 0; }}
-.mark {{ display: inline-block; width: 40px; font-size: 11px; font-weight: 700; }}
-.ok .mark {{ color: var(--good); }}
-.bad .mark {{ color: var(--bad); }}
-ul.flags li {{ margin-bottom: 6px; }}
+.chip {{ font-size: 12px; font-weight: 600; padding: 1px 8px; border-radius: 10px; white-space: nowrap; margin-left: 6px; }}
+.chip-bad {{ color: var(--fail); background: var(--fail-wash); }}
+.chip-warn {{ color: var(--warn); background: var(--warn-wash); }}
+.chip-muted {{ color: var(--muted); background: var(--wash); }}
+.levels .chip {{ margin-left: 0; }}
+
+.flow {{ display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); }}
+.step {{ padding: 16px; min-width: 0; border-top: 1px solid var(--rule); }}
+.step:nth-child(-n+2) {{ border-top: 0; }}
+.step:nth-child(2) {{ border-left: 1px solid var(--rule); }}
+.step.wide {{ grid-column: 1 / -1; }}
+.n {{ display: inline-grid; place-items: center; width: 20px; height: 20px; border-radius: 50%;
+  background: var(--ink); color: var(--surface); font-size: 11px; letter-spacing: 0; }}
+
+.lead-name {{ font-size: 17px; font-weight: 600; }}
+.lead-request {{ color: var(--muted); margin-bottom: 8px; }}
+dl.fields {{ display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 4px 14px; margin: 8px 0 0; }}
+dl.fields dt {{ color: var(--muted); }}
+dl.fields dd {{ margin: 0; min-width: 0; overflow-wrap: anywhere; }}
+.cite {{ margin-top: 10px; }}
+
+ol.calls {{ margin: 0 0 10px; padding-left: 22px; display: flex; flex-direction: column; gap: 5px; }}
+ol.calls li::marker {{ color: var(--muted); font: 12px var(--mono); }}
+code.call {{ background: none; padding: 0; }}
+.retry {{ display: flex; flex-direction: column; gap: 6px; margin-bottom: 10px; }}
+.retry .chip {{ margin: 0 6px 0 0; }}
+details.raw summary {{ cursor: pointer; color: var(--accent); font-size: 13.5px; }}
+details.raw pre {{ margin: 6px 0 0; padding: 10px; background: var(--wash); border-radius: 6px; white-space: pre-wrap;
+  overflow-wrap: anywhere; max-height: 220px; overflow: auto; }}
+.error {{ color: var(--fail); background: var(--fail-wash); padding: 8px 10px; border-radius: 6px; overflow-wrap: anywhere; }}
+
+.brief-card {{ max-width: 760px; border: 1px solid var(--rule); border-top: 4px solid var(--routine); border-radius: 8px;
+  padding: 14px 18px; display: flex; flex-direction: column; gap: 8px; background: var(--surface); }}
+.level-edge-heads_up {{ border-top-color: var(--heads_up); }}
+.level-edge-caution {{ border-top-color: var(--caution); }}
+.brief-top {{ display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font-size: 13.5px; }}
+.brief-headline {{ font-size: 17px; font-weight: 600; line-height: 1.4; text-wrap: balance; }}
+ul.flags {{ list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }}
 .flag-type {{ font-weight: 600; margin-right: 4px; }}
-dl.brief {{ margin: 0; display: grid; grid-template-columns: 130px 1fr; gap: 6px 12px; }}
-dl.brief dt {{ color: var(--muted); }}
-dl.brief dd {{ margin: 0; }}
-.error {{ color: var(--bad); background: var(--bad-bg); padding: 8px 10px; border-radius: 6px; }}
-@media (max-width: 720px) {{
-  summary {{ grid-template-columns: 40px 1fr auto; }}
-  summary .levels, summary .headline {{ grid-column: 1 / -1; }}
-  summary > .num {{ grid-row: 1; grid-column: 3; }}
-  .case-body {{ grid-template-columns: 1fr; }}
-  dl.brief {{ grid-template-columns: 1fr; }}
+
+.table-wrap {{ overflow-x: auto; margin-top: 8px; }}
+table {{ border-collapse: collapse; width: 100%; }}
+table.score {{ min-width: 640px; }}
+table.score th {{ text-align: left; font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--muted); padding: 6px 10px; border-bottom: 1px solid var(--rule); }}
+table.score td {{ padding: 8px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }}
+table.score td:nth-child(2), table.score td:nth-child(3) {{ width: 32%; }}
+td.result {{ font-weight: 600; white-space: nowrap; }}
+tr.ok td.result {{ color: var(--pass); }}
+tr.bad td.result {{ color: var(--fail); }}
+tr.bad {{ background: var(--fail-wash); }}
+tr.unscored td {{ color: var(--muted); }}
+.row-label {{ font: 500 13px var(--mono); }}
+.row-help {{ font-size: 12.5px; color: var(--muted); }}
+
+.breakdown {{ display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }}
+.breakdown section {{ display: flex; flex-direction: column; gap: 10px; min-width: 0; }}
+table.bars {{ background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; }}
+table.bars td {{ padding: 8px 12px; border-top: 1px solid var(--rule); }}
+table.bars tr:first-child td {{ border-top: 0; }}
+td.bar {{ width: 40%; }}
+td.num {{ text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }}
+.track {{ height: 8px; background: var(--wash); border-radius: 4px; overflow: hidden; }}
+.fill {{ height: 100%; background: var(--accent); }}
+footer {{ font-size: 13px; color: var(--muted); }}
+
+@media (max-width: 900px) {{
+  .tiles {{ grid-template-columns: repeat(3, 1fr); }}
+  .breakdown {{ grid-template-columns: minmax(0, 1fr); }}
+}}
+@media (max-width: 640px) {{
+  .tiles {{ grid-template-columns: repeat(2, 1fr); }}
+  .flow {{ grid-template-columns: minmax(0, 1fr); }}
+  .step:nth-child(2) {{ border-left: 0; border-top: 1px solid var(--rule); }}
 }}
 </style>
 </head>
 <body>
 <main>
-  <h1>Lead brief eval</h1>
-  <div class="params">{params}</div>
+  <header class="intro">
+    <h1>Lead brief eval</h1>
+    <p class="lede">Each case gives the agent one inbound sales lead. The agent looks the company up in a synthetic CRM,
+      a product usage scorecard, and call transcripts, then writes a pre-call brief for the rep. Code scores the brief
+      against an answer key written before the data. A case passes only if every check passes.</p>
+    <div class="params">{params}</div>
+  </header>
   <div class="tiles">{tiles}</div>
-  <div class="grid2">
+  <section class="case-list">
+    <div class="cases-head">
+      <h2>Cases</h2>
+      <label for="failures-only"><input type="checkbox" id="failures-only"
+        onchange="document.body.classList.toggle('failures-only', this.checked)"> Failures only</label>
+    </div>
+    {cases}
+  </section>
+  <div class="breakdown">
     <section><h2>Pass rate by check{check_note}</h2><table class="bars">{check_rows}</table></section>
     <section><h2>Pass rate by situation</h2><table class="bars">{status_rows}</table></section>
   </div>
-  <div class="toolbar">
-    <h2>Cases</h2>
-    <label><input type="checkbox" onchange="document.body.classList.toggle('failures-only', this.checked)"> Failures only</label>
-  </div>
-  {cases}
-  <p class="muted">Prototype eval report. Synthetic data only. Failed cases open by default.</p>
+  <footer>Prototype eval report. Every company, person, and record is synthetic.</footer>
 </main>
 </body>
 </html>

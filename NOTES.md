@@ -10,6 +10,7 @@ Working notes for the lead brief prototype.
 - **`search_transcripts` returns full text.** Fine at 2 to 3 short transcripts per account. Revisit (snippets plus a `get_transcript` tool) if transcripts grow.
 - **Activity notes.** `activity` is an empty list on every account today. Notes need their own IDs, which needs a source ID convention (e.g. `crm:activity/ACT-001`) added to CLAUDE.md first.
 - **Routine-case check.** SPEC's "zero caution flags on routine cases" is not in today's six checks. It needs a definition of which flag types count as caution flags.
+- **HTML report into MLflow.** Log each run's `reports/eval-*.html` as an MLflow artifact next to the per-case table (Oct 9). Add token cost to the report once it is logged.
 - **Cost and latency per run.** Log token usage and wall time per case (MLflow, Oct 9).
 
 ## Decisions (Oct 6)

@@ -99,3 +99,4 @@ Synthetic data only. Nothing from any former employer: no code, data, prompts, o
 ## Change Log
 
 - Oct 5: spec locked.
+- Oct 28: each eval run also writes a static HTML report (summary, failure modes, per-case briefs and checks). Reason: reviewing briefs next to their checks is faster than reading console output. This is an eval artifact, not a rep-facing UI.

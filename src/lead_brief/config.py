@@ -22,6 +22,7 @@ DATA_DIR = REPO_ROOT / "data"
 ANSWER_KEY_PATH = DATA_DIR / "answer_key" / "cases.json"
 PROMPTS_DIR = Path(__file__).resolve().parent / "prompts"
 AGENT_PROMPT_PATH = PROMPTS_DIR / "agent_system.md"
+REPORTS_DIR = REPO_ROOT / "reports"  # HTML eval reports, gitignored
 
 
 # Cloud sessions strip ANTHROPIC_API_KEY (Claude Code reserves it for its own login),

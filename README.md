@@ -48,6 +48,8 @@ uv run python -m evals.run_eval
 uv run pytest
 ```
 
+Each eval run also writes a self-contained HTML report to `reports/eval-<timestamp>.html` (gitignored): pass rate, false alarms and buried signals, pass rate by check and by situation, and every case's brief next to its checks.
+
 Without `uv`: `python -m venv .venv`, activate it, `pip install -e ".[dev]"`, then drop the `uv run` prefix.
 
 ## Layout
@@ -56,7 +58,7 @@ Without `uv`: `python -m venv .venv`, activate it, `pip install -e ".[dev]"`, th
 data/answer_key/cases.json   expected answers, written before the data
 data/crm, usage, transcripts synthetic sources
 src/lead_brief/              schema, data tools, tool schemas, agent loop, prompt
-evals/                       correctness scorer and eval runner
+evals/                       correctness scorer, eval runner, HTML report
 tests/                       fast tests, no API calls
 ```
 

@@ -1,0 +1,32 @@
+transcript_id: T-0027
+account_id: ACC-028
+date: 2026-07-07
+call_type: QBR
+contact_ids: CON-047
+participants: Riley Chen (Larkspur Analytics, account owner); Yvette Laurent (VP Customer Success, Cobaltline CS)
+---
+Riley Chen: Thanks for making time, Yvette. This is our quarterly review, and I'd like to spend most of it on the customer health dashboards, since I know your team lives in them.
+
+Yvette Laurent: Happy to. Honestly, they've become the first thing my team opens on Monday mornings.
+
+Riley Chen: That's great to hear. On the usage side, about 65 of your 80 licensed seats are active each week, which is a strong number for a team your size.
+
+Yvette Laurent: That matches what I see. The account managers are in there constantly, and the support leads have started using the health scores in their escalation reviews.
+
+Riley Chen: Which dashboard has been the most useful for you?
+
+Yvette Laurent: The at-risk accounts view. We catch drops in product engagement earlier now, so our outreach happens before the customer goes quiet.
+
+Riley Chen: Good. Have you had any trouble with the filters or the way the scores are grouped?
+
+Yvette Laurent: Just one small thing. I'd like to group accounts by onboarding cohort, and right now we do that by hand in a spreadsheet.
+
+Riley Chen: That's a reasonable request. I'll write it up for our product team and check what's possible with the cohort fields you already have.
+
+Yvette Laurent: Perfect. Other than that, the team is happy, and a couple of the newer hires are asking for training on building their own views.
+
+Riley Chen: I can set up a short working session for them. I'll send you a few times that could work.
+
+Yvette Laurent: That would be great. Thanks, Riley.
+
+Riley Chen: My pleasure. I'll follow up this week with the cohort notes and the training options.

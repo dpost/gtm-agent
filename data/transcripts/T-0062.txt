@@ -1,0 +1,30 @@
+transcript_id: T-0062
+account_id: ACC-054
+date: 2026-09-16
+call_type: Check-in
+contact_ids: CON-077
+participants: Nikhil Varma (Larkspur Analytics, account owner); Gemma Okoro (Office Manager, Ashby Lane Dental)
+---
+Nikhil Varma: Hi Gemma, thanks for making time. I wanted to check in before the November renewal and hear how things are going on your side.
+
+Gemma Okoro: Thanks, Nikhil. I'll be upfront, it's a tough stretch. With two dentists retiring, we're looking hard at every subscription before the November renewal.
+
+Nikhil Varma: I appreciate you telling me directly. That makes sense. Right now I'm seeing about 17 of your 28 licensed seats active each week. Does that match what you're seeing?
+
+Gemma Okoro: Yes, that sounds right. Fewer people are logging in. Some of the front desk staff only open the reports when I ask them to.
+
+Nikhil Varma: Which reports do people still use regularly?
+
+Gemma Okoro: Mostly the appointment and cancellation views. I use them every week to plan scheduling. The rest of the dashboards don't get much attention.
+
+Nikhil Varma: That's helpful to know. If the seat count turns out to be bigger than you need, I'd rather talk about it now than surprise you in November.
+
+Gemma Okoro: I appreciate that. I don't have a number yet. The owners are still working out which locations stay as they are.
+
+Nikhil Varma: Understood. Would it help if I put together a simple list of who has logged in over the past few months, so you can see which seats are actually in use?
+
+Gemma Okoro: That would help a lot. I'd rather decide based on real usage than guess.
+
+Nikhil Varma: I'll send that over this week. Then we can set up a short call once you have a clearer picture from the owners.
+
+Gemma Okoro: Sounds good. Thanks for being straightforward about it.

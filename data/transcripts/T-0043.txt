@@ -1,0 +1,30 @@
+transcript_id: T-0043
+account_id: ACC-043
+date: 2026-05-27
+call_type: Pricing call
+contact_ids: CON-062, CON-063
+participants: Owen Castellano (Larkspur Analytics, account owner); Leon Fairbanks (VP Merchandising, Pemberton Hardware); Ida Marchetti (CFO, Pemberton Hardware)
+---
+Owen Castellano: Thanks both for making time. This is the final pricing conversation, so I'd like to walk through the proposal once more and hear where you've landed.
+
+Leon Fairbanks: Sure. From the merchandising side, the demos were strong. The category reporting would save my team a lot of manual work each week.
+
+Owen Castellano: That's good to hear. Ida, I know you've been reviewing the numbers with Leon. What's your read?
+
+Ida Marchetti: I've been through the proposal carefully. At sixty-eight thousand a year we can't justify it against what we already spend on spreadsheets.
+
+Owen Castellano: I understand. Can you tell me what part of the comparison feels hardest to close? Is it the license cost itself, or the savings we've described?
+
+Ida Marchetti: Both, honestly. Our spreadsheets are clumsy, but they're paid for and everyone knows them. I can't point to a hard number that offsets the new spend.
+
+Leon Fairbanks: I'd push back a little. The time my analysts spend rebuilding reports is real, even if it doesn't show up as a line item.
+
+Ida Marchetti: I agree it's real, Leon. It just isn't something I can take to the board as a return today.
+
+Owen Castellano: That's fair. I don't want to push you into a decision that doesn't hold up on your side. Would it help if I put together a short summary of the reporting hours Leon's team described, so you can test it against your own figures?
+
+Ida Marchetti: That would be fine, but I don't want to give you false hope. My answer on this proposal is no for now.
+
+Owen Castellano: Understood, and I appreciate you being direct. I'll send the summary anyway, and we can stay in touch if your view changes.
+
+Leon Fairbanks: Thanks, Owen. I'll keep making the case internally.

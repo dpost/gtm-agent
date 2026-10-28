@@ -1,0 +1,28 @@
+transcript_id: T-0028
+account_id: ACC-028
+date: 2026-09-29
+call_type: Check-in
+contact_ids: CON-047
+participants: Riley Chen (Larkspur Analytics, account owner); Yvette Laurent (VP Customer Success, Cobaltline CS)
+---
+Riley Chen: Hi Yvette, thanks for making time. This is just a friendly check-in, no agenda beyond hearing how things are going.
+
+Yvette Laurent: Happy to. Things are going well on our side. Churn risk scoring in Larkspur is the first thing my managers open each morning.
+
+Riley Chen: That's great to hear. What do they do with it once they open it?
+
+Yvette Laurent: They look at which accounts moved into the risk band overnight and decide who gets a call that day. It's become part of how the team starts the day.
+
+Riley Chen: Nice. On our side, I see about 65 of your 80 licensed seats active each week, which is a healthy level.
+
+Yvette Laurent: That sounds right. The managers and most of the account leads are in there regularly. A few seats belong to people who joined the team recently and are still getting set up.
+
+Riley Chen: Would a short onboarding session for the newer folks help? I can set one up with our training team.
+
+Yvette Laurent: Yes, that would be useful. Maybe focus on building their own saved views for the scoring dashboard.
+
+Riley Chen: Will do. I'll send a few possible times by the end of the week.
+
+Yvette Laurent: Perfect. Anything you need from me before then?
+
+Riley Chen: Just a list of the new team members when you have it. Thanks, Yvette.

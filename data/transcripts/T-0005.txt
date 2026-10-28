@@ -1,0 +1,30 @@
+transcript_id: T-0005
+account_id: ACC-004
+date: 2026-08-25
+call_type: Check-in
+contact_ids: CON-030
+participants: Tess Harlow (Larkspur Analytics, account owner); Paloma Reyes (Practice Manager, Brannock Ortho)
+---
+Tess Harlow: Hi Paloma, thanks for making time. This is just a routine check-in, nothing formal. How are things going at Brannock?
+
+Paloma Reyes: Hi Tess. Things are good. Busy, but good. The summer rush of back-to-school appointments is winding down a bit.
+
+Tess Harlow: Glad to hear it. How are the front desk teams doing with the patient scheduling dashboards?
+
+Paloma Reyes: They use them every day. Each morning the front desk pulls up the dashboard to see open chair times and cancellations, and it has become part of the routine at all of our locations.
+
+Tess Harlow: That's great. On our side, I see about 25 of your 30 licensed seats active each week, which looks healthy.
+
+Paloma Reyes: That sounds right. A few people are part-time or float between offices, so they don't log in as often.
+
+Tess Harlow: Makes sense. Have you run into any issues, or anything that's been frustrating for the team?
+
+Paloma Reyes: Honestly, no. No issues on our end. The team would tell me quickly if something wasn't working.
+
+Tess Harlow: Good. Is there anything you'd like to see us add or change, even small things?
+
+Paloma Reyes: Nothing right now. If that changes, I'll reach out.
+
+Tess Harlow: Perfect. I'll check in again next month, and you can email me anytime in between.
+
+Paloma Reyes: Sounds good, Tess. Thanks for checking in.

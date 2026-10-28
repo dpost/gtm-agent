@@ -1,0 +1,30 @@
+transcript_id: T-0016
+account_id: ACC-017
+date: 2026-09-15
+call_type: Check-in
+contact_ids: CON-041
+participants: Tess Harlow (Larkspur Analytics, account owner); Becca Lowry (Ecommerce Manager, Orrin Pets)
+---
+Tess Harlow: Thanks for making time, Becca. I wanted to check in before we get into the November renewal. How are things going on the online store side?
+
+Becca Lowry: Honestly, it's been a quieter stretch. We lost two of our three analysts this summer, so most of those seats are sitting unused.
+
+Tess Harlow: I saw that in the usage numbers. About 15 of your 25 licensed seats are active each week, so that lines up with what you're describing.
+
+Becca Lowry: Right. And the people still here are stretched thin. They mostly stick to the core dashboards and don't have time to explore anything new.
+
+Tess Harlow: That makes sense. Is the team likely to grow back, or is this the shape for the next year?
+
+Becca Lowry: I don't know yet. Leadership hasn't said anything about backfilling, so I'd plan as if it stays small.
+
+Tess Harlow: Okay. I'd rather be upfront with you than wait until November. Are you thinking about reducing seats at renewal?
+
+Becca Lowry: It's something I have to look at. I can't justify paying for seats nobody logs into, and finance will ask the same question.
+
+Tess Harlow: Fair. I can put together a view of who is active and what they use most, so you have something concrete to bring to finance.
+
+Becca Lowry: That would help. I'd like to see it before I talk to my director.
+
+Tess Harlow: I'll send it this week, and we can set up a short call afterward to talk through options for the renewal.
+
+Becca Lowry: Sounds good. Thanks for not making this awkward.

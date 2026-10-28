@@ -1,0 +1,32 @@
+transcript_id: T-0030
+account_id: ACC-031
+date: 2026-06-18
+call_type: QBR
+contact_ids: CON-049, CON-050
+participants: Sofia Brandt (Larkspur Analytics, account owner); Naomi Kerr (Head of Category Insights, Bramblecote Category); Ralph Dunmore (Commercial Director, Bramblecote Category)
+---
+Sofia Brandt: Thanks for making time, Naomi and Ralph. I'd like to walk through how the promotion and category dashboards have been doing this quarter, then hear what's next on your side.
+
+Naomi Kerr: Happy to. The team has really taken to them. The promotion dashboard is now the first thing people open on Monday mornings.
+
+Sofia Brandt: That matches what I see. About 83 of your 100 licensed seats are active each week, which is strong for a rollout at this stage.
+
+Ralph Dunmore: That's higher than I expected, honestly. Is that mostly the category team, or are the commercial people in there too?
+
+Sofia Brandt: It's a healthy mix. Category managers are the heaviest users, but a good share of your commercial team logs in weekly to check promotion performance.
+
+Naomi Kerr: That fits what I hear. Our planners used to build promotion reviews by hand in spreadsheets. Now they pull the numbers straight from the dashboard and spend their time on what to change.
+
+Ralph Dunmore: And that's what I care about. In the last range review, we made decisions faster because everyone was looking at the same view of category performance.
+
+Sofia Brandt: That's great to hear. Is there anything you wish the dashboards did that they don't yet?
+
+Naomi Kerr: One thing. We'd like an easier way to compare promotion results across regions side by side. Right now we export and combine them ourselves.
+
+Sofia Brandt: Good request. I'll take it to our product team and bring you an update on the next call. I can also set up a short working session for your planners if that helps.
+
+Ralph Dunmore: That would be useful. And I know the renewal comes up in November, but based on what I'm seeing, I don't expect any surprises there.
+
+Sofia Brandt: Appreciate that, Ralph. We'll plan the details closer to the date. For now I'll send the regional comparison notes and a time for the planner session this week.
+
+Naomi Kerr: Perfect. Thanks, Sofia.

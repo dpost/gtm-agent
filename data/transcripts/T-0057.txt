@@ -1,0 +1,30 @@
+transcript_id: T-0057
+account_id: ACC-051
+date: 2026-09-10
+call_type: Check-in
+contact_ids: CON-074
+participants: Riley Chen (Larkspur Analytics, account owner); Wes Calloway (CFO, Penhallow Outdoor)
+---
+Riley Chen: Thanks for making time, Wes. I know you picked this up recently, so I wanted to check in and see how things are going on your side.
+
+Wes Calloway: Happy to. Since Celeste left in July, I've been the main contact for Larkspur here.
+
+Riley Chen: Understood. I'm glad to work with you directly. Do you want a quick look at how the team is using the platform?
+
+Wes Calloway: Yes, please. That's mostly what I'm after. I'm not in the tool every day, so I'd like to hear how it looks from your side.
+
+Riley Chen: Usage is steady. About 52 of your 60 licensed seats are active each week, and that's held pretty consistent over the last few months.
+
+Wes Calloway: That's good to hear. I'd assumed adoption might slip when Celeste left, since she was the one pushing it.
+
+Riley Chen: It hasn't. The merchandising and finance teams are still running their regular reports, and the inventory dashboards get a lot of traffic.
+
+Wes Calloway: The inventory dashboards are what my planning team uses most. They'd notice right away if those went away.
+
+Riley Chen: Then I'll keep that in mind. Is there anything you'd like me to set up for you as the new primary contact?
+
+Wes Calloway: Maybe a short summary each month on usage and which teams are active. I'd rather not log in just to find that out.
+
+Riley Chen: Easy to do. I'll send the first one at the end of the month, and we can adjust the format after you've seen it.
+
+Wes Calloway: Perfect. Thanks, Riley.

@@ -1,0 +1,32 @@
+transcript_id: T-0053
+account_id: ACC-050
+date: 2024-10-30
+call_type: Pricing call
+contact_ids: CON-072
+participants: Mei Lindqvist (Larkspur Analytics, account owner); Tilde Sorensen (COO, Kinsale)
+---
+Mei Lindqvist: Thanks for making time, Tilde. I wanted to walk through the pricing proposal for Kinsale's first deal and hear your reaction.
+
+Tilde Sorensen: Sure. I've read through it with our finance lead. I'll be direct with you so we don't waste your time.
+
+Mei Lindqvist: Please do. That's the most useful thing for me.
+
+Tilde Sorensen: The per-seat price doesn't work for us at this stage of the company.
+
+Mei Lindqvist: Understood. Can you tell me what's driving that? Is it the total, or how the pricing is structured?
+
+Tilde Sorensen: Mostly the structure. We're a growing team, and our operations people, engineers, and plant managers would all want to look at the dashboards. Paying for every seat before we know who actually needs one feels like a bet.
+
+Mei Lindqvist: That makes sense. Since you're new to the platform, nobody can know yet how many people will really use it day to day.
+
+Tilde Sorensen: Exactly. I'd rather start with a small group and expand once we see the value.
+
+Mei Lindqvist: I can work with that. I could scope a smaller starting group of seats, with a clear path to add more as other teams come on. Would that fit better?
+
+Tilde Sorensen: It could. I'd still need to take it back to finance, but a smaller start is a conversation I can have.
+
+Mei Lindqvist: Then let me put together a revised proposal around a starting group. Can you tell me which teams you'd want in first?
+
+Tilde Sorensen: Operations and quality engineering. I'll send you the names by end of week.
+
+Mei Lindqvist: Perfect. I'll build the proposal once I have them and we can review it together.

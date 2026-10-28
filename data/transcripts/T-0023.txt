@@ -1,0 +1,30 @@
+transcript_id: T-0023
+account_id: ACC-025
+date: 2026-06-16
+call_type: QBR
+contact_ids: CON-045
+participants: Abel Okafor (Larkspur Analytics, account owner); Jonah Whitcombe (Director of Admissions Analytics, Tamsworth Admissions)
+---
+Abel Okafor: Hi Jonah, thanks for making time. It's good to see you for the Q2 review. I wanted to start with the admissions funnel dashboards, since I know they were the main focus this spring.
+
+Jonah Whitcombe: Happy to. Honestly, it's been a good quarter. The funnel view from inquiry to application to enrolled is the first thing our team opens on Monday mornings now.
+
+Abel Okafor: That's great to hear. On our side, about 47 of your 55 licensed seats are active each week, which is strong engagement for a team your size.
+
+Jonah Whitcombe: That matches what I see. The counselors picked it up faster than I expected, especially the yield tracking by region.
+
+Abel Okafor: Did the regional breakdown change how they work with prospective students?
+
+Jonah Whitcombe: It did. They can see where applicants stall after submitting and follow up sooner. The director of enrollment pulled that view into her last leadership update, and people liked it.
+
+Abel Okafor: Wonderful. Is there anything on the dashboards you'd still like to see improved?
+
+Jonah Whitcombe: One thing. I'd like a cleaner way to compare this year's funnel against last year's on a single chart. Right now we export and combine it by hand.
+
+Abel Okafor: That's a reasonable request. I'll take it to our product team and write up your use case so they have the details.
+
+Jonah Whitcombe: Perfect. Other than that, we're in a good place and the team is happy.
+
+Abel Okafor: Glad to hear it. I'll send the summary and follow up on the comparison chart, and we'll plan the next review for the fall.
+
+Jonah Whitcombe: Sounds good. Thanks, Abel.

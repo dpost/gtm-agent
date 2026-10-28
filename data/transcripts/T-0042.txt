@@ -1,0 +1,32 @@
+transcript_id: T-0042
+account_id: ACC-043
+date: 2026-04-14
+call_type: Discovery
+contact_ids: CON-062
+participants: Owen Castellano (Larkspur Analytics, account owner); Leon Fairbanks (VP Merchandising, Pemberton Hardware)
+---
+Owen Castellano: Thanks for making time, Leon. I'd like to start with what's prompting this. Your note said the merchandising team wants store-level sales and margin reporting. What's the situation today?
+
+Leon Fairbanks: Right now we get sales by region and by category, and that's about as granular as it goes. If I want to know how a single store is doing on power tools versus fasteners, someone has to pull it by hand. Margin is even harder.
+
+Owen Castellano: When someone pulls it by hand, where does the data come from?
+
+Leon Fairbanks: Point-of-sale exports and a separate cost file from purchasing. An analyst joins them in spreadsheets. It takes a few days, so by the time I see it, it's already stale.
+
+Owen Castellano: That's a common pattern. What decisions are you trying to make with the store-level view?
+
+Leon Fairbanks: Mostly assortment and markdowns. Some stores carry products that barely move, and others run out of what sells. I can't tell which is which without the detail.
+
+Owen Castellano: Makes sense. Who would be using the reporting day to day? Just your merchandising team, or category managers and store operations as well?
+
+Leon Fairbanks: Merchandising first, mainly the category managers. Store operations would want it eventually, but I'd rather prove it out with one group before expanding.
+
+Owen Castellano: That's a sensible way to start. Is there anything about your data setup I should know before we talk about a demo?
+
+Leon Fairbanks: Our cost data is the messy part. Purchasing updates it on their own schedule, so I'd want to understand how that gets handled.
+
+Owen Castellano: Good to flag early. I'll bring our solutions engineer to the next call so we can walk through how cost data gets joined to sales. Could you have someone from purchasing join us?
+
+Leon Fairbanks: Yes, I can bring in our purchasing lead. Send a few times and we'll find one that works.
+
+Owen Castellano: Will do. I'll send options today along with a short list of questions about your data sources so we can prepare.

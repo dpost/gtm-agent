@@ -1,0 +1,30 @@
+transcript_id: T-0017
+account_id: ACC-019
+date: 2026-06-30
+call_type: QBR
+contact_ids: CON-042
+participants: Jordan Pike (Larkspur Analytics, account owner); Hamid Farouk (Fleet Maintenance Director, KTC Fleet)
+---
+Jordan Pike: Hamid, thanks for making time for the quarterly review. Overall it's been a strong quarter on the Fleet Maintenance dashboards. About 62 of your 70 licensed seats are active each week, which is a healthy number.
+
+Hamid Farouk: Glad to hear it. The team really likes it. The technicians and shop supervisors check the dashboards every morning before they plan the day's work.
+
+Jordan Pike: That's what we like to see. Which dashboard are people leaning on most?
+
+Hamid Farouk: The work order backlog view, by far. We can see which depots are falling behind and move people around before it becomes a problem.
+
+Jordan Pike: Good. Has the preventive maintenance schedule view been useful too?
+
+Hamid Farouk: Yes, it has. Supervisors use it in their weekly planning meetings now, so we spend less time arguing about whose numbers are right.
+
+Jordan Pike: That's a nice side effect. With 62 of 70 seats active, there are a few seats that could be put to better use. Do you want help finding who might need a refresher?
+
+Hamid Farouk: Sure. A couple of those are new hires who haven't gotten around to logging in. A short walkthrough would probably do it.
+
+Jordan Pike: Easy enough. I'll set up a thirty minute session for the new hires and send you the invite this week.
+
+Hamid Farouk: Perfect. I'd also like to show the parts inventory view to more of the shop leads, if you can include that.
+
+Jordan Pike: Absolutely, I'll add it to the session. Anything else you'd like on the agenda for the next review?
+
+Hamid Farouk: Not right now. Let's keep the same cadence and see how the new hires do.

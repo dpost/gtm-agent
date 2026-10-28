@@ -1,0 +1,30 @@
+transcript_id: T-0069
+account_id: ACC-059
+date: 2026-09-30
+call_type: Check-in
+contact_ids: CON-082
+participants: Tess Harlow (Larkspur Analytics, account owner); Daniel Ferreira (Lab Technician Supervisor, Rosslyn Dental)
+---
+Tess Harlow: Hi Daniel, thanks for making time. This is just a friendly check-in, nothing formal. How are things at the lab?
+
+Daniel Ferreira: Busy, but in a good way. We're finishing up a big run of crowns and bridges this week, so the team is moving fast.
+
+Tess Harlow: Glad to hear it. I wanted to hear how the case turnaround dashboard is working for you, since you've been the main voice on it.
+
+Daniel Ferreira: I've supervised this lab for nine years, and the turnaround dashboard is the best change we've made.
+
+Tess Harlow: That means a lot. What is it about it that works for you?
+
+Daniel Ferreira: I can see where every case is sitting without walking the floor. If something stalls at the milling step or waits on a shade approval, I catch it the same morning instead of two days later.
+
+Tess Harlow: That's exactly what we hoped it would do. On our side, I see about 16 of your 18 licensed seats active each week, so it looks like the team is using it.
+
+Daniel Ferreira: That sounds right. The two who aren't on much are part-time, and they mostly check in when they cover a shift.
+
+Tess Harlow: Makes sense. Is there anything you'd change or add to the dashboard?
+
+Daniel Ferreira: Nothing urgent. I'd like a simpler way to filter by dentist office, but we can live with it for now.
+
+Tess Harlow: I'll note that down and pass it to our product team. I'll check back with you after the next release notes go out.
+
+Daniel Ferreira: Sounds good. Thanks, Tess.

@@ -1,0 +1,30 @@
+transcript_id: T-0068
+account_id: ACC-058
+date: 2026-09-02
+call_type: Check-in
+contact_ids: CON-080, CON-081
+participants: Sofia Brandt (Larkspur Analytics, account owner); Daniel Ferreira (Data Platform Lead, Halstead Water); Priti Banerjee (Senior Data Engineer, Halstead Water)
+---
+Sofia Brandt: Hi Daniel, hi Priti. Thanks for making time for the check-in. Daniel, I saw you added Priti to the invite. Is there something we should cover first?
+
+Daniel Ferreira: Yes, there is. I've accepted a head of data role at Quaybridge Marine, so I'm handing this over to Priti.
+
+Sofia Brandt: Congratulations, that's great news for you. We'll miss working with you. When is your last day?
+
+Daniel Ferreira: I'm wrapping up over the next few weeks, so there's time for a proper handoff. Priti has been in the platform daily anyway, so she knows it better than most.
+
+Priti Banerjee: That's true, though I haven't been involved in the contract side. Sofia, I'd like to get up to speed on that, plus who to contact when something breaks.
+
+Sofia Brandt: Happy to. For day to day support, you can write to me and I'll route it to the right person. On the contract side, I can send you a summary of the agreement and the admin setup so you have everything in one place.
+
+Priti Banerjee: That would help. How is our usage looking right now?
+
+Sofia Brandt: Healthy. About 63 of your 75 licensed seats are active each week, which is a solid rate for a team your size.
+
+Daniel Ferreira: That matches what I see. A few of the remaining seats were set aside for new hires, so Priti can decide what to do with those.
+
+Priti Banerjee: Okay. I'll review who's assigned and see whether any seats should be reassigned before we talk about renewal.
+
+Sofia Brandt: Sounds good. Let's set a call for next week, just Priti and me, to walk through the admin console and the open items. Daniel, you're welcome to join if your schedule allows.
+
+Daniel Ferreira: I'll try to be there. I'll also write up notes on the dashboards we rely on most and send them to both of you.

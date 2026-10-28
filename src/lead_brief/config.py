@@ -11,6 +11,8 @@ JUDGE_MODEL = "claude-sonnet-5-5"
 AGENT_EFFORT = "medium"
 AGENT_MAX_TOKENS = 16000
 MAX_TOOL_CALLS = 10
+TRANSCRIPT_MODEL = "claude-sonnet-5-5"  # writes transcript prose in scripts/generate_data.py
+TRANSCRIPT_EFFORT = "low"
 
 # Bump these when a prompt or a tool's behavior changes, so eval runs stay comparable.
 PROMPT_VERSION = "agent-v1"

@@ -1,0 +1,30 @@
+transcript_id: T-0018
+account_id: ACC-019
+date: 2026-09-08
+call_type: Check-in
+contact_ids: CON-042
+participants: Jordan Pike (Larkspur Analytics, account owner); Hamid Farouk (Fleet Maintenance Director, KTC Fleet)
+---
+Jordan Pike: Hi Hamid, thanks for making time. This is just a friendly check-in, nothing formal. How are things going in Fleet Maintenance?
+
+Hamid Farouk: Good to hear from you, Jordan. Things are busy but in a good way. Breakdowns are down a fifth since we started using the maintenance dashboards.
+
+Jordan Pike: That's great news. What do you think is making the biggest difference?
+
+Hamid Farouk: The technicians can see repeat faults across the fleet early. We schedule the work before a bus ends up stranded on a route, and the supervisors like that.
+
+Jordan Pike: Glad it's paying off. On our side, about 59 of your 70 licensed seats are active each week, which is strong adoption.
+
+Hamid Farouk: That sounds right. Most of the shop leads open it every morning. A few seats belong to people who changed roles, so I should look at who still needs access.
+
+Jordan Pike: Happy to help with that whenever you're ready. Is there anything you wish the dashboards did better?
+
+Hamid Farouk: One small ask. We want better reporting on parts inventory, mainly which parts we run low on and how that lines up with the repairs we do most.
+
+Jordan Pike: That makes sense, since it ties directly to the breakdown work. Can you send me an example of the report you have in mind?
+
+Hamid Farouk: Sure, I'll send over what the parts team uses today. It's a spreadsheet, nothing fancy.
+
+Jordan Pike: Perfect. I'll review it with our product specialist and come back to you with options.
+
+Hamid Farouk: Sounds good. Thanks, Jordan.

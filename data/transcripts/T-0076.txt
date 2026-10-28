@@ -1,0 +1,30 @@
+transcript_id: T-0076
+account_id: ACC-065
+date: 2026-08-27
+call_type: Check-in
+contact_ids: CON-086
+participants: Abel Okafor (Larkspur Analytics, account owner); Rowan Tate (Store Operations Manager, Stonemere Gardens)
+---
+Abel Okafor: Hi Rowan, thanks for making time. This is just a friendly check-in. How has the season been treating the stores?
+
+Rowan Tate: Busy, in a good way. Late summer is always a mix of clearance on patio items and early fall planting, so there's a lot to keep track of.
+
+Abel Okafor: That's what I wanted to ask about. How are the seasonal sales dashboards working for your team?
+
+Rowan Tate: They've been great, honestly. The store managers pull up the weekly view on Monday mornings and can see which categories are moving. We shifted our mum and shrub orders based on it last week.
+
+Abel Okafor: Glad to hear it. On our side, I see about 17 of your 20 licensed seats active each week, which is a healthy level.
+
+Rowan Tate: That sounds right. Most of the regional leads and store managers are in there regularly. A few of the seats belong to people who only check in now and then.
+
+Abel Okafor: Makes sense. Is there anything about the dashboards you'd like to see work differently?
+
+Rowan Tate: One small thing. It would be nice to compare this season against last season by store without building a custom filter each time.
+
+Abel Okafor: I can show your team how to save that as a reusable view. It takes a few minutes, and everyone with a seat can use it.
+
+Rowan Tate: That would help a lot. I'll have two of the managers join whenever you set it up.
+
+Abel Okafor: Perfect. I'll send a couple of times for next week, and we'll walk through it together.
+
+Rowan Tate: Sounds good. Thanks for checking in, Abel.

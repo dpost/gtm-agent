@@ -1,0 +1,30 @@
+transcript_id: T-0049
+account_id: ACC-046
+date: 2026-07-20
+call_type: Decision call
+contact_ids: CON-068
+participants: Abel Okafor (Larkspur Analytics, account owner); Yolanda Pierce (SVP Finance, Fenwick Retail)
+---
+Abel Okafor: Thanks for making time, Yolanda. I know this is the decision call, so I'd like to hear where Fenwick landed after the evaluation.
+
+Yolanda Pierce: Thanks, Abel. The team liked what they saw, and nobody had concerns about the product. The issue is timing. We're freezing new vendors until the store systems migration finishes next spring.
+
+Abel Okafor: Understood. Is the freeze firm, or is there a path for an exception if the business case is strong?
+
+Yolanda Pierce: It's firm. The migration is taking most of our IT and finance operations bandwidth, and leadership doesn't want any new integrations or onboarding in the middle of it.
+
+Abel Okafor: That makes sense. I'd rather you start when you can give it proper attention than rush it and have it stall.
+
+Yolanda Pierce: I appreciate that. I'd rather be honest now than string you along with a maybe.
+
+Abel Okafor: Appreciated. Would it help if I wrote up the scope your team outlined, so it's ready when the freeze lifts?
+
+Yolanda Pierce: Yes, that would save us time. Keep it to the core reporting needs the merchandising and finance teams described.
+
+Abel Okafor: Will do. I'll send that summary this week, and I'll check in again as the migration wraps up rather than before.
+
+Yolanda Pierce: That works. Once the new systems are stable, I expect this to move quickly.
+
+Abel Okafor: Good. Thanks again, Yolanda. I'll stay in touch and follow up on the summary.
+
+Yolanda Pierce: Thanks, Abel. Talk soon.

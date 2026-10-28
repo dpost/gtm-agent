@@ -1,0 +1,30 @@
+transcript_id: T-0072
+account_id: ACC-063
+date: 2026-09-15
+call_type: Discovery
+contact_ids: CON-084
+participants: Mei Lindqvist (Larkspur Analytics, account owner); Inez Calder (Resorts Revenue Director, Thistlecombe Resort Collection)
+---
+Mei Lindqvist: Thanks for making time, Inez. I'd like to understand how you forecast occupancy today and where it falls short. Can you walk me through the process?
+
+Inez Calder: Sure. Each resort property builds its own forecast in spreadsheets, and I roll them up every week. It works, but the numbers shift a lot close to arrival, and I spend more time reconciling than analyzing.
+
+Mei Lindqvist: What drives most of the shifts? Late bookings, cancellations, group blocks?
+
+Inez Calder: Mostly group blocks and cancellations. Groups release rooms late, and the spreadsheets don't tell us until someone updates them by hand.
+
+Mei Lindqvist: That's common. If the forecast pulled directly from your reservation data and group block status, would that remove most of the manual work?
+
+Inez Calder: It would remove a lot of it. I'd also want to see how the forecast changes from week to week, so I can explain the movement to ownership.
+
+Mei Lindqvist: We can show that kind of week over week comparison. Who else would need to use it besides you?
+
+Inez Calder: My property revenue managers, so a small group to start. If this works for the resorts, the hotels team will want it too.
+
+Mei Lindqvist: Good to know. Let's focus on the resorts first and keep the hotels side in mind when we scope things. Do they use a different reservation system?
+
+Inez Calder: I believe so, but I'd need to confirm with their director. I can set up an introduction after we see a demo.
+
+Mei Lindqvist: That works. I'll send a short list of the data fields we'd need and set up a demo with your revenue managers.
+
+Inez Calder: Perfect. Send the list over and I'll check what we can pull.

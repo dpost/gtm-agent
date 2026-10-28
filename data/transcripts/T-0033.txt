@@ -1,0 +1,30 @@
+transcript_id: T-0033
+account_id: ACC-034
+date: 2026-07-22
+call_type: QBR
+contact_ids: CON-052
+participants: Nikhil Varma (Larkspur Analytics, account owner); Simone Achterberg (Director of Population Health Analytics, NGHS Population Health)
+---
+Nikhil Varma: Thanks for making time, Simone. This is our regular quarterly review, so I'd like to focus on the care gap dashboards and how your team is using them. How have they been working for you?
+
+Simone Achterberg: Pretty well. The care gap dashboards are the first thing the quality team opens on Monday mornings. The cancer screening view gets the most attention right now.
+
+Nikhil Varma: Good to hear. On usage, about 150 of your 180 licensed seats are active each week. That's a healthy level and it's been steady through the quarter.
+
+Simone Achterberg: That matches what I see. The people who aren't logging in weekly are mostly leadership and a few analysts who only need quarterly pulls.
+
+Nikhil Varma: That makes sense. Are there any gaps in the dashboards that are slowing your team down?
+
+Simone Achterberg: One request. The care managers want to filter gaps by clinic location without asking an analyst to rebuild the view. Right now it takes a ticket to us.
+
+Nikhil Varma: I'll take that back to our product team and find out what's possible with the current filters. I can also set up a short working session with your analysts to see if a saved view covers it for now.
+
+Simone Achterberg: That would help. Let's do the working session first.
+
+Nikhil Varma: Will do. Anything else on your side, whether it's about the team or the broader organization?
+
+Simone Achterberg: Only that there's some budget pressure across the hospital system. Nothing concrete has landed on our group, but I wanted you to hear it from me.
+
+Nikhil Varma: Thanks for telling me. If anything changes, let me know early and we'll figure it out together. I'll send over times for the working session this week.
+
+Simone Achterberg: Sounds good. Talk to you then.

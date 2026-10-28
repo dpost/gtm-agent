@@ -1,0 +1,32 @@
+transcript_id: T-0054
+account_id: ACC-050
+date: 2026-05-14
+call_type: Discovery
+contact_ids: CON-071
+participants: Mei Lindqvist (Larkspur Analytics, account owner); Ngozi Eze (Director of Business Intelligence, Kinsale)
+---
+Mei Lindqvist: Thanks for making time again, Ngozi. I know the first conversation didn't go anywhere, so I'd like to use today to listen more and pitch less. Where would you like to start?
+
+Ngozi Eze: Honestly, I'm glad we're trying again. Last time we were in the middle of a plant reporting rebuild and the timing was bad. Now I have a clear picture of what we need, and I'm excited about it.
+
+Mei Lindqvist: Great. What does the picture look like?
+
+Ngozi Eze: We build robotic arms and the controllers that run them. Right now our production data, service tickets, and field telemetry all sit in different systems. My team spends most of its week stitching exports together instead of analyzing anything.
+
+Mei Lindqvist: That's a common pattern. Who ends up consuming the finished reports?
+
+Ngozi Eze: Operations leaders at each plant, the service team, and finance. Everyone wants something a little different, which is why I'd love self-serve dashboards that my analysts build once and others can explore.
+
+Mei Lindqvist: That fits how we license. Analysts who build get one kind of seat, and people who only view and filter can be a lighter group. Do you have a sense of how many of each you'd need?
+
+Ngozi Eze: Not a firm number yet. I'd guess a small builder group on my team and a much larger set of viewers across the plants. I can map that out if it helps.
+
+Mei Lindqvist: It would. A rough breakdown by team lets me scope a pilot properly. What would success look like for you in the first quarter?
+
+Ngozi Eze: One cross-system view of unplanned downtime that service and operations both trust. If we get that, the rest of the case makes itself.
+
+Mei Lindqvist: That's a clear goal. I'll put together a pilot outline around downtime, and we can review it together once you've sketched the team breakdown.
+
+Ngozi Eze: Perfect. I'll send the breakdown by early next week, and I'll bring our lead data engineer to the next call so you can hear the integration questions directly.
+
+Mei Lindqvist: Sounds good. I'll send a short recap today with the open items.

@@ -1,0 +1,30 @@
+transcript_id: T-0058
+account_id: ACC-052
+date: 2026-06-03
+call_type: QBR
+contact_ids: CON-075
+participants: Grace Adeyemi (Larkspur Analytics, account owner); Dmitri Hale (Senior Manager, Sales Operations, Lockridge)
+---
+Grace Adeyemi: Hi Dmitri, thanks for making time today. I wanted to walk through how the recruiter pipeline dashboards have been working for your team this quarter.
+
+Dmitri Hale: Happy to. Honestly, it's been a good quarter. The recruiters check the pipeline view first thing in the morning now, and it's changed how we run our Monday meetings.
+
+Grace Adeyemi: That's great to hear. On our side, about 42 of your 50 licensed seats are active each week, which is a strong level of adoption.
+
+Dmitri Hale: That matches what I see in the admin console. The few who aren't logging in are mostly new hires still getting set up, so I expect that to climb.
+
+Grace Adeyemi: Good. Do you want help getting those new people onboarded? We can run a short session for them.
+
+Dmitri Hale: Yes, please. A half hour walkthrough on the pipeline dashboards would help a lot. Most of the questions I get are about filtering by job requisition.
+
+Grace Adeyemi: I'll cover that specifically. Is there any dashboard you wish worked differently?
+
+Dmitri Hale: The time-to-fill view is useful, but the branch managers want it split by client account. I can build it myself if you point me to the right settings.
+
+Grace Adeyemi: I'll send you a short guide today with the steps. If you get stuck, reply to me and we'll sort it out together.
+
+Dmitri Hale: Perfect. That should keep things moving on our end.
+
+Grace Adeyemi: Wonderful. I'll schedule the onboarding session for the new recruiters and send the guide this afternoon. Thanks again, Dmitri.
+
+Dmitri Hale: Thanks, Grace. Talk soon.

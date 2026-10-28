@@ -1,0 +1,28 @@
+transcript_id: T-0047
+account_id: ACC-045
+date: 2026-03-16
+call_type: Decision call
+contact_ids: CON-066, CON-067
+participants: Sofia Brandt (Larkspur Analytics, account owner); Rosalind Thorne (Analytics Manager, Duskfield); Emeka Obi (VP Operations, Duskfield)
+---
+Sofia Brandt: Thanks for making time, Rosalind and Emeka. I understand you've reached a decision, and I'd like to hear where things landed.
+
+Rosalind Thorne: Yes, we have. We went with another vendor because they already connect to our SCADA historian.
+
+Sofia Brandt: I appreciate you telling me directly. Can you say more about how much that connector mattered in the end?
+
+Emeka Obi: It mattered a lot. My operations team wants the data from the historian in front of them without a custom integration project. Anything that adds months before we see value is hard for me to justify.
+
+Rosalind Thorne: The rest of the evaluation was close. Your dashboards were easier for my analysts to work with, and the team liked the demo. The connector was what tipped it.
+
+Sofia Brandt: That's useful to hear. We don't have a native connector for your historian today, and I won't pretend a workaround would match what you're getting.
+
+Emeka Obi: I appreciate the honesty. If we'd had to build the connection ourselves, the timeline would have been the problem.
+
+Sofia Brandt: Understood. Would it be all right if I checked back with you if that gap gets closed on our side?
+
+Rosalind Thorne: Yes, please do. We'd be open to looking again if the connector exists and the rollout is straightforward.
+
+Emeka Obi: Same from me. Just send a short note when there's something real to show.
+
+Sofia Brandt: I will. Thank you both for the candid feedback, and good luck with the rollout.

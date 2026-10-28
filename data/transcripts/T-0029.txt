@@ -1,0 +1,30 @@
+transcript_id: T-0029
+account_id: ACC-029
+date: 2026-02-18
+call_type: Pricing call
+contact_ids: CON-048
+participants: Owen Castellano (Larkspur Analytics, account owner); Dale Hutchins (Owner, Cobaltline Plumbing)
+---
+Owen Castellano: Dale, thanks for making time. This is the last pricing conversation, so I want to make sure you have what you need to decide. Did you get a chance to look over the proposal?
+
+Dale Hutchins: I did. I read it twice, and I talked it over with my sister, who handles our books. I'll be straight with you, Owen. It doesn't work for us.
+
+Owen Castellano: I appreciate you saying so plainly. Can you tell me where it falls short? Is it the total, or how the seats are structured?
+
+Dale Hutchins: It's the total. For a supply house our size, the price is more than we pay for our whole accounting system.
+
+Owen Castellano: That's a fair comparison, and I understand why it feels out of line. The software is built for companies with larger sales and purchasing teams, so a small shop can end up paying for more than it needs.
+
+Dale Hutchins: That's about how it looked to me. We have a counter crew, two outside reps, and me. I can't justify a reporting tool that costs more than the system that runs our invoices and payroll.
+
+Owen Castellano: Understood. I could look at a smaller seat count, but I don't want to push a version that still feels too heavy for you.
+
+Dale Hutchins: I'd rather not go back and forth on it. Even a smaller version would be a stretch right now. I think we're better off passing.
+
+Owen Castellano: That's completely reasonable, and I'd rather you make the right call for your business than sign something you'll regret. Would it be all right if I checked back in a few months?
+
+Dale Hutchins: Sure, that's fine. If things change on our end, I'll reach out to you.
+
+Owen Castellano: Sounds good. Thanks for your honesty, Dale, and for the time you put into this. I'll send a short note so you have my contact information.
+
+Dale Hutchins: Appreciate it, Owen. Take care.

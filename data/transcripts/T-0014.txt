@@ -1,0 +1,30 @@
+transcript_id: T-0014
+account_id: ACC-016
+date: 2026-07-14
+call_type: QBR
+contact_ids: CON-040
+participants: Lucas Moretti (Larkspur Analytics, account owner); Trevor Nakamura (Director of Manufacturing Engineering, Orrin Mfg Engineering)
+---
+Lucas Moretti: Thanks for making time, Trevor. This is our quarterly review, and I wanted to start with the production line and scrap dashboards, since those have been your team's main focus.
+
+Trevor Nakamura: Happy to. Honestly, they've been the best thing we rolled out this year. The line supervisors check the scrap dashboard at every shift handoff now.
+
+Lucas Moretti: That's great to hear. On the usage side, about 128 of your 160 licensed seats are active each week, which is a strong level for a team your size.
+
+Trevor Nakamura: That matches what I see. The engineers who use it daily are the ones tracking scrap by work cell, and the supervisors mostly use the line view.
+
+Lucas Moretti: Which of the dashboards has changed how you run things the most?
+
+Trevor Nakamura: The scrap breakdown by cause. We used to find out about a bad tooling setup a week later in a report. Now we see it the same day and can fix it before it spreads.
+
+Lucas Moretti: That's exactly the kind of use we hoped for. Is there anything on the production line side you wish it did better?
+
+Trevor Nakamura: A few people asked for a simpler mobile view of the line dashboard for walking the floor. Nothing urgent, but it would get used.
+
+Lucas Moretti: I'll take that back to our product team and send you an update on it. Anything else you'd like to cover today?
+
+Trevor Nakamura: No, this was a good review. I'm pleased with where we are.
+
+Lucas Moretti: Wonderful. I'll send a short summary of today's notes, and we'll plan the next review for the fall.
+
+Trevor Nakamura: Sounds good. Thanks, Lucas.

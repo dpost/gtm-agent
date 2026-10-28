@@ -1,0 +1,30 @@
+transcript_id: T-0032
+account_id: ACC-032
+date: 2026-08-19
+call_type: Check-in
+contact_ids: CON-051
+participants: Priya Nandakumar (Larkspur Analytics, account owner); Hugo Strand (Clinic Operations Manager, Bramblecote Vets)
+---
+Priya Nandakumar: Hi Hugo, thanks for making time. This is just a friendly check-in. How are the scheduling dashboards working across the clinics?
+
+Hugo Strand: They're working well. The clinic managers check them every morning to see appointment loads, and it's made staffing the front desks a lot easier.
+
+Priya Nandakumar: Great to hear. On our side, about 24 of your 30 licensed seats are active each week, which is a healthy number.
+
+Hugo Strand: That sounds right. The six who aren't logging in are mostly people who cover shifts across a few locations and rely on the managers' summaries.
+
+Priya Nandakumar: That makes sense. Is there anyone in that group who would get value from using the dashboards directly?
+
+Hugo Strand: Maybe a couple of them. I'll ask the managers and see who wants regular access.
+
+Priya Nandakumar: Perfect. If it helps, I can run a short walkthrough for them focused on the scheduling views.
+
+Hugo Strand: That would be useful. Most people only need the daily view, so a quick session should be enough.
+
+Priya Nandakumar: Sounds good. Anything about the dashboards you'd change or add?
+
+Hugo Strand: Nothing major. Sometimes the clinics ask for a way to compare appointment loads side by side, but we can work with what we have.
+
+Priya Nandakumar: Thanks, I'll note that as feedback for our product team. I'll send some times for the walkthrough later this week.
+
+Hugo Strand: Sounds great. Thanks, Priya.

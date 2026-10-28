@@ -1,0 +1,30 @@
+transcript_id: T-0073
+account_id: ACC-063
+date: 2026-10-01
+call_type: Follow-up
+contact_ids: CON-084
+participants: Mei Lindqvist (Larkspur Analytics, account owner); Inez Calder (Resorts Revenue Director, Thistlecombe Resort Collection)
+---
+Mei Lindqvist: Hi Inez, thanks for making time today. I wanted to follow up on our last conversation and get a technical session on the calendar, plus confirm which data sources we'll be connecting.
+
+Inez Calder: Sounds good. I talked with our IT lead after the demo, and he's willing to join the session. He'll want to see how the connections work before he signs off on anything.
+
+Mei Lindqvist: That makes sense. Who should I invite from your side besides him?
+
+Inez Calder: Me, and probably someone from our reservations team. They know the booking data better than I do.
+
+Mei Lindqvist: Great. On the data sources, here's what I have from our notes: the property management system, the central reservations system, and the revenue management exports. Is that still right?
+
+Inez Calder: Mostly. We also want to include the spa and dining point-of-sale data eventually. Not for the first phase, but I'd like to know it's possible.
+
+Mei Lindqvist: It is. We can scope it as a second phase so it doesn't slow down the first set of connections.
+
+Inez Calder: Good. One question: some of our resorts run on different property management setups. Will that be a problem?
+
+Mei Lindqvist: Not a blocker, but it's exactly what the technical session should cover. I'll ask our solutions engineer to review the setups ahead of time if you can send me a list of which resort uses which system.
+
+Inez Calder: I can have that to you by the end of the week.
+
+Mei Lindqvist: Perfect. I'll send a few time options for the session tomorrow, and I'll include a short checklist of what your IT lead should have ready.
+
+Inez Calder: That works. Thanks, Mei.

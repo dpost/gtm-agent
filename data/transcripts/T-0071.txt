@@ -1,0 +1,30 @@
+transcript_id: T-0071
+account_id: ACC-060
+date: 2026-09-22
+call_type: Demo
+contact_ids: CON-083
+participants: Jordan Pike (Larkspur Analytics, account owner); Moira Castell (VP Project Controls, Redfern Construction)
+---
+Jordan Pike: Thanks for making time today, Moira. I wanted to follow up on the demo last week and hear what stood out for you and your team.
+
+Moira Castell: Happy to. Honestly, the cost-to-complete dashboard was the highlight. Our project managers spend days pulling that together from spreadsheets right now, so seeing it update from live data got a lot of attention.
+
+Jordan Pike: Glad that landed. Did anyone raise concerns after the session?
+
+Moira Castell: Mostly questions about how it connects to our existing job costing system. Our finance lead wants to be sure the data stays accurate when change orders come through.
+
+Jordan Pike: That's reasonable. I can set up a short technical session with our solutions engineer so your finance lead can walk through the change order flow directly.
+
+Moira Castell: That would help. If we can do that this week or next, I think we have what we need to move forward.
+
+Jordan Pike: Perfect. I'll send a few time options today. On the proposal side, what does your approval process look like so I can plan around it?
+
+Moira Castell: It goes through our CFO, and she reviews purchases in a monthly cycle. Jordan, we'll have your proposal in front of our CFO by mid-November.
+
+Jordan Pike: That works well. I'll get you a draft proposal early so you have time to review it internally before then.
+
+Moira Castell: Great. Send it over with a summary page I can forward, since the CFO prefers a short overview first.
+
+Jordan Pike: Will do. I'll include the one-page summary along with the full detail, and I'll follow up this afternoon with the session times.
+
+Moira Castell: Sounds good. Talk soon.

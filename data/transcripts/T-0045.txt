@@ -1,0 +1,30 @@
+transcript_id: T-0045
+account_id: ACC-044
+date: 2026-06-25
+call_type: Security review
+contact_ids: CON-064, CON-065
+participants: Jordan Pike (Larkspur Analytics, account owner); Valerie Strout (Head of Actuarial Analytics, Silverbrook Mutual); Bernard Oduya (CISO, Silverbrook Mutual)
+---
+Jordan Pike: Thanks for making time, Bernard and Valerie. The goal today is to walk through your security requirements and see where we stand.
+
+Valerie Strout: Thanks, Jordan. The actuarial team is eager to move forward, but this review has to clear first. Bernard, over to you.
+
+Bernard Oduya: Thanks, Valerie. I'll be direct. Our security team won't approve any tool without SAML single sign-on and audit logs, and you couldn't show us either.
+
+Jordan Pike: That's fair, and I'm sorry we couldn't demonstrate them in the earlier session. I don't want to talk around it. I can't show you either capability today.
+
+Bernard Oduya: Then I can't recommend the platform to our review board. Describing a roadmap doesn't satisfy the requirement. We need to see it working in an environment we can test.
+
+Valerie Strout: I'll add that my team is already stretched on manual reporting. We wanted this, but I can't push it past Bernard's group without those controls.
+
+Jordan Pike: Understood. I won't ask you to make an exception. What I can do is take both requirements back to our product and security leads and ask for a written answer on each.
+
+Bernard Oduya: A written answer helps, but it needs to include a live demonstration in a test environment. Otherwise we're back in the same place.
+
+Jordan Pike: Agreed. I'll ask for a demonstration slot as part of that response, and I'll be clear with them that it's a condition for moving forward.
+
+Valerie Strout: For now, let's pause the evaluation. If Larkspur comes back with something concrete, we can reopen it.
+
+Bernard Oduya: That works for me. Send the written response first, and we'll decide then whether a second review is worth scheduling.
+
+Jordan Pike: Will do. Thanks for being straightforward with me, both of you.

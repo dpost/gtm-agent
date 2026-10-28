@@ -5,10 +5,18 @@
     "name": "Dana Ruiz",
     "title": "VP Marketing",
     "email": "dana.ruiz@pellwickfreight.example",
-    "role_tags": ["champion"],
+    "role_tags": [
+      "champion"
+    ],
     "last_updated": "2026-05-12",
     "employment_history": [
-      {"account_id": "ACC-002", "company": "Pellwick Freight", "title": "VP Marketing", "start": "2023-02-01", "end": null}
+      {
+        "account_id": "ACC-002",
+        "company": "Pellwick Freight",
+        "title": "VP Marketing",
+        "start": "2023-02-01",
+        "end": null
+      }
     ]
   },
   {
@@ -17,10 +25,18 @@
     "name": "Sam Whitfield",
     "title": "CMO",
     "email": "sam.whitfield@pellwickfreight.example",
-    "role_tags": ["economic_buyer"],
+    "role_tags": [
+      "economic_buyer"
+    ],
     "last_updated": "2026-05-12",
     "employment_history": [
-      {"account_id": "ACC-002", "company": "Pellwick Freight", "title": "CMO", "start": "2021-09-01", "end": null}
+      {
+        "account_id": "ACC-002",
+        "company": "Pellwick Freight",
+        "title": "CMO",
+        "start": "2021-09-01",
+        "end": null
+      }
     ]
   },
   {
@@ -29,10 +45,1294 @@
     "name": "Imani Brooks",
     "title": "Director of Practice Operations",
     "email": "imani.brooks@pellwickdental.example",
-    "role_tags": ["champion"],
+    "role_tags": [
+      "champion"
+    ],
     "last_updated": "2026-08-20",
     "employment_history": [
-      {"account_id": "ACC-003", "company": "Pellwick Dental Group", "title": "Director of Practice Operations", "start": "2022-04-01", "end": null}
+      {
+        "account_id": "ACC-003",
+        "company": "Pellwick Dental Group",
+        "title": "Director of Practice Operations",
+        "start": "2022-04-01",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-030",
+    "account_id": "ACC-004",
+    "name": "Paloma Reyes",
+    "title": "Practice Manager",
+    "email": "paloma.reyes@brannockortho.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-08-25",
+    "employment_history": [
+      {
+        "account_id": "ACC-004",
+        "company": "Brannock Orthodontics",
+        "title": "Practice Manager",
+        "start": "2020-03-02",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-031",
+    "account_id": "ACC-005",
+    "name": "Beatrix Holm",
+    "title": "Director of Revenue Management",
+    "email": "beatrix.holm@corvanehotels.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-04-10",
+    "employment_history": [
+      {
+        "account_id": "ACC-005",
+        "company": "Corvane Hospitality Group",
+        "title": "Director of Revenue Management",
+        "start": "2019-06-01",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-032",
+    "account_id": "ACC-006",
+    "name": "Harriet Osei",
+    "title": "Paralegal Operations Lead",
+    "email": "harriet.osei@strandmercer.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-09-29",
+    "employment_history": [
+      {
+        "account_id": "ACC-006",
+        "company": "Strand & Mercer Legal",
+        "title": "Paralegal Operations Lead",
+        "start": "2019-01-14",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-033",
+    "account_id": "ACC-006",
+    "name": "Victor Lam",
+    "title": "Managing Partner",
+    "email": "victor.lam@strandmercer.example",
+    "role_tags": [
+      "economic_buyer"
+    ],
+    "last_updated": "2026-03-02",
+    "employment_history": [
+      {
+        "account_id": "ACC-006",
+        "company": "Strand & Mercer Legal",
+        "title": "Managing Partner",
+        "start": "2012-09-01",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-034",
+    "account_id": "ACC-007",
+    "name": "Odile Fournier",
+    "title": "General Manager",
+    "email": "odile.fournier@marloweridgewine.example",
+    "role_tags": [
+      "champion",
+      "economic_buyer"
+    ],
+    "last_updated": "2026-09-21",
+    "employment_history": [
+      {
+        "account_id": "ACC-007",
+        "company": "Marlowe Ridge Winery",
+        "title": "General Manager",
+        "start": "2018-04-01",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-035",
+    "account_id": "ACC-009",
+    "name": "Celia Okonkwo",
+    "title": "SVP Retail Analytics",
+    "email": "celia.okonkwo@halvardfg.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-08-12",
+    "employment_history": [
+      {
+        "account_id": "ACC-009",
+        "company": "Halvard Bank (Retail Banking)",
+        "title": "SVP Retail Analytics",
+        "start": "2017-11-06",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-036",
+    "account_id": "ACC-011",
+    "name": "Gideon Barlow",
+    "title": "VP Finance",
+    "email": "gideon.barlow@ostrandermills.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-09-16",
+    "employment_history": [
+      {
+        "account_id": "ACC-011",
+        "company": "Ostrander Mills (Finance)",
+        "title": "VP Finance",
+        "start": "2020-02-03",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-037",
+    "account_id": "ACC-011",
+    "name": "Lucia Ferrante",
+    "title": "CFO",
+    "email": "lucia.ferrante@ostrandermills.example",
+    "role_tags": [
+      "economic_buyer"
+    ],
+    "last_updated": "2026-07-08",
+    "employment_history": [
+      {
+        "account_id": "ACC-011",
+        "company": "Ostrander Mills (Finance)",
+        "title": "CFO",
+        "start": "2018-05-14",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-038",
+    "account_id": "ACC-014",
+    "name": "Anika Rao",
+    "title": "Director of Clinical Data",
+    "email": "anika.rao@ferncliff.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-09-09",
+    "employment_history": [
+      {
+        "account_id": "ACC-014",
+        "company": "Ferncliff Bioscience (Clinical Operations)",
+        "title": "Director of Clinical Data",
+        "start": "2021-01-11",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-039",
+    "account_id": "ACC-014",
+    "name": "Paul Merriman",
+    "title": "COO",
+    "email": "paul.merriman@ferncliff.example",
+    "role_tags": [
+      "economic_buyer"
+    ],
+    "last_updated": "2026-06-24",
+    "employment_history": [
+      {
+        "account_id": "ACC-014",
+        "company": "Ferncliff Bioscience (Clinical Operations)",
+        "title": "COO",
+        "start": "2016-08-01",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-040",
+    "account_id": "ACC-016",
+    "name": "Trevor Nakamura",
+    "title": "Director of Manufacturing Engineering",
+    "email": "trevor.nakamura@orrinaero.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-09-22",
+    "employment_history": [
+      {
+        "account_id": "ACC-016",
+        "company": "Orrin Aerospace (Manufacturing Engineering)",
+        "title": "Director of Manufacturing Engineering",
+        "start": "2019-10-07",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-041",
+    "account_id": "ACC-017",
+    "name": "Becca Lowry",
+    "title": "Ecommerce Manager",
+    "email": "becca.lowry@orrinpets.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-09-15",
+    "employment_history": [
+      {
+        "account_id": "ACC-017",
+        "company": "Orrin Pet Supply",
+        "title": "Ecommerce Manager",
+        "start": "2021-04-19",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-042",
+    "account_id": "ACC-019",
+    "name": "Hamid Farouk",
+    "title": "Fleet Maintenance Director",
+    "email": "hamid.farouk@kestreltransit.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-09-08",
+    "employment_history": [
+      {
+        "account_id": "ACC-019",
+        "company": "Kestrel Transit (Fleet Maintenance)",
+        "title": "Fleet Maintenance Director",
+        "start": "2015-03-02",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-043",
+    "account_id": "ACC-021",
+    "name": "Isaac Mendel",
+    "title": "VP Claims Operations",
+    "email": "isaac.mendel@glenhollow.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-09-28",
+    "employment_history": [
+      {
+        "account_id": "ACC-021",
+        "company": "Glenhollow Insurance (Claims)",
+        "title": "VP Claims Operations",
+        "start": "2018-07-16",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-044",
+    "account_id": "ACC-023",
+    "name": "Farah Siddiqui",
+    "title": "Director of Retail Analytics",
+    "email": "farah.siddiqui@junipervale.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-09-17",
+    "employment_history": [
+      {
+        "account_id": "ACC-023",
+        "company": "Juniper and Vale (Retail Stores)",
+        "title": "Director of Retail Analytics",
+        "start": "2020-09-08",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-045",
+    "account_id": "ACC-025",
+    "name": "Jonah Whitcombe",
+    "title": "Director of Admissions Analytics",
+    "email": "jonah.whitcombe@tamsworth.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-09-14",
+    "employment_history": [
+      {
+        "account_id": "ACC-025",
+        "company": "Tamsworth University (Admissions)",
+        "title": "Director of Admissions Analytics",
+        "start": "2019-07-01",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-046",
+    "account_id": "ACC-026",
+    "name": "Priyanka Sethi",
+    "title": "Advancement Data Manager",
+    "email": "priyanka.sethi@tamsworth.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-09-24",
+    "employment_history": [
+      {
+        "account_id": "ACC-026",
+        "company": "Tamsworth University (Advancement)",
+        "title": "Advancement Data Manager",
+        "start": "2021-02-15",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-047",
+    "account_id": "ACC-028",
+    "name": "Yvette Laurent",
+    "title": "VP Customer Success",
+    "email": "yvette.laurent@cobaltline.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-09-29",
+    "employment_history": [
+      {
+        "account_id": "ACC-028",
+        "company": "Cobaltline Software (Customer Success)",
+        "title": "VP Customer Success",
+        "start": "2020-11-02",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-048",
+    "account_id": "ACC-029",
+    "name": "Dale Hutchins",
+    "title": "Owner",
+    "email": "dale.hutchins@cobaltlineplumbing.example",
+    "role_tags": [
+      "economic_buyer"
+    ],
+    "last_updated": "2026-02-20",
+    "employment_history": [
+      {
+        "account_id": "ACC-029",
+        "company": "Cobaltline Plumbing Supply",
+        "title": "Owner",
+        "start": "2004-01-05",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-049",
+    "account_id": "ACC-031",
+    "name": "Naomi Kerr",
+    "title": "Head of Category Insights",
+    "email": "naomi.kerr@bramblecote.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-04-02",
+    "employment_history": [
+      {
+        "account_id": "ACC-031",
+        "company": "Bramblecote Foods (Category Management)",
+        "title": "Head of Category Insights",
+        "start": "2020-06-01",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-050",
+    "account_id": "ACC-031",
+    "name": "Ralph Dunmore",
+    "title": "Commercial Director",
+    "email": "ralph.dunmore@bramblecote.example",
+    "role_tags": [
+      "economic_buyer"
+    ],
+    "last_updated": "2026-04-02",
+    "employment_history": [
+      {
+        "account_id": "ACC-031",
+        "company": "Bramblecote Foods (Category Management)",
+        "title": "Commercial Director",
+        "start": "2016-02-15",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-051",
+    "account_id": "ACC-032",
+    "name": "Hugo Strand",
+    "title": "Clinic Operations Manager",
+    "email": "hugo.strand@bramblecotevets.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-08-19",
+    "employment_history": [
+      {
+        "account_id": "ACC-032",
+        "company": "Bramblecote Veterinary Clinics",
+        "title": "Clinic Operations Manager",
+        "start": "2019-05-20",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-052",
+    "account_id": "ACC-034",
+    "name": "Simone Achterberg",
+    "title": "Director of Population Health Analytics",
+    "email": "simone.achterberg@northgatehs.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-06-10",
+    "employment_history": [
+      {
+        "account_id": "ACC-034",
+        "company": "Northgate Health System (Population Health)",
+        "title": "Director of Population Health Analytics",
+        "start": "2018-09-04",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-053",
+    "account_id": "ACC-034",
+    "name": "Gareth Pollard",
+    "title": "CFO",
+    "email": "gareth.pollard@northgatehs.example",
+    "role_tags": [
+      "economic_buyer"
+    ],
+    "last_updated": "2026-06-10",
+    "employment_history": [
+      {
+        "account_id": "ACC-034",
+        "company": "Northgate Health System (Population Health)",
+        "title": "CFO",
+        "start": "2017-01-09",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-054",
+    "account_id": "ACC-037",
+    "name": "Henrietta Vos",
+    "title": "Procurement Analytics Lead",
+    "email": "henrietta.vos@arvelle.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-05-01",
+    "employment_history": [
+      {
+        "account_id": "ACC-037",
+        "company": "Arvelle Chemicals (Procurement)",
+        "title": "Procurement Analytics Lead",
+        "start": "2020-04-13",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-055",
+    "account_id": "ACC-037",
+    "name": "Anders Kjeldsen",
+    "title": "VP Procurement",
+    "email": "anders.kjeldsen@arvelle.example",
+    "role_tags": [
+      "economic_buyer"
+    ],
+    "last_updated": "2026-05-01",
+    "employment_history": [
+      {
+        "account_id": "ACC-037",
+        "company": "Arvelle Chemicals (Procurement)",
+        "title": "VP Procurement",
+        "start": "2015-10-01",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-056",
+    "account_id": "ACC-039",
+    "name": "Rupert Glass",
+    "title": "Director of Network Planning",
+    "email": "rupert.glass@wexmoor.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-03-10",
+    "employment_history": [
+      {
+        "account_id": "ACC-039",
+        "company": "Wexmoor Telecom (Network Planning)",
+        "title": "Director of Network Planning",
+        "start": "2017-06-12",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-057",
+    "account_id": "ACC-039",
+    "name": "Leona Fitz",
+    "title": "CTO",
+    "email": "leona.fitz@wexmoor.example",
+    "role_tags": [
+      "economic_buyer"
+    ],
+    "last_updated": "2026-03-10",
+    "employment_history": [
+      {
+        "account_id": "ACC-039",
+        "company": "Wexmoor Telecom (Network Planning)",
+        "title": "CTO",
+        "start": "2019-01-07",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-058",
+    "account_id": "ACC-039",
+    "name": "Mina Osterberg",
+    "title": "Network Planning Manager",
+    "email": "mina.osterberg@wexmoor.example",
+    "role_tags": [
+      "user"
+    ],
+    "last_updated": "2026-09-29",
+    "employment_history": [
+      {
+        "account_id": "ACC-039",
+        "company": "Wexmoor Telecom (Network Planning)",
+        "title": "Network Planning Manager",
+        "start": "2021-08-02",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-059",
+    "account_id": "ACC-042",
+    "name": "Delphine Arceneaux",
+    "title": "VP Revenue Cycle",
+    "email": "delphine.arceneaux@vantrishealth.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-05-20",
+    "employment_history": [
+      {
+        "account_id": "ACC-042",
+        "company": "Vantris Health Partners (Revenue Cycle)",
+        "title": "VP Revenue Cycle",
+        "start": "2019-03-18",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-060",
+    "account_id": "ACC-042",
+    "name": "Stuart Ingram",
+    "title": "CFO",
+    "email": "stuart.ingram@vantrishealth.example",
+    "role_tags": [
+      "economic_buyer"
+    ],
+    "last_updated": "2026-05-20",
+    "employment_history": [
+      {
+        "account_id": "ACC-042",
+        "company": "Vantris Health Partners (Revenue Cycle)",
+        "title": "CFO",
+        "start": "2016-11-01",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-061",
+    "account_id": "ACC-042",
+    "name": "Kofi Mensah",
+    "title": "Revenue Cycle Analyst",
+    "email": "kofi.mensah@vantrishealth.example",
+    "role_tags": [
+      "user"
+    ],
+    "last_updated": "2026-09-23",
+    "employment_history": [
+      {
+        "account_id": "ACC-042",
+        "company": "Vantris Health Partners (Revenue Cycle)",
+        "title": "Revenue Cycle Analyst",
+        "start": "2022-05-09",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-062",
+    "account_id": "ACC-043",
+    "name": "Leon Fairbanks",
+    "title": "VP Merchandising",
+    "email": "leon.fairbanks@pembertonhw.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-05-29",
+    "employment_history": [
+      {
+        "account_id": "ACC-043",
+        "company": "Pemberton Hardware Co.",
+        "title": "VP Merchandising",
+        "start": "2014-02-03",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-063",
+    "account_id": "ACC-043",
+    "name": "Ida Marchetti",
+    "title": "CFO",
+    "email": "ida.marchetti@pembertonhw.example",
+    "role_tags": [
+      "economic_buyer"
+    ],
+    "last_updated": "2026-05-29",
+    "employment_history": [
+      {
+        "account_id": "ACC-043",
+        "company": "Pemberton Hardware Co.",
+        "title": "CFO",
+        "start": "2018-08-20",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-064",
+    "account_id": "ACC-044",
+    "name": "Valerie Strout",
+    "title": "Head of Actuarial Analytics",
+    "email": "valerie.strout@silverbrookmutual.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-06-30",
+    "employment_history": [
+      {
+        "account_id": "ACC-044",
+        "company": "Silverbrook Mutual Insurance",
+        "title": "Head of Actuarial Analytics",
+        "start": "2017-04-03",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-065",
+    "account_id": "ACC-044",
+    "name": "Bernard Oduya",
+    "title": "CISO",
+    "email": "bernard.oduya@silverbrookmutual.example",
+    "role_tags": [
+      "technical_evaluator"
+    ],
+    "last_updated": "2026-06-30",
+    "employment_history": [
+      {
+        "account_id": "ACC-044",
+        "company": "Silverbrook Mutual Insurance",
+        "title": "CISO",
+        "start": "2020-01-13",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-066",
+    "account_id": "ACC-045",
+    "name": "Rosalind Thorne",
+    "title": "Analytics Manager",
+    "email": "rosalind.thorne@duskfield.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-03-18",
+    "employment_history": [
+      {
+        "account_id": "ACC-045",
+        "company": "Duskfield Energy",
+        "title": "Analytics Manager",
+        "start": "2019-09-09",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-067",
+    "account_id": "ACC-045",
+    "name": "Emeka Obi",
+    "title": "VP Operations",
+    "email": "emeka.obi@duskfield.example",
+    "role_tags": [
+      "economic_buyer"
+    ],
+    "last_updated": "2026-03-18",
+    "employment_history": [
+      {
+        "account_id": "ACC-045",
+        "company": "Duskfield Energy",
+        "title": "VP Operations",
+        "start": "2013-05-06",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-068",
+    "account_id": "ACC-046",
+    "name": "Yolanda Pierce",
+    "title": "SVP Finance",
+    "email": "yolanda.pierce@fenwickretail.example",
+    "role_tags": [
+      "economic_buyer"
+    ],
+    "last_updated": "2026-07-22",
+    "employment_history": [
+      {
+        "account_id": "ACC-046",
+        "company": "Fenwick Retail Group",
+        "title": "SVP Finance",
+        "start": "2016-03-14",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-069",
+    "account_id": "ACC-048",
+    "name": "Bram Hoekstra",
+    "title": "Fleet Planning Director",
+    "email": "bram.hoekstra@graywatership.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-08-14",
+    "employment_history": [
+      {
+        "account_id": "ACC-048",
+        "company": "Graywater Shipping Lines",
+        "title": "Fleet Planning Director",
+        "start": "2015-08-24",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-070",
+    "account_id": "ACC-049",
+    "name": "Shay Mulgrew",
+    "title": "Taproom Operations Manager",
+    "email": "shay.mulgrew@graywaterbrewing.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-09-02",
+    "employment_history": [
+      {
+        "account_id": "ACC-049",
+        "company": "Graywater Brewing Company",
+        "title": "Taproom Operations Manager",
+        "start": "2020-05-01",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-071",
+    "account_id": "ACC-050",
+    "name": "Ngozi Eze",
+    "title": "Director of Business Intelligence",
+    "email": "ngozi.eze@kinsalerobotics.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-05-14",
+    "employment_history": [
+      {
+        "account_id": "ACC-050",
+        "company": "Kinsale Robotics",
+        "title": "Director of Business Intelligence",
+        "start": "2022-02-07",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-072",
+    "account_id": "ACC-050",
+    "name": "Tilde Sorensen",
+    "title": "COO",
+    "email": "tilde.sorensen@kinsalerobotics.example",
+    "role_tags": [
+      "economic_buyer"
+    ],
+    "last_updated": "2026-06-05",
+    "employment_history": [
+      {
+        "account_id": "ACC-050",
+        "company": "Kinsale Robotics",
+        "title": "COO",
+        "start": "2019-03-04",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-073",
+    "account_id": "ACC-051",
+    "name": "Celeste Moravec",
+    "title": "Director of Analytics",
+    "email": "celeste.moravec@penhallow.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-08-04",
+    "employment_history": [
+      {
+        "account_id": "ACC-051",
+        "company": "Penhallow Outdoor Gear",
+        "title": "Director of Analytics",
+        "start": "2021-03-01",
+        "end": "2026-07-31"
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-074",
+    "account_id": "ACC-051",
+    "name": "Wes Calloway",
+    "title": "CFO",
+    "email": "wes.calloway@penhallow.example",
+    "role_tags": [
+      "economic_buyer"
+    ],
+    "last_updated": "2026-09-10",
+    "employment_history": [
+      {
+        "account_id": "ACC-051",
+        "company": "Penhallow Outdoor Gear",
+        "title": "CFO",
+        "start": "2018-10-15",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-075",
+    "account_id": "ACC-052",
+    "name": "Dmitri Hale",
+    "title": "Senior Manager, Sales Operations",
+    "email": "dmitri.hale@lockridgestaffing.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-06-03",
+    "employment_history": [
+      {
+        "account_id": "ACC-052",
+        "company": "Lockridge Staffing",
+        "title": "Senior Manager, Sales Operations",
+        "start": "2022-01-10",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-076",
+    "account_id": "ACC-053",
+    "name": "Lorna Fitzgerald",
+    "title": "Merchandising Analytics Manager",
+    "email": "lorna.fitzgerald@tillery.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-07-08",
+    "employment_history": [
+      {
+        "account_id": "ACC-053",
+        "company": "Tillery Department Stores",
+        "title": "Merchandising Analytics Manager",
+        "start": "2020-05-04",
+        "end": "2026-07-03"
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-077",
+    "account_id": "ACC-054",
+    "name": "Gemma Okoro",
+    "title": "Office Manager",
+    "email": "gemma.okoro@ashbylanedental.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-09-16",
+    "employment_history": [
+      {
+        "account_id": "ACC-054",
+        "company": "Ashby Lane Dental Partners",
+        "title": "Office Manager",
+        "start": "2019-02-11",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-078",
+    "account_id": "ACC-055",
+    "name": "Katherine Moreau",
+    "title": "Finance Systems Manager",
+    "email": "katherine.moreau@corriganfreight.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-06-11",
+    "employment_history": [
+      {
+        "account_id": "ACC-055",
+        "company": "Corrigan Freightways",
+        "title": "Finance Systems Manager",
+        "start": "2019-09-01",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-079",
+    "account_id": "ACC-057",
+    "name": "Samir Qureshi",
+    "title": "Distribution Planning Manager",
+    "email": "samir.qureshi@mossgiel.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-05-27",
+    "employment_history": [
+      {
+        "account_id": "ACC-057",
+        "company": "Mossgiel Group (Distribution)",
+        "title": "Distribution Planning Manager",
+        "start": "2021-06-01",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-080",
+    "account_id": "ACC-058",
+    "name": "Daniel Ferreira",
+    "title": "Data Platform Lead",
+    "email": "daniel.ferreira@halsteadwater.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-05-20",
+    "employment_history": [
+      {
+        "account_id": "ACC-058",
+        "company": "Halstead Water Utility",
+        "title": "Data Platform Lead",
+        "start": "2020-02-03",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-081",
+    "account_id": "ACC-058",
+    "name": "Priti Banerjee",
+    "title": "Senior Data Engineer",
+    "email": "priti.banerjee@halsteadwater.example",
+    "role_tags": [
+      "user"
+    ],
+    "last_updated": "2026-09-02",
+    "employment_history": [
+      {
+        "account_id": "ACC-058",
+        "company": "Halstead Water Utility",
+        "title": "Senior Data Engineer",
+        "start": "2021-07-19",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-082",
+    "account_id": "ACC-059",
+    "name": "Daniel Ferreira",
+    "title": "Lab Technician Supervisor",
+    "email": "daniel.ferreira@rosslyndental.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-09-30",
+    "employment_history": [
+      {
+        "account_id": "ACC-059",
+        "company": "Rosslyn Dental Labs",
+        "title": "Lab Technician Supervisor",
+        "start": "2017-04-10",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-083",
+    "account_id": "ACC-060",
+    "name": "Moira Castell",
+    "title": "VP Project Controls",
+    "email": "moira.castell@redfernbuild.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-09-22",
+    "employment_history": [
+      {
+        "account_id": "ACC-060",
+        "company": "Redfern Construction Ltd",
+        "title": "VP Project Controls",
+        "start": "2016-06-06",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-084",
+    "account_id": "ACC-063",
+    "name": "Inez Calder",
+    "title": "Resorts Revenue Director",
+    "email": "inez.calder@thistlecombe.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-10-01",
+    "employment_history": [
+      {
+        "account_id": "ACC-063",
+        "company": "Thistlecombe Resorts",
+        "title": "Resorts Revenue Director",
+        "start": "2020-01-20",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-085",
+    "account_id": "ACC-064",
+    "name": "Felicity Barrow",
+    "title": "COO",
+    "email": "felicity.barrow@stonemerebrokers.example",
+    "role_tags": [
+      "champion",
+      "economic_buyer"
+    ],
+    "last_updated": "2026-09-25",
+    "employment_history": [
+      {
+        "account_id": "ACC-064",
+        "company": "Stonemere Insurance Brokers",
+        "title": "COO",
+        "start": "2018-03-12",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-086",
+    "account_id": "ACC-065",
+    "name": "Rowan Tate",
+    "title": "Store Operations Manager",
+    "email": "rowan.tate@stonemeregardens.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-08-27",
+    "employment_history": [
+      {
+        "account_id": "ACC-065",
+        "company": "Stonemere Garden Centers",
+        "title": "Store Operations Manager",
+        "start": "2021-03-08",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-087",
+    "account_id": "ACC-066",
+    "name": "Noemi Brandvold",
+    "title": "Director of Customer Analytics",
+    "email": "noemi.brandvold@everhartcu.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-09-25",
+    "employment_history": [
+      {
+        "account_id": "ACC-066",
+        "company": "Everhart Credit Union",
+        "title": "Director of Customer Analytics",
+        "start": "2019-11-04",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-088",
+    "account_id": "ACC-067",
+    "name": "Pavel Novak",
+    "title": "Data Analyst",
+    "email": "pavel.novak@corbelarch.example",
+    "role_tags": [],
+    "last_updated": "2024-09-12",
+    "employment_history": [
+      {
+        "account_id": "ACC-067",
+        "company": "Corbel Architecture Partners",
+        "title": "Data Analyst",
+        "start": "2022-08-01",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-089",
+    "account_id": "ACC-068",
+    "name": "Wilhelmina Royce",
+    "title": "Operations Manager",
+    "email": "wilhelmina.royce@aldertonfoods.example",
+    "role_tags": [],
+    "last_updated": "2024-06-20",
+    "employment_history": [
+      {
+        "account_id": "ACC-068",
+        "company": "Alderton Provisions",
+        "title": "Operations Manager",
+        "start": "2018-04-09",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-090",
+    "account_id": "ACC-068",
+    "name": "Bart Lindahl",
+    "title": "Procurement Manager",
+    "email": "bart.lindahl@aldertonfoods.example",
+    "role_tags": [],
+    "last_updated": "2024-06-20",
+    "employment_history": [
+      {
+        "account_id": "ACC-068",
+        "company": "Alderton Provisions",
+        "title": "Procurement Manager",
+        "start": "2015-07-13",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-091",
+    "account_id": "ACC-053",
+    "name": "Imogen Clarke",
+    "title": "Merchandising Analytics Lead",
+    "email": "imogen.clarke@tillery.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-08-20",
+    "employment_history": [
+      {
+        "account_id": "ACC-053",
+        "company": "Tillery Department Stores",
+        "title": "Merchandising Analytics Lead",
+        "start": "2022-03-14",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-092",
+    "account_id": "ACC-055",
+    "name": "Rafael Ortiz",
+    "title": "Finance Systems Analyst",
+    "email": "rafael.ortiz@corriganfreight.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-09-03",
+    "employment_history": [
+      {
+        "account_id": "ACC-055",
+        "company": "Corrigan Freightways",
+        "title": "Finance Systems Analyst",
+        "start": "2022-10-03",
+        "end": null
+      }
+    ]
+  },
+  {
+    "contact_id": "CON-093",
+    "account_id": "ACC-057",
+    "name": "Hana Sato",
+    "title": "Distribution Planning Manager",
+    "email": "hana.sato@mossgiel.example",
+    "role_tags": [
+      "champion"
+    ],
+    "last_updated": "2026-09-09",
+    "employment_history": [
+      {
+        "account_id": "ACC-057",
+        "company": "Mossgiel Group (Distribution)",
+        "title": "Distribution Planning Manager",
+        "start": "2023-01-16",
+        "end": null
+      }
     ]
   }
 ]

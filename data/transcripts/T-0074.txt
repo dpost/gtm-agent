@@ -1,0 +1,32 @@
+transcript_id: T-0074
+account_id: ACC-064
+date: 2026-08-20
+call_type: Discovery
+contact_ids: CON-085
+participants: Owen Castellano (Larkspur Analytics, account owner); Felicity Barrow (COO, Stonemere Brokers)
+---
+Owen Castellano: Thanks for making time, Felicity. I know the call is about broker commission and retention reporting, but I'd like to hear first how you handle it today.
+
+Felicity Barrow: Right now it's a patchwork. Commission data comes out of our policy admin system, and retention numbers live in spreadsheets that the account managers keep. Finance reconciles them at month end.
+
+Owen Castellano: How long does that reconciliation usually take?
+
+Felicity Barrow: It takes a few days, and by the time I see a retention view it's already stale. I can't tell which brokers are losing clients until a renewal has already lapsed.
+
+Owen Castellano: So the main gap is timing. You'd want to see retention risk before the renewal date, not after.
+
+Felicity Barrow: Exactly. I'd also like commission and retention side by side per broker, because some of our highest earners may have weaker retention than we assume.
+
+Owen Castellano: That's a common pattern. Who would need to use this day to day, you and the account managers, or mostly leadership?
+
+Felicity Barrow: Mostly me, my finance lead, and the four regional managers. I don't want everyone logging in. A small group needs to trust the numbers.
+
+Owen Castellano: That helps with scoping. What would make you comfortable that the numbers are trustworthy?
+
+Felicity Barrow: Seeing it run on our own data. A demo with sample figures won't convince my finance lead.
+
+Owen Castellano: Fair enough. Next step, I'll set up a working session where we load an extract from your policy system and build a commission and retention view together. Could your finance lead join?
+
+Felicity Barrow: Yes, I'll bring her. Send me a list of the fields you'll need and I'll have IT pull the extract.
+
+Owen Castellano: Will do. I'll send the field list today along with a short summary of what we discussed.

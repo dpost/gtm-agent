@@ -1,0 +1,30 @@
+transcript_id: T-0035
+account_id: ACC-037
+date: 2026-07-02
+call_type: QBR
+contact_ids: CON-054
+participants: Lucas Moretti (Larkspur Analytics, account owner); Henrietta Vos (Procurement Analytics Lead, Arvelle Procurement)
+---
+Lucas Moretti: Thanks for making time, Henrietta. This is our regular quarterly review, so I'd like to walk through how the supplier spend dashboards are doing and hear what's working for your team.
+
+Henrietta Vos: Sounds good. We use the supplier spend dashboards a lot, mostly for the category views. The team checks them before every sourcing review.
+
+Lucas Moretti: That matches what I see. About 57 of your 75 licensed seats are active each week, which is a healthy level of use for a team your size.
+
+Henrietta Vos: That sounds right. The 18 who aren't active are mostly people in regional offices who only pull reports now and then.
+
+Lucas Moretti: Understood. Would a short session for those regional folks help, or is it fine as is?
+
+Henrietta Vos: A short session could help. Mainly they need to learn how to filter by supplier tier without asking me to build a view for them.
+
+Lucas Moretti: Easy enough. I can set up a thirty minute walkthrough and record it so new hires can watch it later.
+
+Henrietta Vos: That would be great. Another thing: we'd like the quarter over quarter comparison to show up on the main dashboard instead of a separate tab.
+
+Lucas Moretti: I'll take that to our product team and tell you what they say. Anything else on the dashboards that's slowing your team down?
+
+Henrietta Vos: Nothing big. Load times are fine, and the data refresh has been steady all quarter.
+
+Lucas Moretti: Good to hear. I'll send you a scheduling note for the walkthrough this week, and we'll pick up the comparison view question at our next review.
+
+Henrietta Vos: Perfect. Thanks, Lucas.

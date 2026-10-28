@@ -1,0 +1,195 @@
+{
+  "_about": "Facts each case plants in the synthetic data, written with cases.json and before the data. scripts/generate_data.py plants them and scripts/check_data.py verifies them. Checks: usage (trend healthy or declining), transcript (speaker says this exact sentence), opp (type, status, owner, reason), contact (account, name, last_updated window), meddpicc (champion and its last_updated date), lead_note (the lead's form note contains this text).",
+  "L-001": [
+    {"check": "usage", "account_id": "ACC-002", "trend": "declining"},
+    {"check": "usage", "account_id": "ACC-003", "trend": "healthy"},
+    {"check": "opp", "opp_id": "OPP-004", "account_id": "ACC-002", "type": "renewal", "status": "open", "owner": "Riley Chen"},
+    {"check": "meddpicc", "opp_id": "OPP-004", "champion": "CON-010", "last_updated": "2026-05-12"},
+    {"check": "transcript", "transcript_id": "T-0003", "account_id": "ACC-002", "speaker": "Dana Ruiz", "says": "I'm moving to the Operations team at the end of October."}
+  ],
+  "L-002": [],
+  "L-003": [
+    {"check": "usage", "account_id": "ACC-004", "trend": "healthy"}
+  ],
+  "L-004": [
+    {"check": "opp", "opp_id": "OPP-005", "account_id": "ACC-005", "type": "new_business", "status": "closed_lost", "owner": "Owen Castellano", "closed_lost_reason": "Budget"},
+    {"check": "transcript", "transcript_id": "T-0006", "account_id": "ACC-005", "speaker": "Beatrix Holm", "says": "We can't fit a new analytics contract into this year's budget, so we're going to pass."}
+  ],
+  "L-005": [],
+  "L-006": [
+    {"check": "lead_note", "lead_id": "L-006", "says": "eleven years"},
+    {"check": "contact", "contact_id": "CON-032", "account_id": "ACC-006", "name": "Harriet Osei", "last_updated_after": "2026-09-15"},
+    {"check": "transcript", "transcript_id": "T-0007", "account_id": "ACC-006", "speaker": "Harriet Osei", "says": "I've been running matter reporting here since 2019, and the team relies on it every morning."},
+    {"check": "usage", "account_id": "ACC-006", "trend": "healthy"}
+  ],
+  "L-007": [
+    {"check": "usage", "account_id": "ACC-007", "trend": "declining"},
+    {"check": "opp", "opp_id": "OPP-006", "account_id": "ACC-007", "type": "renewal", "status": "open", "owner": "Sofia Brandt"},
+    {"check": "transcript", "transcript_id": "T-0008", "account_id": "ACC-007", "speaker": "Odile Fournier", "says": "After the harvest numbers came in, the owners want to cut every subscription we can before the December renewal."}
+  ],
+  "L-008": [],
+  "L-009": [
+    {"check": "usage", "account_id": "ACC-009", "trend": "healthy"}
+  ],
+  "L-010": [
+    {"check": "usage", "account_id": "ACC-011", "trend": "healthy"},
+    {"check": "transcript", "transcript_id": "T-0011", "account_id": "ACC-011", "speaker": "Gideon Barlow", "says": "If other teams at Ostrander want to see it, I'm happy to show them what we built."}
+  ],
+  "L-011": [
+    {"check": "usage", "account_id": "ACC-014", "trend": "healthy"},
+    {"check": "transcript", "transcript_id": "T-0013", "account_id": "ACC-014", "speaker": "Anika Rao", "says": "Our trial dashboards are the reason the board review went smoothly this quarter, and I'd gladly tell the lab teams that."}
+  ],
+  "L-012": [
+    {"check": "usage", "account_id": "ACC-016", "trend": "healthy"},
+    {"check": "transcript", "transcript_id": "T-0015", "account_id": "ACC-016", "speaker": "Trevor Nakamura", "says": "Scrap rates are down since we put the line dashboards on the floor, and I'm glad to be a reference inside Orrin."},
+    {"check": "usage", "account_id": "ACC-017", "trend": "declining"},
+    {"check": "opp", "opp_id": "OPP-007", "account_id": "ACC-017", "type": "renewal", "status": "open", "owner": "Tess Harlow"},
+    {"check": "transcript", "transcript_id": "T-0016", "account_id": "ACC-017", "speaker": "Becca Lowry", "says": "We lost two of our three analysts this summer, so most of those seats are sitting unused."}
+  ],
+  "L-013": [
+    {"check": "usage", "account_id": "ACC-019", "trend": "healthy"},
+    {"check": "transcript", "transcript_id": "T-0018", "account_id": "ACC-019", "speaker": "Hamid Farouk", "says": "Breakdowns are down a fifth since we started using the maintenance dashboards."}
+  ],
+  "L-014": [
+    {"check": "usage", "account_id": "ACC-021", "trend": "healthy"},
+    {"check": "transcript", "transcript_id": "T-0020", "account_id": "ACC-021", "speaker": "Isaac Mendel", "says": "We're adding thirty seats next quarter because the adjusters keep asking for access."}
+  ],
+  "L-015": [
+    {"check": "usage", "account_id": "ACC-023", "trend": "healthy"},
+    {"check": "transcript", "transcript_id": "T-0022", "account_id": "ACC-023", "speaker": "Farah Siddiqui", "says": "Store managers check the weekly sell-through dashboard before anything else on Monday."}
+  ],
+  "L-016": [
+    {"check": "usage", "account_id": "ACC-025", "trend": "healthy"},
+    {"check": "usage", "account_id": "ACC-026", "trend": "healthy"},
+    {"check": "transcript", "transcript_id": "T-0024", "account_id": "ACC-025", "speaker": "Jonah Whitcombe", "says": "The yield forecast was within two percent this cycle, which is the best we've ever done."},
+    {"check": "transcript", "transcript_id": "T-0026", "account_id": "ACC-026", "speaker": "Priyanka Sethi", "says": "Our gift officers plan their whole week from the donor dashboards now."}
+  ],
+  "L-017": [
+    {"check": "usage", "account_id": "ACC-028", "trend": "healthy"},
+    {"check": "transcript", "transcript_id": "T-0028", "account_id": "ACC-028", "speaker": "Yvette Laurent", "says": "Churn risk scoring in Larkspur is the first thing my managers open each morning."},
+    {"check": "opp", "opp_id": "OPP-008", "account_id": "ACC-029", "type": "new_business", "status": "closed_lost", "owner": "Owen Castellano", "closed_lost_reason": "Price"},
+    {"check": "transcript", "transcript_id": "T-0029", "account_id": "ACC-029", "speaker": "Dale Hutchins", "says": "For a supply house our size, the price is more than we pay for our whole accounting system."}
+  ],
+  "L-018": [
+    {"check": "usage", "account_id": "ACC-031", "trend": "declining"},
+    {"check": "opp", "opp_id": "OPP-009", "account_id": "ACC-031", "type": "renewal", "status": "open", "owner": "Sofia Brandt"},
+    {"check": "meddpicc", "opp_id": "OPP-009", "champion": "CON-049", "last_updated": "2026-04-02"},
+    {"check": "transcript", "transcript_id": "T-0031", "account_id": "ACC-031", "speaker": "Naomi Kerr", "says": "My last day at Bramblecote is October 16, and nobody has been named to take over the Larkspur work."},
+    {"check": "usage", "account_id": "ACC-032", "trend": "healthy"}
+  ],
+  "L-019": [
+    {"check": "usage", "account_id": "ACC-034", "trend": "declining"},
+    {"check": "opp", "opp_id": "OPP-010", "account_id": "ACC-034", "type": "renewal", "status": "open", "owner": "Nikhil Varma"},
+    {"check": "transcript", "transcript_id": "T-0034", "account_id": "ACC-034", "speaker": "Gareth Pollard", "says": "Finance has put a freeze on all software renewals until January, and anything that renews before then has to come back smaller."}
+  ],
+  "L-020": [
+    {"check": "usage", "account_id": "ACC-037", "trend": "declining"},
+    {"check": "opp", "opp_id": "OPP-011", "account_id": "ACC-037", "type": "renewal", "status": "open", "owner": "Lucas Moretti"},
+    {"check": "transcript", "transcript_id": "T-0036", "account_id": "ACC-037", "speaker": "Henrietta Vos", "says": "We've started a trial of a cheaper tool, and procurement leadership wants a side-by-side before the renewal."}
+  ],
+  "L-021": [
+    {"check": "usage", "account_id": "ACC-039", "trend": "declining"},
+    {"check": "opp", "opp_id": "OPP-012", "account_id": "ACC-039", "type": "renewal", "status": "open", "owner": "Grace Adeyemi"},
+    {"check": "meddpicc", "opp_id": "OPP-012", "champion": "CON-056", "last_updated": "2026-03-10"},
+    {"check": "transcript", "transcript_id": "T-0038", "account_id": "ACC-039", "speaker": "Rupert Glass", "says": "I'm handing Larkspur over to Mina Osterberg because I'm moving to the Europe team next month."},
+    {"check": "transcript", "transcript_id": "T-0039", "account_id": "ACC-039", "speaker": "Mina Osterberg", "says": "Honestly, I'm not sure we'll renew at the current seat count."}
+  ],
+  "L-022": [
+    {"check": "usage", "account_id": "ACC-042", "trend": "declining"},
+    {"check": "opp", "opp_id": "OPP-013", "account_id": "ACC-042", "type": "renewal", "status": "open", "owner": "Kendall Ross"},
+    {"check": "meddpicc", "opp_id": "OPP-013", "champion": "CON-059", "last_updated": "2026-05-20"},
+    {"check": "transcript", "transcript_id": "T-0041", "account_id": "ACC-042", "speaker": "Kofi Mensah", "says": "Delphine left Vantris two weeks ago, and nobody owns the Larkspur rollout now."}
+  ],
+  "L-023": [
+    {"check": "opp", "opp_id": "OPP-014", "account_id": "ACC-043", "type": "new_business", "status": "closed_lost", "owner": "Owen Castellano", "closed_lost_reason": "Price"},
+    {"check": "transcript", "transcript_id": "T-0043", "account_id": "ACC-043", "speaker": "Ida Marchetti", "says": "At sixty-eight thousand a year we can't justify it against what we already spend on spreadsheets."}
+  ],
+  "L-024": [
+    {"check": "opp", "opp_id": "OPP-015", "account_id": "ACC-044", "type": "new_business", "status": "closed_lost", "owner": "Jordan Pike", "closed_lost_reason": "No decision"},
+    {"check": "transcript", "transcript_id": "T-0045", "account_id": "ACC-044", "speaker": "Bernard Oduya", "says": "Our security team won't approve any tool without SAML single sign-on and audit logs, and you couldn't show us either."}
+  ],
+  "L-025": [
+    {"check": "opp", "opp_id": "OPP-016", "account_id": "ACC-045", "type": "new_business", "status": "closed_lost", "owner": "Sofia Brandt", "closed_lost_reason": "Lost to competitor"},
+    {"check": "contact", "contact_id": "CON-066", "account_id": "ACC-045", "name": "Rosalind Thorne"},
+    {"check": "transcript", "transcript_id": "T-0047", "account_id": "ACC-045", "speaker": "Rosalind Thorne", "says": "We went with another vendor because they already connect to our SCADA historian."}
+  ],
+  "L-026": [
+    {"check": "opp", "opp_id": "OPP-017", "account_id": "ACC-046", "type": "new_business", "status": "closed_lost", "owner": "Abel Okafor", "closed_lost_reason": "Timing"},
+    {"check": "transcript", "transcript_id": "T-0049", "account_id": "ACC-046", "speaker": "Yolanda Pierce", "says": "We're freezing new vendors until the store systems migration finishes next spring."}
+  ],
+  "L-027": [
+    {"check": "opp", "opp_id": "OPP-018", "account_id": "ACC-048", "type": "new_business", "status": "closed_lost", "owner": "Jordan Pike", "closed_lost_reason": "Missing feature"},
+    {"check": "transcript", "transcript_id": "T-0051", "account_id": "ACC-048", "speaker": "Bram Hoekstra", "says": "Without a native connector to our vessel tracking feed, my team would still be exporting by hand, so it's a no for now."},
+    {"check": "usage", "account_id": "ACC-049", "trend": "healthy"}
+  ],
+  "L-028": [
+    {"check": "opp", "opp_id": "OPP-019", "account_id": "ACC-050", "type": "new_business", "status": "closed_lost", "owner": "Mei Lindqvist", "closed_lost_reason": "Price"},
+    {"check": "opp", "opp_id": "OPP-020", "account_id": "ACC-050", "type": "new_business", "status": "closed_lost", "owner": "Mei Lindqvist", "closed_lost_reason": "Champion left"},
+    {"check": "transcript", "transcript_id": "T-0053", "account_id": "ACC-050", "speaker": "Tilde Sorensen", "says": "The per-seat price doesn't work for us at this stage of the company."},
+    {"check": "transcript", "transcript_id": "T-0055", "account_id": "ACC-050", "speaker": "Tilde Sorensen", "says": "With Ngozi gone, nobody here will own the rollout, so we're stopping the evaluation."}
+  ],
+  "L-029": [
+    {"check": "lead_note", "lead_id": "L-029", "says": "my previous company"},
+    {"check": "contact", "contact_id": "CON-073", "account_id": "ACC-051", "name": "Celeste Moravec"},
+    {"check": "usage", "account_id": "ACC-051", "trend": "healthy"},
+    {"check": "transcript", "transcript_id": "T-0057", "account_id": "ACC-051", "speaker": "Wes Calloway", "says": "Since Celeste left in July, I've been the main contact for Larkspur here."}
+  ],
+  "L-030": [
+    {"check": "contact", "contact_id": "CON-075", "account_id": "ACC-052", "name": "Dmitri Hale", "last_updated_before": "2026-07-01"},
+    {"check": "usage", "account_id": "ACC-052", "trend": "healthy"},
+    {"check": "transcript", "transcript_id": "T-0059", "account_id": "ACC-052", "speaker": "Dmitri Hale", "says": "This is my last call as Lockridge's Larkspur admin, because I'm starting as head of revenue operations at Brightmoor Payments next month."}
+  ],
+  "L-031": [
+    {"check": "contact", "contact_id": "CON-076", "account_id": "ACC-053", "name": "Lorna Fitzgerald"},
+    {"check": "usage", "account_id": "ACC-053", "trend": "healthy"},
+    {"check": "transcript", "transcript_id": "T-0061", "account_id": "ACC-053", "speaker": "Imogen Clarke", "says": "Lorna moved to Ashby Lane Home in July, so I've taken over the merchandising dashboards."},
+    {"check": "usage", "account_id": "ACC-054", "trend": "declining"},
+    {"check": "opp", "opp_id": "OPP-021", "account_id": "ACC-054", "type": "renewal", "status": "open", "owner": "Nikhil Varma"},
+    {"check": "transcript", "transcript_id": "T-0062", "account_id": "ACC-054", "speaker": "Gemma Okoro", "says": "With two dentists retiring, we're looking hard at every subscription before the November renewal."}
+  ],
+  "L-032": [
+    {"check": "contact", "contact_id": "CON-078", "account_id": "ACC-055", "name": "Katherine Moreau"},
+    {"check": "usage", "account_id": "ACC-055", "trend": "healthy"},
+    {"check": "transcript", "transcript_id": "T-0064", "account_id": "ACC-055", "speaker": "Rafael Ortiz", "says": "Katherine, who everyone calls Kate, set all of this up before she left for Lindale Pharmacy."}
+  ],
+  "L-033": [
+    {"check": "lead_note", "lead_id": "L-033", "says": "Larkspur for the distribution team at Mossgiel"},
+    {"check": "contact", "contact_id": "CON-079", "account_id": "ACC-057", "name": "Samir Qureshi"},
+    {"check": "usage", "account_id": "ACC-057", "trend": "healthy"},
+    {"check": "transcript", "transcript_id": "T-0065", "account_id": "ACC-057", "speaker": "Samir Qureshi", "says": "I rolled this out to every distribution planner myself, so I know it end to end."}
+  ],
+  "L-034": [
+    {"check": "contact", "contact_id": "CON-080", "account_id": "ACC-058", "name": "Daniel Ferreira", "last_updated_before": "2026-07-01"},
+    {"check": "usage", "account_id": "ACC-058", "trend": "healthy"},
+    {"check": "transcript", "transcript_id": "T-0068", "account_id": "ACC-058", "speaker": "Daniel Ferreira", "says": "I've accepted a head of data role at Quaybridge Marine, so I'm handing this over to Priti."},
+    {"check": "contact", "contact_id": "CON-082", "account_id": "ACC-059", "name": "Daniel Ferreira", "last_updated_after": "2026-09-15"},
+    {"check": "transcript", "transcript_id": "T-0069", "account_id": "ACC-059", "speaker": "Daniel Ferreira", "says": "I've supervised this lab for nine years, and the turnaround dashboard is the best change we've made."}
+  ],
+  "L-035": [
+    {"check": "opp", "opp_id": "OPP-022", "account_id": "ACC-060", "type": "new_business", "status": "open", "owner": "Jordan Pike"},
+    {"check": "transcript", "transcript_id": "T-0071", "account_id": "ACC-060", "speaker": "Moira Castell", "says": "Jordan, we'll have your proposal in front of our CFO by mid-November."}
+  ],
+  "L-036": [
+    {"check": "opp", "opp_id": "OPP-023", "account_id": "ACC-063", "type": "new_business", "status": "open", "owner": "Mei Lindqvist"},
+    {"check": "transcript", "transcript_id": "T-0072", "account_id": "ACC-063", "speaker": "Inez Calder", "says": "If this works for the resorts, the hotels team will want it too."}
+  ],
+  "L-037": [
+    {"check": "opp", "opp_id": "OPP-024", "account_id": "ACC-064", "type": "new_business", "status": "open", "owner": "Owen Castellano"},
+    {"check": "transcript", "transcript_id": "T-0075", "account_id": "ACC-064", "speaker": "Felicity Barrow", "says": "Owen, our evaluation team will finish testing by the end of November."},
+    {"check": "usage", "account_id": "ACC-065", "trend": "healthy"}
+  ],
+  "L-038": [
+    {"check": "opp", "opp_id": "OPP-025", "account_id": "ACC-066", "type": "new_business", "status": "open", "owner": "Lucas Moretti"},
+    {"check": "meddpicc", "opp_id": "OPP-025", "champion": "CON-087", "last_updated": "2026-09-25"},
+    {"check": "contact", "contact_id": "CON-087", "account_id": "ACC-066", "name": "Noemi Brandvold"},
+    {"check": "transcript", "transcript_id": "T-0078", "account_id": "ACC-066", "speaker": "Noemi Brandvold", "says": "Lucas, I'll take the proposal to our board on October 20."}
+  ],
+  "L-039": [
+    {"check": "contact", "contact_id": "CON-088", "account_id": "ACC-067", "name": "Pavel Novak", "last_updated_before": "2025-04-01"},
+    {"check": "transcript", "transcript_id": "T-0079", "account_id": "ACC-067", "speaker": "Pavel Novak", "says": "I'm an analyst here, so I can't buy anything, but my director might look at this next year."}
+  ],
+  "L-040": [
+    {"check": "contact", "contact_id": "CON-089", "account_id": "ACC-068", "name": "Wilhelmina Royce", "last_updated_before": "2025-04-01"},
+    {"check": "transcript", "transcript_id": "T-0080", "account_id": "ACC-068", "speaker": "Wilhelmina Royce", "says": "As operations manager at Alderton Foods, I'd want to see this again once our new warehouse opens."}
+  ]
+}

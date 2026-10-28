@@ -1,0 +1,30 @@
+transcript_id: T-0013
+account_id: ACC-014
+date: 2026-09-09
+call_type: Check-in
+contact_ids: CON-038
+participants: Mei Lindqvist (Larkspur Analytics, account owner); Anika Rao (Director of Clinical Data, Ferncliff Clinical Ops)
+---
+Mei Lindqvist: Hi Anika, thanks for making time. I wanted to check in after the board review. How did it go?
+
+Anika Rao: It went really well. Our trial dashboards are the reason the board review went smoothly this quarter, and I'd gladly tell the lab teams that.
+
+Mei Lindqvist: That's great to hear. Which dashboards did the board lean on most?
+
+Anika Rao: Mostly the enrollment and site performance views. The board could see everything in one place, so we spent the time on decisions instead of explaining numbers.
+
+Mei Lindqvist: That's exactly what we hope for. On our side, usage looks healthy. About 125 of your 150 licensed seats are active each week.
+
+Anika Rao: That matches what I see. Most of the clinical data team is in there regularly, and a few of the study managers have picked it up too.
+
+Mei Lindqvist: Are there groups that haven't started yet, or anyone who got stuck?
+
+Anika Rao: A few people on the lab side haven't touched it. They've heard about the board review, so I think they're more curious now.
+
+Mei Lindqvist: I'd be happy to run a short walkthrough for them. We could focus on the views that mattered for the board.
+
+Anika Rao: That would help. Send me a couple of times and I'll get the invite out.
+
+Mei Lindqvist: Will do. I'll email options this week, and I'll keep it to about thirty minutes.
+
+Anika Rao: Perfect. Thanks, Mei.

@@ -1,0 +1,30 @@
+transcript_id: T-0006
+account_id: ACC-005
+date: 2026-04-08
+call_type: Pricing call
+contact_ids: CON-031
+participants: Owen Castellano (Larkspur Analytics, account owner); Beatrix Holm (Director of Revenue Management, Corvane Hotels)
+---
+Owen Castellano: Thanks for making time, Beatrix. I know this is the final pricing conversation, so I wanted to see where things stand after the demo last week.
+
+Beatrix Holm: Thanks, Owen. The team really liked the demo. The pacing views and the forecast dashboards were exactly what my analysts have been asking for.
+
+Owen Castellano: Glad to hear that. Did anything come up when you took the proposal to finance?
+
+Beatrix Holm: It did. We can't fit a new analytics contract into this year's budget, so we're going to pass.
+
+Owen Castellano: I appreciate you telling me directly. Was it the overall amount, or the timing of when the spend would land?
+
+Beatrix Holm: Mostly the timing. The budget was locked before we started looking at this, and there's no room to add a new line item right now.
+
+Owen Castellano: That makes sense. I could look at a smaller starting group of seats, if that would help the proposal fit.
+
+Beatrix Holm: I'd rather not reopen it. Even a smaller version would need approval we won't get this year. I don't want to waste your time.
+
+Owen Castellano: Understood, and you haven't. Would it be alright if I checked back when your planning cycle starts for next year?
+
+Beatrix Holm: Yes, please do. If you reach out early, I can try to get dashboards into the planning conversation.
+
+Owen Castellano: I'll do that, and I'll send a short summary of what your team liked in the demo so it's easy to reference. Thanks again, Beatrix.
+
+Beatrix Holm: Thank you, Owen. I'll look out for it.

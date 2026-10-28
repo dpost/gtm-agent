@@ -1,0 +1,32 @@
+transcript_id: T-0048
+account_id: ACC-046
+date: 2026-06-09
+call_type: Discovery
+contact_ids: CON-068
+participants: Abel Okafor (Larkspur Analytics, account owner); Yolanda Pierce (SVP Finance, Fenwick Retail)
+---
+Abel Okafor: Thanks for making time, Yolanda. I'd like to understand how Finance works with store and category reporting today, and then I can share how Larkspur might fit.
+
+Yolanda Pierce: Sure. Right now each store region sends us its own spreadsheet at month end. My team spends the first week of every month stitching them together before we can look at anything.
+
+Abel Okafor: That sounds slow. When you say category reporting, what are you trying to see that you can't see now?
+
+Yolanda Pierce: Margin by category across all stores, side by side. Today we can see sales by category, but margin lives in a different system, so we only get a rough view.
+
+Abel Okafor: Got it. Who besides Finance would need to use this? Store operations, merchandising?
+
+Yolanda Pierce: Merchandising for sure. Store operations would want a simpler view for their managers. I haven't thought through how many people that is yet.
+
+Abel Okafor: That's fine, we can size it later. Are the sales and margin data in systems you can export from, or is some of it manual?
+
+Yolanda Pierce: Most of it can be exported. A few of our smaller stores still enter numbers by hand, and that's part of the mess.
+
+Abel Okafor: Okay. That's worth flagging to our technical team so we plan for it. What would a good outcome look like for you in the first few months?
+
+Yolanda Pierce: One consistent monthly view by store and by category, and my team spending their time on analysis instead of assembling spreadsheets.
+
+Abel Okafor: That's clear. Next step on my side is a short working session with you and someone from your data team to look at the exports. Does that make sense?
+
+Yolanda Pierce: Yes. I'll ask our data lead to join, and I'll send you a couple of sample files beforehand.
+
+Abel Okafor: Perfect. I'll send a summary of what we covered today and a few times for that session.

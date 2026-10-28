@@ -1,0 +1,30 @@
+transcript_id: T-0021
+account_id: ACC-023
+date: 2026-07-01
+call_type: QBR
+contact_ids: CON-044
+participants: Kendall Ross (Larkspur Analytics, account owner); Farah Siddiqui (Director of Retail Analytics, J&V Retail)
+---
+Kendall Ross: Thanks for making time, Farah. I wanted to walk through how the store sales dashboards have been working for your team this quarter. Overall it looks like a strong one.
+
+Farah Siddiqui: Agreed. The regional managers have really taken to them. Monday morning store reviews now start from the dashboard instead of a spreadsheet someone built over the weekend.
+
+Kendall Ross: That's great to hear. On usage, about 53 of your 60 licensed seats are active each week, which is a healthy level for a rollout this size.
+
+Farah Siddiqui: That matches what I see. The few who aren't logging in are mostly seasonal staff and a couple of people on leave.
+
+Kendall Ross: Makes sense. Which dashboards are getting the most use?
+
+Farah Siddiqui: The store-level sales by category view is the favorite. Managers use it to spot which outdoor gear lines are moving and which are lagging, then adjust their floor displays.
+
+Kendall Ross: Nice. Is there anything you wish it did that it doesn't yet?
+
+Farah Siddiqui: I'd like a cleaner way to compare stores of similar size side by side. Right now I export the data and build that comparison myself.
+
+Kendall Ross: That's a good request. I can set up a session with our solutions team to build a peer-store comparison view with you.
+
+Farah Siddiqui: That would be wonderful. My team would use it every week.
+
+Kendall Ross: Great. I'll send over a few times for that session by end of this week, and we'll pick up from there at our next review.
+
+Farah Siddiqui: Sounds good. Thanks, Kendall.

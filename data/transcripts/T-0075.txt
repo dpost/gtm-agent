@@ -1,0 +1,30 @@
+transcript_id: T-0075
+account_id: ACC-064
+date: 2026-09-25
+call_type: Evaluation kickoff
+contact_ids: CON-085
+participants: Owen Castellano (Larkspur Analytics, account owner); Felicity Barrow (COO, Stonemere Brokers)
+---
+Owen Castellano: Thanks for making time, Felicity. Today is the kickoff for the Stonemere evaluation, so I'd like to confirm goals, who's involved, and the timeline.
+
+Felicity Barrow: Sounds good. Our main goal is to see whether Larkspur can give our brokers a clearer view of renewals and client retention. Right now that data lives in several spreadsheets.
+
+Owen Castellano: That's a common starting point. Will the evaluation team pull from those spreadsheets, or from your policy management system?
+
+Felicity Barrow: Mostly the spreadsheets at first. We can connect the policy system later if the early results look promising.
+
+Owen Castellano: That works. We can load the spreadsheet data into a test workspace and build the first renewal dashboards from it. Who will be on your evaluation team?
+
+Felicity Barrow: Two account managers, one person from finance, and our operations analyst. I'll join the weekly check-ins myself.
+
+Owen Castellano: Great. Do you have a date in mind for wrapping up testing? That helps me plan the training sessions and support.
+
+Felicity Barrow: Owen, our evaluation team will finish testing by the end of November.
+
+Owen Castellano: Understood. I'll build the plan backward from that date, with setup first, then training, then a review session near the end so you can judge the results.
+
+Felicity Barrow: Good. Please send me the plan so I can share it with the team.
+
+Owen Castellano: Will do. I'll also send a short list of the data fields we need from your spreadsheets so your analyst can prepare them.
+
+Felicity Barrow: Perfect. Thanks, Owen.

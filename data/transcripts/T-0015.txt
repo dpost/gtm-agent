@@ -1,0 +1,28 @@
+transcript_id: T-0015
+account_id: ACC-016
+date: 2026-09-22
+call_type: Check-in
+contact_ids: CON-040
+participants: Lucas Moretti (Larkspur Analytics, account owner); Trevor Nakamura (Director of Manufacturing Engineering, Orrin Mfg Engineering)
+---
+Lucas Moretti: Hi Trevor, thanks for making time. This is just a friendly check-in. How are things on the floor?
+
+Trevor Nakamura: Good to hear from you, Lucas. Things are going well. Scrap rates are down since we put the line dashboards on the floor, and I'm glad to be a reference inside Orrin.
+
+Lucas Moretti: That's great to hear, and thank you for that. What changed the most once the dashboards were up?
+
+Trevor Nakamura: Operators can see drift on a line as it happens, so they catch problems earlier. Before, we found out at the end of a shift, and by then we had already made the bad parts.
+
+Lucas Moretti: That makes sense. On our side, usage looks healthy. About 129 of your 160 licensed seats are active each week.
+
+Trevor Nakamura: That sounds right. The line leads and process engineers use it daily. The seats that are quieter are mostly people in other groups who only look at it now and then.
+
+Lucas Moretti: Would it help if I ran a short walkthrough for those folks? Sometimes a quick session shows them what is already built for their area.
+
+Trevor Nakamura: Yes, let's do that. I'll ask my team leads which groups would benefit most and send you a list.
+
+Lucas Moretti: Perfect. I'll hold time for it and share a short agenda once I have your list.
+
+Trevor Nakamura: Sounds good. Thanks, Lucas.
+
+Lucas Moretti: Thank you, Trevor. Talk soon.

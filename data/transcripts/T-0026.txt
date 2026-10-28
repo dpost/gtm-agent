@@ -1,0 +1,30 @@
+transcript_id: T-0026
+account_id: ACC-026
+date: 2026-09-24
+call_type: Check-in
+contact_ids: CON-046
+participants: Abel Okafor (Larkspur Analytics, account owner); Priyanka Sethi (Advancement Data Manager, Tamsworth Advancement)
+---
+Abel Okafor: Hi Priyanka, thanks for making time. This is just a friendly check-in, no agenda beyond hearing how things are going with the dashboards.
+
+Priyanka Sethi: Happy to. Things are going well. Our gift officers plan their whole week from the donor dashboards now.
+
+Abel Okafor: That's great to hear. Is that mostly the portfolio view, or are they using the engagement scores too?
+
+Priyanka Sethi: Both, but the portfolio view is the main one. They open it Monday morning and decide who to call, who to visit, and who to send a note to.
+
+Abel Okafor: On our side, usage looks healthy. About 33 of your 40 licensed seats are active each week.
+
+Priyanka Sethi: That sounds right. The few who aren't in regularly are mostly staff who travel a lot or support roles who only look at reports now and then.
+
+Abel Okafor: Makes sense. Is there anything about the dashboards that slows people down or that they keep asking for?
+
+Priyanka Sethi: A few officers have asked for a way to filter by last contact date. Right now they sort the list by hand.
+
+Abel Okafor: Good request. I'll write it up and bring it to our product team, and I can also show you a saved filter that may get you most of the way there.
+
+Priyanka Sethi: That would help. Send me the steps and I'll pass them along to the team.
+
+Abel Okafor: Will do. I'll email them today, and we can talk again next month.
+
+Priyanka Sethi: Sounds good. Thanks, Abel.

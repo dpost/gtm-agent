@@ -2,7 +2,10 @@
   {
     "account_id": "ACC-001",
     "name": "Pellwick Freight Holdings",
-    "name_variants": ["Pellwick Freight", "Pellwick"],
+    "name_variants": [
+      "Pellwick Freight",
+      "Pellwick"
+    ],
     "parent_account_id": null,
     "domain": "pellwickfreight.example",
     "industry": "Freight and logistics",
@@ -16,7 +19,9 @@
   {
     "account_id": "ACC-002",
     "name": "Pellwick Freight (Marketing)",
-    "name_variants": ["PWF Marketing"],
+    "name_variants": [
+      "PWF Marketing"
+    ],
     "parent_account_id": "ACC-001",
     "domain": "pellwickfreight.example",
     "industry": "Freight and logistics",
@@ -30,7 +35,10 @@
   {
     "account_id": "ACC-003",
     "name": "Pellwick Dental Group",
-    "name_variants": ["Pellwick Dental", "PDG"],
+    "name_variants": [
+      "Pellwick Dental",
+      "PDG"
+    ],
     "parent_account_id": null,
     "domain": "pellwickdental.example",
     "industry": "Dental practice group",
@@ -39,6 +47,1065 @@
     "arr_usd": 24000,
     "licensed_seats": 40,
     "renewal_date": "2027-03-01",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-004",
+    "name": "Brannock Orthodontics",
+    "name_variants": [
+      "Brannock Ortho"
+    ],
+    "parent_account_id": null,
+    "domain": "brannockortho.example",
+    "industry": "Orthodontic practice group",
+    "is_customer": true,
+    "account_owner": "Tess Harlow",
+    "arr_usd": 18000,
+    "licensed_seats": 30,
+    "renewal_date": "2027-02-15",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-005",
+    "name": "Corvane Hospitality Group",
+    "name_variants": [
+      "Corvane Hotels"
+    ],
+    "parent_account_id": null,
+    "domain": "corvanehotels.example",
+    "industry": "Hotels",
+    "is_customer": false,
+    "account_owner": "Owen Castellano",
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-006",
+    "name": "Strand & Mercer Legal",
+    "name_variants": [
+      "Strand Mercer"
+    ],
+    "parent_account_id": null,
+    "domain": "strandmercer.example",
+    "industry": "Law firm",
+    "is_customer": true,
+    "account_owner": "Abel Okafor",
+    "arr_usd": 30000,
+    "licensed_seats": 45,
+    "renewal_date": "2027-05-01",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-007",
+    "name": "Marlowe Ridge Winery",
+    "name_variants": [
+      "Marlowe Ridge",
+      "MRW"
+    ],
+    "parent_account_id": null,
+    "domain": "marloweridgewine.example",
+    "industry": "Winery",
+    "is_customer": true,
+    "account_owner": "Sofia Brandt",
+    "arr_usd": 22000,
+    "licensed_seats": 35,
+    "renewal_date": "2026-12-01",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-008",
+    "name": "Halvard Financial Group",
+    "name_variants": [
+      "Halvard"
+    ],
+    "parent_account_id": null,
+    "domain": "halvardfg.example",
+    "industry": "Banking",
+    "is_customer": false,
+    "account_owner": null,
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-009",
+    "name": "Halvard Bank (Retail Banking)",
+    "name_variants": [
+      "Halvard Retail"
+    ],
+    "parent_account_id": "ACC-008",
+    "domain": "halvardfg.example",
+    "industry": "Banking",
+    "is_customer": true,
+    "account_owner": "Nikhil Varma",
+    "arr_usd": 140000,
+    "licensed_seats": 200,
+    "renewal_date": "2027-06-30",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-010",
+    "name": "Ostrander Mills Inc.",
+    "name_variants": [
+      "Ostrander Mills",
+      "Ostrander"
+    ],
+    "parent_account_id": null,
+    "domain": "ostrandermills.example",
+    "industry": "Paper and packaging",
+    "is_customer": false,
+    "account_owner": null,
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-011",
+    "name": "Ostrander Mills (Finance)",
+    "name_variants": [
+      "Ostrander Finance"
+    ],
+    "parent_account_id": "ACC-010",
+    "domain": "ostrandermills.example",
+    "industry": "Paper and packaging",
+    "is_customer": true,
+    "account_owner": "Priya Nandakumar",
+    "arr_usd": 64000,
+    "licensed_seats": 90,
+    "renewal_date": "2027-04-15",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-012",
+    "name": "Ferncliff Bioscience Holdings",
+    "name_variants": [
+      "Ferncliff Bioscience",
+      "Ferncliff"
+    ],
+    "parent_account_id": null,
+    "domain": "ferncliff.example",
+    "industry": "Biotechnology",
+    "is_customer": false,
+    "account_owner": null,
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-013",
+    "name": "Ferncliff Labs",
+    "name_variants": [
+      "Ferncliff Laboratories"
+    ],
+    "parent_account_id": "ACC-012",
+    "domain": "ferncliff.example",
+    "industry": "Biotechnology",
+    "is_customer": false,
+    "account_owner": null,
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-014",
+    "name": "Ferncliff Bioscience (Clinical Operations)",
+    "name_variants": [
+      "Ferncliff Clinical Ops"
+    ],
+    "parent_account_id": "ACC-012",
+    "domain": "ferncliff.example",
+    "industry": "Biotechnology",
+    "is_customer": true,
+    "account_owner": "Mei Lindqvist",
+    "arr_usd": 98000,
+    "licensed_seats": 150,
+    "renewal_date": "2027-01-31",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-015",
+    "name": "Orrin Aerospace Corporation",
+    "name_variants": [
+      "Orrin Aerospace",
+      "Orrin Aero"
+    ],
+    "parent_account_id": null,
+    "domain": "orrinaero.example",
+    "industry": "Aerospace manufacturing",
+    "is_customer": false,
+    "account_owner": null,
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-016",
+    "name": "Orrin Aerospace (Manufacturing Engineering)",
+    "name_variants": [
+      "Orrin Mfg Engineering"
+    ],
+    "parent_account_id": "ACC-015",
+    "domain": "orrinaero.example",
+    "industry": "Aerospace manufacturing",
+    "is_customer": true,
+    "account_owner": "Lucas Moretti",
+    "arr_usd": 120000,
+    "licensed_seats": 160,
+    "renewal_date": "2027-03-20",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-017",
+    "name": "Orrin Pet Supply",
+    "name_variants": [
+      "Orrin Pets"
+    ],
+    "parent_account_id": null,
+    "domain": "orrinpets.example",
+    "industry": "Pet supply retail",
+    "is_customer": true,
+    "account_owner": "Tess Harlow",
+    "arr_usd": 15000,
+    "licensed_seats": 25,
+    "renewal_date": "2026-11-05",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-018",
+    "name": "Kestrel Transit Corporation",
+    "name_variants": [
+      "Kestrel Transit",
+      "KTC"
+    ],
+    "parent_account_id": null,
+    "domain": "kestreltransit.example",
+    "industry": "Public transit",
+    "is_customer": false,
+    "account_owner": null,
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-019",
+    "name": "Kestrel Transit (Fleet Maintenance)",
+    "name_variants": [
+      "KTC Fleet"
+    ],
+    "parent_account_id": "ACC-018",
+    "domain": "kestreltransit.example",
+    "industry": "Public transit",
+    "is_customer": true,
+    "account_owner": "Jordan Pike",
+    "arr_usd": 52000,
+    "licensed_seats": 70,
+    "renewal_date": "2027-02-28",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-020",
+    "name": "Glenhollow Insurance Group",
+    "name_variants": [
+      "Glenhollow Insurance",
+      "Glenhollow"
+    ],
+    "parent_account_id": null,
+    "domain": "glenhollow.example",
+    "industry": "Insurance",
+    "is_customer": false,
+    "account_owner": null,
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-021",
+    "name": "Glenhollow Insurance (Claims)",
+    "name_variants": [
+      "Glenhollow Claims"
+    ],
+    "parent_account_id": "ACC-020",
+    "domain": "glenhollow.example",
+    "industry": "Insurance",
+    "is_customer": true,
+    "account_owner": "Grace Adeyemi",
+    "arr_usd": 110000,
+    "licensed_seats": 140,
+    "renewal_date": "2027-07-31",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-022",
+    "name": "Juniper and Vale Outfitters",
+    "name_variants": [
+      "Juniper and Vale",
+      "J&V Outfitters"
+    ],
+    "parent_account_id": null,
+    "domain": "junipervale.example",
+    "industry": "Outdoor retail",
+    "is_customer": false,
+    "account_owner": null,
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-023",
+    "name": "Juniper and Vale (Retail Stores)",
+    "name_variants": [
+      "J&V Retail"
+    ],
+    "parent_account_id": "ACC-022",
+    "domain": "junipervale.example",
+    "industry": "Outdoor retail",
+    "is_customer": true,
+    "account_owner": "Kendall Ross",
+    "arr_usd": 47000,
+    "licensed_seats": 60,
+    "renewal_date": "2027-05-15",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-024",
+    "name": "Tamsworth University",
+    "name_variants": [
+      "Tamsworth"
+    ],
+    "parent_account_id": null,
+    "domain": "tamsworth.example",
+    "industry": "Higher education",
+    "is_customer": false,
+    "account_owner": null,
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-025",
+    "name": "Tamsworth University (Admissions)",
+    "name_variants": [
+      "Tamsworth Admissions"
+    ],
+    "parent_account_id": "ACC-024",
+    "domain": "tamsworth.example",
+    "industry": "Higher education",
+    "is_customer": true,
+    "account_owner": "Abel Okafor",
+    "arr_usd": 38000,
+    "licensed_seats": 55,
+    "renewal_date": "2027-08-31",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-026",
+    "name": "Tamsworth University (Advancement)",
+    "name_variants": [
+      "Tamsworth Advancement"
+    ],
+    "parent_account_id": "ACC-024",
+    "domain": "tamsworth.example",
+    "industry": "Higher education",
+    "is_customer": true,
+    "account_owner": "Abel Okafor",
+    "arr_usd": 29000,
+    "licensed_seats": 40,
+    "renewal_date": "2027-08-31",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-027",
+    "name": "Cobaltline Software Inc.",
+    "name_variants": [
+      "Cobaltline Software",
+      "Cobaltline"
+    ],
+    "parent_account_id": null,
+    "domain": "cobaltline.example",
+    "industry": "Software",
+    "is_customer": false,
+    "account_owner": null,
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-028",
+    "name": "Cobaltline Software (Customer Success)",
+    "name_variants": [
+      "Cobaltline CS"
+    ],
+    "parent_account_id": "ACC-027",
+    "domain": "cobaltline.example",
+    "industry": "Software",
+    "is_customer": true,
+    "account_owner": "Riley Chen",
+    "arr_usd": 58000,
+    "licensed_seats": 80,
+    "renewal_date": "2027-01-15",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-029",
+    "name": "Cobaltline Plumbing Supply",
+    "name_variants": [
+      "Cobaltline Plumbing"
+    ],
+    "parent_account_id": null,
+    "domain": "cobaltlineplumbing.example",
+    "industry": "Plumbing wholesale",
+    "is_customer": false,
+    "account_owner": "Owen Castellano",
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-030",
+    "name": "Bramblecote Foods plc",
+    "name_variants": [
+      "Bramblecote Foods",
+      "Bramblecote"
+    ],
+    "parent_account_id": null,
+    "domain": "bramblecote.example",
+    "industry": "Packaged foods",
+    "is_customer": false,
+    "account_owner": null,
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-031",
+    "name": "Bramblecote Foods (Category Management)",
+    "name_variants": [
+      "Bramblecote Category"
+    ],
+    "parent_account_id": "ACC-030",
+    "domain": "bramblecote.example",
+    "industry": "Packaged foods",
+    "is_customer": true,
+    "account_owner": "Sofia Brandt",
+    "arr_usd": 76000,
+    "licensed_seats": 100,
+    "renewal_date": "2026-11-30",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-032",
+    "name": "Bramblecote Veterinary Clinics",
+    "name_variants": [
+      "Bramblecote Vets"
+    ],
+    "parent_account_id": null,
+    "domain": "bramblecotevets.example",
+    "industry": "Veterinary clinics",
+    "is_customer": true,
+    "account_owner": "Priya Nandakumar",
+    "arr_usd": 21000,
+    "licensed_seats": 30,
+    "renewal_date": "2027-04-01",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-033",
+    "name": "Northgate Health System",
+    "name_variants": [
+      "Northgate Health",
+      "NGHS"
+    ],
+    "parent_account_id": null,
+    "domain": "northgatehs.example",
+    "industry": "Hospital system",
+    "is_customer": false,
+    "account_owner": null,
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-034",
+    "name": "Northgate Health System (Population Health)",
+    "name_variants": [
+      "NGHS Population Health"
+    ],
+    "parent_account_id": "ACC-033",
+    "domain": "northgatehs.example",
+    "industry": "Hospital system",
+    "is_customer": true,
+    "account_owner": "Nikhil Varma",
+    "arr_usd": 132000,
+    "licensed_seats": 180,
+    "renewal_date": "2026-12-15",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-035",
+    "name": "Arvelle Group",
+    "name_variants": [
+      "Arvelle"
+    ],
+    "parent_account_id": null,
+    "domain": "arvelle.example",
+    "industry": "Chemicals",
+    "is_customer": false,
+    "account_owner": null,
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-036",
+    "name": "Arvelle Chemicals",
+    "name_variants": [
+      "Arvelle Chem"
+    ],
+    "parent_account_id": "ACC-035",
+    "domain": "arvelle.example",
+    "industry": "Chemicals",
+    "is_customer": false,
+    "account_owner": null,
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-037",
+    "name": "Arvelle Chemicals (Procurement)",
+    "name_variants": [
+      "Arvelle Procurement"
+    ],
+    "parent_account_id": "ACC-036",
+    "domain": "arvelle.example",
+    "industry": "Chemicals",
+    "is_customer": true,
+    "account_owner": "Lucas Moretti",
+    "arr_usd": 54000,
+    "licensed_seats": 75,
+    "renewal_date": "2026-11-12",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-038",
+    "name": "Wexmoor Telecom",
+    "name_variants": [
+      "Wexmoor"
+    ],
+    "parent_account_id": null,
+    "domain": "wexmoor.example",
+    "industry": "Telecommunications",
+    "is_customer": false,
+    "account_owner": null,
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-039",
+    "name": "Wexmoor Telecom (Network Planning)",
+    "name_variants": [
+      "Wexmoor Network Planning"
+    ],
+    "parent_account_id": "ACC-038",
+    "domain": "wexmoor.example",
+    "industry": "Telecommunications",
+    "is_customer": true,
+    "account_owner": "Grace Adeyemi",
+    "arr_usd": 90000,
+    "licensed_seats": 110,
+    "renewal_date": "2026-12-01",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-040",
+    "name": "Vantris Health Partners",
+    "name_variants": [
+      "Vantris Health",
+      "Vantris"
+    ],
+    "parent_account_id": null,
+    "domain": "vantrishealth.example",
+    "industry": "Physician groups",
+    "is_customer": false,
+    "account_owner": null,
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-041",
+    "name": "Clarion Billing",
+    "name_variants": [
+      "Clarion Billing Services, a Vantris Health company"
+    ],
+    "parent_account_id": "ACC-040",
+    "domain": "clarionbilling.example",
+    "industry": "Medical billing",
+    "is_customer": false,
+    "account_owner": null,
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-042",
+    "name": "Vantris Health Partners (Revenue Cycle)",
+    "name_variants": [
+      "Vantris Revenue Cycle"
+    ],
+    "parent_account_id": "ACC-040",
+    "domain": "vantrishealth.example",
+    "industry": "Physician groups",
+    "is_customer": true,
+    "account_owner": "Kendall Ross",
+    "arr_usd": 104000,
+    "licensed_seats": 130,
+    "renewal_date": "2026-11-25",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-043",
+    "name": "Pemberton Hardware Co.",
+    "name_variants": [
+      "Pemberton Hardware",
+      "Pemberton"
+    ],
+    "parent_account_id": null,
+    "domain": "pembertonhw.example",
+    "industry": "Hardware retail",
+    "is_customer": false,
+    "account_owner": "Owen Castellano",
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-044",
+    "name": "Silverbrook Mutual Insurance",
+    "name_variants": [
+      "Silverbrook Mutual",
+      "SMI"
+    ],
+    "parent_account_id": null,
+    "domain": "silverbrookmutual.example",
+    "industry": "Insurance",
+    "is_customer": false,
+    "account_owner": "Jordan Pike",
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-045",
+    "name": "Duskfield Energy",
+    "name_variants": [
+      "Duskfield"
+    ],
+    "parent_account_id": null,
+    "domain": "duskfield.example",
+    "industry": "Energy utility",
+    "is_customer": false,
+    "account_owner": "Sofia Brandt",
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-046",
+    "name": "Fenwick Retail Group",
+    "name_variants": [
+      "Fenwick Retail",
+      "Fenwick"
+    ],
+    "parent_account_id": null,
+    "domain": "fenwickretail.example",
+    "industry": "Home goods retail",
+    "is_customer": false,
+    "account_owner": "Abel Okafor",
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-047",
+    "name": "Fenwick Home Outlet",
+    "name_variants": [
+      "Fenwick Home"
+    ],
+    "parent_account_id": "ACC-046",
+    "domain": "fenwickretail.example",
+    "industry": "Home goods retail",
+    "is_customer": false,
+    "account_owner": null,
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-048",
+    "name": "Graywater Shipping Lines",
+    "name_variants": [
+      "Graywater Shipping"
+    ],
+    "parent_account_id": null,
+    "domain": "graywatership.example",
+    "industry": "Ocean shipping",
+    "is_customer": false,
+    "account_owner": "Jordan Pike",
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-049",
+    "name": "Graywater Brewing Company",
+    "name_variants": [
+      "Graywater Brewing"
+    ],
+    "parent_account_id": null,
+    "domain": "graywaterbrewing.example",
+    "industry": "Brewery",
+    "is_customer": true,
+    "account_owner": "Tess Harlow",
+    "arr_usd": 16000,
+    "licensed_seats": 25,
+    "renewal_date": "2027-02-01",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-050",
+    "name": "Kinsale Robotics",
+    "name_variants": [
+      "Kinsale"
+    ],
+    "parent_account_id": null,
+    "domain": "kinsalerobotics.example",
+    "industry": "Industrial robotics",
+    "is_customer": false,
+    "account_owner": "Mei Lindqvist",
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-051",
+    "name": "Penhallow Outdoor Gear",
+    "name_variants": [
+      "Penhallow Outdoor",
+      "Penhallow"
+    ],
+    "parent_account_id": null,
+    "domain": "penhallow.example",
+    "industry": "Outdoor equipment",
+    "is_customer": true,
+    "account_owner": "Riley Chen",
+    "arr_usd": 44000,
+    "licensed_seats": 60,
+    "renewal_date": "2027-03-31",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-052",
+    "name": "Lockridge Staffing",
+    "name_variants": [
+      "Lockridge"
+    ],
+    "parent_account_id": null,
+    "domain": "lockridgestaffing.example",
+    "industry": "Staffing",
+    "is_customer": true,
+    "account_owner": "Grace Adeyemi",
+    "arr_usd": 36000,
+    "licensed_seats": 50,
+    "renewal_date": "2027-06-15",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-053",
+    "name": "Tillery Department Stores",
+    "name_variants": [
+      "Tillery"
+    ],
+    "parent_account_id": null,
+    "domain": "tillery.example",
+    "industry": "Department stores",
+    "is_customer": true,
+    "account_owner": "Kendall Ross",
+    "arr_usd": 88000,
+    "licensed_seats": 120,
+    "renewal_date": "2027-02-20",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-054",
+    "name": "Ashby Lane Dental Partners",
+    "name_variants": [
+      "Ashby Lane Dental"
+    ],
+    "parent_account_id": null,
+    "domain": "ashbylanedental.example",
+    "industry": "Dental practice group",
+    "is_customer": true,
+    "account_owner": "Nikhil Varma",
+    "arr_usd": 19000,
+    "licensed_seats": 28,
+    "renewal_date": "2026-11-18",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-055",
+    "name": "Corrigan Freightways",
+    "name_variants": [
+      "Corrigan"
+    ],
+    "parent_account_id": null,
+    "domain": "corriganfreight.example",
+    "industry": "Trucking",
+    "is_customer": true,
+    "account_owner": "Lucas Moretti",
+    "arr_usd": 70000,
+    "licensed_seats": 95,
+    "renewal_date": "2027-05-31",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-056",
+    "name": "Mossgiel Group",
+    "name_variants": [
+      "Mossgiel"
+    ],
+    "parent_account_id": null,
+    "domain": "mossgiel.example",
+    "industry": "Wholesale distribution",
+    "is_customer": false,
+    "account_owner": null,
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-057",
+    "name": "Mossgiel Group (Distribution)",
+    "name_variants": [
+      "Mossgiel Distribution"
+    ],
+    "parent_account_id": "ACC-056",
+    "domain": "mossgiel.example",
+    "industry": "Wholesale distribution",
+    "is_customer": true,
+    "account_owner": "Priya Nandakumar",
+    "arr_usd": 61000,
+    "licensed_seats": 85,
+    "renewal_date": "2027-04-30",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-058",
+    "name": "Halstead Water Utility",
+    "name_variants": [
+      "Halstead Water"
+    ],
+    "parent_account_id": null,
+    "domain": "halsteadwater.example",
+    "industry": "Water utility",
+    "is_customer": true,
+    "account_owner": "Sofia Brandt",
+    "arr_usd": 57000,
+    "licensed_seats": 75,
+    "renewal_date": "2027-01-31",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-059",
+    "name": "Rosslyn Dental Labs",
+    "name_variants": [
+      "Rosslyn Dental"
+    ],
+    "parent_account_id": null,
+    "domain": "rosslyndental.example",
+    "industry": "Dental laboratory",
+    "is_customer": true,
+    "account_owner": "Tess Harlow",
+    "arr_usd": 12000,
+    "licensed_seats": 18,
+    "renewal_date": "2027-03-15",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-060",
+    "name": "Redfern Construction Ltd",
+    "name_variants": [
+      "Redfern Construction",
+      "Redfern"
+    ],
+    "parent_account_id": null,
+    "domain": "redfernbuild.example",
+    "industry": "Construction",
+    "is_customer": false,
+    "account_owner": "Jordan Pike",
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-061",
+    "name": "Thistlecombe Hospitality",
+    "name_variants": [
+      "Thistlecombe"
+    ],
+    "parent_account_id": null,
+    "domain": "thistlecombe.example",
+    "industry": "Hotels and resorts",
+    "is_customer": false,
+    "account_owner": "Mei Lindqvist",
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-062",
+    "name": "Thistlecombe Hotels",
+    "name_variants": [
+      "Thistlecombe Hotel Group"
+    ],
+    "parent_account_id": "ACC-061",
+    "domain": "thistlecombe.example",
+    "industry": "Hotels and resorts",
+    "is_customer": false,
+    "account_owner": null,
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-063",
+    "name": "Thistlecombe Resorts",
+    "name_variants": [
+      "Thistlecombe Resort Collection"
+    ],
+    "parent_account_id": "ACC-061",
+    "domain": "thistlecombe.example",
+    "industry": "Hotels and resorts",
+    "is_customer": false,
+    "account_owner": "Mei Lindqvist",
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-064",
+    "name": "Stonemere Insurance Brokers",
+    "name_variants": [
+      "Stonemere Brokers"
+    ],
+    "parent_account_id": null,
+    "domain": "stonemerebrokers.example",
+    "industry": "Insurance brokerage",
+    "is_customer": false,
+    "account_owner": "Owen Castellano",
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-065",
+    "name": "Stonemere Garden Centers",
+    "name_variants": [
+      "Stonemere Gardens"
+    ],
+    "parent_account_id": null,
+    "domain": "stonemeregardens.example",
+    "industry": "Garden retail",
+    "is_customer": true,
+    "account_owner": "Abel Okafor",
+    "arr_usd": 14000,
+    "licensed_seats": 20,
+    "renewal_date": "2027-04-10",
+    "activity": []
+  },
+  {
+    "account_id": "ACC-066",
+    "name": "Everhart Credit Union",
+    "name_variants": [
+      "Everhart CU",
+      "ECU"
+    ],
+    "parent_account_id": null,
+    "domain": "everhartcu.example",
+    "industry": "Credit union",
+    "is_customer": false,
+    "account_owner": "Lucas Moretti",
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-067",
+    "name": "Corbel Architecture Partners",
+    "name_variants": [
+      "Corbel Architecture",
+      "Corbel"
+    ],
+    "parent_account_id": null,
+    "domain": "corbelarch.example",
+    "industry": "Architecture",
+    "is_customer": false,
+    "account_owner": "Grace Adeyemi",
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
+    "activity": []
+  },
+  {
+    "account_id": "ACC-068",
+    "name": "Alderton Provisions",
+    "name_variants": [
+      "Alderton Foods",
+      "Alderton"
+    ],
+    "parent_account_id": null,
+    "domain": "alderton.example",
+    "industry": "Food distribution",
+    "is_customer": false,
+    "account_owner": "Kendall Ross",
+    "arr_usd": null,
+    "licensed_seats": null,
+    "renewal_date": null,
     "activity": []
   }
 ]

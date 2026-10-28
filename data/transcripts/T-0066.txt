@@ -1,0 +1,30 @@
+transcript_id: T-0066
+account_id: ACC-057
+date: 2026-09-09
+call_type: Check-in
+contact_ids: CON-093
+participants: Priya Nandakumar (Larkspur Analytics, account owner); Hana Sato (Distribution Planning Manager, Mossgiel Distribution)
+---
+Priya Nandakumar: Hi Hana, thanks for making time. I understand you've recently stepped into the distribution planning manager role, so congratulations. I wanted to introduce myself properly and see how things are going.
+
+Hana Sato: Thanks, Priya. It's been a busy few weeks. I'm still getting up to speed on what the team uses and what we're paying for.
+
+Priya Nandakumar: That makes sense. I'm the account owner on the Larkspur side, so I'm your point of contact for anything on licensing, training, or support. Would it help if I gave you a quick picture of how your team is using the platform?
+
+Hana Sato: Yes, please. That's exactly what I need.
+
+Priya Nandakumar: Right now you have 85 licensed seats, and about 75 of them are active each week. That's been steady for a while, with no big swings up or down.
+
+Hana Sato: Good to know. Most of that is the planners and the regional coordinators, I think. I haven't looked at who the quiet ten are.
+
+Priya Nandakumar: I can send you a list of the inactive seats by name. Sometimes it's people who changed roles, and sometimes they just never got a proper onboarding.
+
+Hana Sato: That would be useful. If it's an onboarding gap, I'd rather fix that than just reassign the seats.
+
+Priya Nandakumar: Agreed. I can set up a short training session for them if you want. What's working well for your team so far, from what you've seen?
+
+Hana Sato: The weekly demand dashboards are what people mention most. I'd like to understand what else is available for inventory planning, but I need a few more weeks before I know what to ask for.
+
+Priya Nandakumar: No rush. I'll send the inactive seat list this week, and we can schedule a follow-up once you've had time to settle in.
+
+Hana Sato: Sounds good. Thanks, Priya.

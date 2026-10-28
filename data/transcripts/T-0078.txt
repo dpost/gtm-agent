@@ -1,0 +1,32 @@
+transcript_id: T-0078
+account_id: ACC-066
+date: 2026-09-25
+call_type: Proposal review
+contact_ids: CON-087
+participants: Lucas Moretti (Larkspur Analytics, account owner); Noemi Brandvold (Director of Customer Analytics, Everhart CU)
+---
+Lucas Moretti: Thanks for making time, Noemi. I wanted to walk through the proposal together and make sure it answers the questions your team raised last time.
+
+Noemi Brandvold: Appreciate it. I read through it twice. The structure makes sense, especially the phased rollout starting with the member retention group.
+
+Lucas Moretti: Good. We kept the first phase small on purpose so your analysts can get value early before you widen access to other teams.
+
+Noemi Brandvold: That's the part I think the board will like. They tend to worry about big commitments before we've seen results.
+
+Lucas Moretti: That makes sense. Is there anything in the document you'd like me to clarify or adjust before it goes in front of them?
+
+Noemi Brandvold: Two things. Can you add a short page on how data stays inside our environment? Our risk committee will ask about it, and I'd rather answer it in writing up front.
+
+Lucas Moretti: Absolutely. I'll have our solutions engineer draft that page and send it to you for review.
+
+Noemi Brandvold: Perfect. The other thing is the implementation timeline. Could you put it in a simple one-page view instead of the table?
+
+Lucas Moretti: Yes, I'll turn it into a single visual with the main milestones. That will be easier to present.
+
+Noemi Brandvold: Great. Lucas, I'll take the proposal to our board on October 20.
+
+Lucas Moretti: Understood. I'll get you the revised version with both additions well ahead of that, and I'm happy to join a prep call with you beforehand if it would help.
+
+Noemi Brandvold: I may take you up on that. Send the revisions first and we'll see how they look.
+
+Lucas Moretti: Will do. Thanks, Noemi.

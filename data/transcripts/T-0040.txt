@@ -1,0 +1,30 @@
+transcript_id: T-0040
+account_id: ACC-042
+date: 2026-07-15
+call_type: QBR
+contact_ids: CON-059
+participants: Kendall Ross (Larkspur Analytics, account owner); Delphine Arceneaux (VP Revenue Cycle, Vantris Revenue Cycle)
+---
+Kendall Ross: Thanks for making time, Delphine. This is our regular quarterly review, and I want to spend most of it on the claims denial dashboards. How have they been working for your team since April?
+
+Delphine Arceneaux: Pretty well. The denial dashboards are the first thing my managers open on Monday mornings. We use the payer breakdown view to decide which denials to appeal first.
+
+Kendall Ross: That's good to hear. On our side, about 107 of your 130 licensed seats are active each week, which is steady and healthy for a team your size.
+
+Delphine Arceneaux: That matches what I see. The people who aren't logging in are mostly newer staff who still work out of the spreadsheets they were trained on.
+
+Kendall Ross: Would it help if I ran a short onboarding session for them? I could focus on the denial reason code view, since that's what they would use most.
+
+Delphine Arceneaux: Yes, that would help. Let's schedule it for the first half of next month so the new hires can attend together.
+
+Kendall Ross: Done. I'll send a few times this week. Anything about the dashboards you'd like changed?
+
+Delphine Arceneaux: One thing. The filters reset when we switch between physician groups. My analysts have to reselect the same payers every time, and it slows them down.
+
+Kendall Ross: Understood. I'll log that with our product team today and tell you what they say. Anything else?
+
+Delphine Arceneaux: No, that's the main one. Otherwise the team is happy with where things are.
+
+Kendall Ross: Great. I'll send the onboarding times and a short summary of today's notes by end of day tomorrow.
+
+Delphine Arceneaux: Perfect. Talk to you then.

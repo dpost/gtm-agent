@@ -1,0 +1,30 @@
+transcript_id: T-0056
+account_id: ACC-051
+date: 2026-04-22
+call_type: QBR
+contact_ids: CON-073
+participants: Riley Chen (Larkspur Analytics, account owner); Celeste Moravec (Director of Analytics, Penhallow Outdoor)
+---
+Riley Chen: Thanks for making time, Celeste. This is our Q2 review, and I wanted to start by hearing how things have been going on your side.
+
+Celeste Moravec: Honestly, really well. My team has built out a set of dashboards for merchandising and seasonal demand, and people across the company are actually opening them.
+
+Riley Chen: That matches what I see. About 49 of your 60 licensed seats are active each week, which is a strong number for a deployment this size.
+
+Celeste Moravec: That's great to hear. The inventory dashboard has been the big one. Our buyers check it before every planning meeting now, which never used to happen.
+
+Riley Chen: What made that one stick, do you think?
+
+Celeste Moravec: My analysts kept it simple. Three views, clear filters, and they sat with the buyers for the first couple of weeks to get feedback. Adoption took care of itself after that.
+
+Riley Chen: That's a good model. Is there anything about the tool itself that's been getting in your way?
+
+Celeste Moravec: Nothing major. I'd like faster scheduled exports for the regional managers, but that's a wish list item, not a problem.
+
+Riley Chen: I'll note that and pass it to our product team. Would it help if I set up a short session for your analysts on the newer features?
+
+Celeste Moravec: Yes, please. They'd enjoy that, and it would help the newer team members get up to speed.
+
+Riley Chen: Done. I'll send a few times for next week, and we'll plan the next review for the end of the quarter.
+
+Celeste Moravec: Sounds good. Thanks, Riley.

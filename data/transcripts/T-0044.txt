@@ -1,0 +1,34 @@
+transcript_id: T-0044
+account_id: ACC-044
+date: 2026-05-12
+call_type: Discovery
+contact_ids: CON-064
+participants: Jordan Pike (Larkspur Analytics, account owner); Valerie Strout (Head of Actuarial Analytics, Silverbrook Mutual)
+---
+Jordan Pike: Thanks for making time today, Valerie. I'd like to understand how your team handles loss trend reporting now and where it slows you down. Does that work for you?
+
+Valerie Strout: Sure. Right now my team pulls claims data from a few different systems and assembles the trend reports by hand. It takes most of a month after quarter close before leadership sees anything.
+
+Jordan Pike: That's a long lag. Where does most of the time go, the data pulls or the analysis itself?
+
+Valerie Strout: Mostly the prep. Reconciling the claims extracts, fixing coding differences, and rebuilding the same spreadsheets each cycle. The actual analysis is the smaller part, which is frustrating.
+
+Jordan Pike: Understood. When the reports finally reach leadership, what decisions depend on them?
+
+Valerie Strout: Reserving discussions and pricing reviews, mainly. If we spot a trend late, we're reacting instead of adjusting. Our underwriting group has asked more than once for something closer to monthly.
+
+Jordan Pike: So the goal is a faster cycle, ideally monthly, without adding headcount to do the manual prep.
+
+Valerie Strout: Exactly. I also need the numbers to be auditable. Our finance and compliance teams will ask how every figure was produced.
+
+Jordan Pike: That makes sense. Have you looked at any tooling for this yet, or is this early exploration?
+
+Valerie Strout: Early. I've talked it through internally, but nothing formal. I'd need to bring in our IT group before we get far, since the claims data sits in several places.
+
+Jordan Pike: That's a good instinct. Here's what I'd suggest for next steps: I'll send you a short list of questions about your data sources so IT can review them, and then we can schedule a demo built around your loss trend workflow.
+
+Valerie Strout: That works. Send the questions over and I'll get them to IT this week.
+
+Jordan Pike: Will do. I'll follow up after the call with the questions and a couple of times for the demo.
+
+Valerie Strout: Sounds good. Thanks, Jordan.

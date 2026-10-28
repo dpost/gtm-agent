@@ -8,5 +8,395 @@
     "source": "Inbound demo request",
     "created_date": "2026-10-05",
     "form_note": "Looking at options for monthly forecasting and board reporting."
+  },
+  {
+    "lead_id": "L-002",
+    "name": "Ines Valcourt",
+    "title": "Head of Analytics",
+    "company": "Quillfeather Studios",
+    "email": "ines.valcourt@quillfeather.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-02",
+    "form_note": "We want one place to track production budgets across our animation projects."
+  },
+  {
+    "lead_id": "L-003",
+    "name": "Tobias Wren",
+    "title": "VP Operations",
+    "company": "Brannock Logistics",
+    "email": "tobias.wren@brannocklogistics.example",
+    "source": "Webinar signup",
+    "created_date": "2026-10-03",
+    "form_note": "Interested in on-time delivery reporting for our regional carriers."
+  },
+  {
+    "lead_id": "L-004",
+    "name": "Yusuf Adler",
+    "title": "Controller",
+    "company": "Corvane Systems",
+    "email": "yusuf.adler@corvanesystems.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-01",
+    "form_note": "Need faster month-end close reporting."
+  },
+  {
+    "lead_id": "L-005",
+    "name": "Ama Kusi",
+    "title": "Data Lead",
+    "company": "Tidewell Grain Cooperative",
+    "email": "ama.kusi@tidewellgrain.example",
+    "source": "Content download",
+    "created_date": "2026-10-04",
+    "form_note": "Downloaded the harvest forecasting guide."
+  },
+  {
+    "lead_id": "L-006",
+    "name": "Harriet Osei",
+    "title": "Director of Planning",
+    "company": "Lumenfold Packaging",
+    "email": "harriet.osei@lumenfold.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-05",
+    "form_note": "I've run planning here for eleven years and we still do it all in spreadsheets."
+  },
+  {
+    "lead_id": "L-007",
+    "name": "Felix Duarte",
+    "title": "CFO",
+    "company": "Marlowe Ridge Capital",
+    "email": "felix.duarte@marloweridgecap.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-02",
+    "form_note": "Looking for portfolio reporting for our limited partners."
+  },
+  {
+    "lead_id": "L-008",
+    "name": "Noor Haddad",
+    "title": "Operations Analyst",
+    "company": "Sablewood Robotics",
+    "email": "noor.haddad@sablewood.example",
+    "source": "Free trial signup",
+    "created_date": "2026-10-03",
+    "form_note": "Want to try dashboards for our assembly line throughput."
+  },
+  {
+    "lead_id": "L-009",
+    "name": "Wendell Pryce",
+    "title": "Head of Quality",
+    "company": "Halvard Medical Devices",
+    "email": "wendell.pryce@halvardmed.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-04",
+    "form_note": "Tracking complaint trends and corrective action cycle times."
+  },
+  {
+    "lead_id": "L-010",
+    "name": "Maren Solberg",
+    "title": "Director of Supply Chain",
+    "company": "Ostrander Mills",
+    "email": "maren.solberg@ostrandermills.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-01",
+    "form_note": "Our supplier lead times are all over the place and we need better visibility."
+  },
+  {
+    "lead_id": "L-011",
+    "name": "Desmond Achebe",
+    "title": "Lab Operations Manager",
+    "company": "Ferncliff Labs",
+    "email": "desmond.achebe@ferncliff.example",
+    "source": "Webinar signup",
+    "created_date": "2026-10-02",
+    "form_note": "Interested in instrument utilization dashboards."
+  },
+  {
+    "lead_id": "L-012",
+    "name": "Selma Varga",
+    "title": "Head of Program Finance",
+    "company": "Orrin Aerospace",
+    "email": "selma.varga@orrinaero.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-03",
+    "form_note": "Need earned value reporting across programs."
+  },
+  {
+    "lead_id": "L-013",
+    "name": "Ruth Abernathy",
+    "title": "Service Planning Manager",
+    "company": "KTC",
+    "email": "ruth.abernathy@kestreltransit.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-05",
+    "form_note": "Looking at ridership and on-time performance reporting."
+  },
+  {
+    "lead_id": "L-014",
+    "name": "Bianca Torvald",
+    "title": "Marketing Operations Lead",
+    "company": "Glenhollow Insurance",
+    "email": "bianca.torvald@glenhollow.example",
+    "source": "Content download",
+    "created_date": "2026-10-02",
+    "form_note": "Downloaded the campaign attribution guide."
+  },
+  {
+    "lead_id": "L-015",
+    "name": "Oscar Beaumont",
+    "title": "E-commerce Director",
+    "company": "Juniper & Vale",
+    "email": "oscar.beaumont@junipervale.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-04",
+    "form_note": "Want online and store sales in one view."
+  },
+  {
+    "lead_id": "L-016",
+    "name": "Elena Marsh",
+    "title": "Head of Research Operations",
+    "company": "Tamsworth University",
+    "email": "elena.marsh@tamsworth.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-01",
+    "form_note": "We need grant spend reporting across departments."
+  },
+  {
+    "lead_id": "L-017",
+    "name": "Patrick Ndiaye",
+    "title": "Revenue Operations Manager",
+    "company": "Cobaltline Software",
+    "email": "patrick.ndiaye@cobaltline.example",
+    "source": "Free trial signup",
+    "created_date": "2026-10-03",
+    "form_note": "Pipeline reporting for our sales team."
+  },
+  {
+    "lead_id": "L-018",
+    "name": "Ivo Petrakis",
+    "title": "Director of Sales Operations",
+    "company": "Bramblecote Foods",
+    "email": "ivo.petrakis@bramblecote.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-02",
+    "form_note": "Looking for retailer sell-in reporting for the sales team."
+  },
+  {
+    "lead_id": "L-019",
+    "name": "Colette Banner",
+    "title": "Director of HR Analytics",
+    "company": "Northgate Health",
+    "email": "colette.banner@northgatehs.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-03",
+    "form_note": "Nurse staffing and turnover dashboards."
+  },
+  {
+    "lead_id": "L-020",
+    "name": "Tomasz Wilk",
+    "title": "Plant Controller",
+    "company": "Arvelle Chemicals",
+    "email": "tomasz.wilk@arvelle.example",
+    "source": "Webinar signup",
+    "created_date": "2026-10-01",
+    "form_note": "Plant cost reporting."
+  },
+  {
+    "lead_id": "L-021",
+    "name": "Ayla Demir",
+    "title": "Head of Pricing",
+    "company": "Wexmoor Telecom",
+    "email": "ayla.demir@wexmoor.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-04",
+    "form_note": "Need price elasticity analysis for our consumer plans."
+  },
+  {
+    "lead_id": "L-022",
+    "name": "Jasper Quill",
+    "title": "Billing Operations Manager",
+    "company": "Clarion Billing",
+    "email": "jasper.quill@clarionbilling.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-02",
+    "form_note": "Claims denial reporting for our billing team."
+  },
+  {
+    "lead_id": "L-023",
+    "name": "Gwen Halloran",
+    "title": "Director of FP&A",
+    "company": "Pemberton Hardware",
+    "email": "gwen.halloran@pembertonhw.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-03",
+    "form_note": "Store-level P&L reporting."
+  },
+  {
+    "lead_id": "L-024",
+    "name": "Mateo Iglesias",
+    "title": "IT Director",
+    "company": "Silverbrook Mutual",
+    "email": "mateo.iglesias@silverbrookmutual.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-01",
+    "form_note": "Evaluating analytics platforms for the actuarial and claims teams."
+  },
+  {
+    "lead_id": "L-025",
+    "name": "Rosalind Thorne",
+    "title": "Analytics Manager",
+    "company": "Duskfield Energy",
+    "email": "rosalind.thorne@duskfield.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-05",
+    "form_note": "Want to take another look at forecasting tools."
+  },
+  {
+    "lead_id": "L-026",
+    "name": "Hollis Grady",
+    "title": "Director of Store Operations",
+    "company": "Fenwick Home Outlet",
+    "email": "hollis.grady@fenwickretail.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-02",
+    "form_note": "Store labor and foot traffic reporting."
+  },
+  {
+    "lead_id": "L-027",
+    "name": "Anouk Visser",
+    "title": "Head of Logistics Analytics",
+    "company": "Graywater Shipping",
+    "email": "anouk.visser@graywatership.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-04",
+    "form_note": "Port turnaround reporting."
+  },
+  {
+    "lead_id": "L-028",
+    "name": "Bertrand Lacroix",
+    "title": "VP Finance",
+    "company": "Kinsale Robotics",
+    "email": "bertrand.lacroix@kinsalerobotics.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-03",
+    "form_note": "Board reporting and cash forecasting."
+  },
+  {
+    "lead_id": "L-029",
+    "name": "Celeste Moravec",
+    "title": "VP Analytics",
+    "company": "Harrowgate Logistics",
+    "email": "celeste.moravec@harrowgate.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-01",
+    "form_note": "We used Larkspur at my previous company and I want it for my new team."
+  },
+  {
+    "lead_id": "L-030",
+    "name": "Dmitri Hale",
+    "title": "Head of Revenue Operations",
+    "company": "Brightmoor Payments",
+    "email": "dmitri.hale@brightmoorpay.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-02",
+    "form_note": "Need pipeline and quota attainment dashboards."
+  },
+  {
+    "lead_id": "L-031",
+    "name": "Lorna Fitzgerald",
+    "title": "Director of Merchandising Analytics",
+    "company": "Ashby Lane Home",
+    "email": "lorna.fitzgerald@ashbylanehome.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-04",
+    "form_note": "Assortment and markdown reporting."
+  },
+  {
+    "lead_id": "L-032",
+    "name": "Kate Moreau",
+    "title": "Head of Finance Systems",
+    "company": "Lindale Pharmacy",
+    "email": "kate.moreau@lindalepharmacy.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-03",
+    "form_note": "Looking to replace our reporting stack."
+  },
+  {
+    "lead_id": "L-033",
+    "name": "Samir Qureshi",
+    "title": "Director of Planning",
+    "company": "Ellery Cold Storage",
+    "email": "samir.qureshi@ellerycold.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-05",
+    "form_note": "I rolled out Larkspur for the distribution team at Mossgiel and want the same here."
+  },
+  {
+    "lead_id": "L-034",
+    "name": "Daniel Ferreira",
+    "title": "Head of Data",
+    "company": "Quaybridge Marine",
+    "email": "daniel.ferreira@quaybridge.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-02",
+    "form_note": "Building a data team from scratch and need a BI layer."
+  },
+  {
+    "lead_id": "L-035",
+    "name": "Harper Lund",
+    "title": "Director of Operations Finance",
+    "company": "Redfern Construction",
+    "email": "harper.lund@redfernbuild.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-03",
+    "form_note": "Project cost reporting."
+  },
+  {
+    "lead_id": "L-036",
+    "name": "Quentin Ashdown",
+    "title": "Finance Director",
+    "company": "Thistlecombe Hotel Group",
+    "email": "quentin.ashdown@thistlecombe.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-04",
+    "form_note": "RevPAR and labor cost reporting across our hotels."
+  },
+  {
+    "lead_id": "L-037",
+    "name": "Yara Haddou",
+    "title": "Head of Broker Analytics",
+    "company": "Stonemere Insurance Brokers",
+    "email": "yara.haddou@stonemerebrokers.example",
+    "source": "Webinar signup",
+    "created_date": "2026-10-01",
+    "form_note": "Broker performance dashboards."
+  },
+  {
+    "lead_id": "L-038",
+    "name": "Noemi Brandvold",
+    "title": "Director of Customer Analytics",
+    "company": "Everhart Credit Union",
+    "email": "noemi.brandvold@everhartcu.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-02",
+    "form_note": "Requesting a demo for my wider team."
+  },
+  {
+    "lead_id": "L-039",
+    "name": "Pavel Novak",
+    "title": "Head of Analytics",
+    "company": "Corbel Architecture",
+    "email": "pavel.novak@corbelarch.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-05",
+    "form_note": "Project profitability reporting for the partners."
+  },
+  {
+    "lead_id": "L-040",
+    "name": "Wilhelmina Royce",
+    "title": "VP Operations",
+    "company": "Alderton Provisions",
+    "email": "wilhelmina.royce@alderton.example",
+    "source": "Inbound demo request",
+    "created_date": "2026-10-03",
+    "form_note": "Warehouse throughput and waste reporting."
   }
 ]

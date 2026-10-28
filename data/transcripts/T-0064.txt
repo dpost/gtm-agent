@@ -1,0 +1,32 @@
+transcript_id: T-0064
+account_id: ACC-055
+date: 2026-09-03
+call_type: Check-in
+contact_ids: CON-092
+participants: Lucas Moretti (Larkspur Analytics, account owner); Rafael Ortiz (Finance Systems Analyst, Corrigan)
+---
+Lucas Moretti: Hi Rafael, thanks for making time. I wanted to check in now that you're the one running the finance dashboards. How has the handoff been going?
+
+Rafael Ortiz: Pretty well, though I'm still learning where things live. Katherine, who everyone calls Kate, set all of this up before she left for Lindale Pharmacy.
+
+Lucas Moretti: That makes sense. Did she leave you any documentation, or have you been figuring it out as you go?
+
+Rafael Ortiz: A little of both. She left notes on the main reports, but a few of the older dashboards have filters I had to reverse engineer.
+
+Lucas Moretti: I can help with that. If you send me the ones that are confusing, I'll set up a short session to walk through how they're built.
+
+Rafael Ortiz: That would be great. The fuel cost and route margin dashboards are the ones I get the most questions about.
+
+Lucas Moretti: Good to know. On the usage side, about 84 of your 95 licensed seats are active each week, and that has stayed steady for a while.
+
+Rafael Ortiz: That matches what I see. The finance team uses it constantly during month-end close, and the operations managers check the route reports regularly.
+
+Lucas Moretti: Are there any teams that have seats but aren't using them yet?
+
+Rafael Ortiz: A few people in dispatch, I think. I'll ask their manager whether they need training or whether we should reassign those seats.
+
+Lucas Moretti: Sounds good. I can run a quick onboarding session for them if that helps.
+
+Rafael Ortiz: Yes, let's plan on that. I'll confirm with their manager and email you.
+
+Lucas Moretti: Perfect. I'll watch for your note and send over times for the dashboard walkthrough as well.

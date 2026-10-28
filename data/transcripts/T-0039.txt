@@ -1,0 +1,32 @@
+transcript_id: T-0039
+account_id: ACC-039
+date: 2026-09-29
+call_type: Check-in
+contact_ids: CON-058
+participants: Grace Adeyemi (Larkspur Analytics, account owner); Mina Osterberg (Network Planning Manager, Wexmoor Network Planning)
+---
+Grace Adeyemi: Hi Mina, thanks for making time. Since you've just taken over the account, I wanted to do a first check-in and hear how things look from your side.
+
+Mina Osterberg: Thanks, Grace. I'll be straight with you: I'm still learning the tool. I inherited it a few weeks ago and the previous owner didn't leave much in the way of notes.
+
+Grace Adeyemi: That's common with handoffs, so no worries. I can tell you what I see on my end. About 56 of your 110 licensed seats are active each week.
+
+Mina Osterberg: That matches my impression. A handful of planners use it every day, and a lot of the team has never really opened it.
+
+Grace Adeyemi: Do you know why the others haven't picked it up? Is it a training gap, or does the tool not fit their work?
+
+Mina Osterberg: Mostly training, I think. Some people also built their own spreadsheets years ago and they stick with those. I haven't had time to push anyone to change.
+
+Grace Adeyemi: That makes sense. Honestly, that's something I can help with. I could run a short walkthrough for the planners who haven't started, built around the reports your team already produces.
+
+Mina Osterberg: That would help. I'll be direct about the renewal, though. Honestly, I'm not sure we'll renew at the current seat count.
+
+Grace Adeyemi: I appreciate you saying so. It's better to know now than at the end. Which would be more useful to you: a look at who is active, so you can see where the real demand is?
+
+Mina Osterberg: Yes, send me that list. I want to see which seats are actually in use before I talk to my director.
+
+Grace Adeyemi: Will do. I'll send the usage breakdown by user this week, and I'll propose a couple of times for the walkthrough.
+
+Mina Osterberg: Good. Let's talk again after the walkthrough, and I'll have a better sense of what we need by then.
+
+Grace Adeyemi: Sounds good. I'll send the list and the times today.

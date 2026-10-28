@@ -1,0 +1,30 @@
+transcript_id: T-0061
+account_id: ACC-053
+date: 2026-08-20
+call_type: Check-in
+contact_ids: CON-091
+participants: Kendall Ross (Larkspur Analytics, account owner); Imogen Clarke (Merchandising Analytics Lead, Tillery)
+---
+Kendall Ross: Hi Imogen, thanks for making time. I wanted to introduce myself properly and see how things are going since the handoff.
+
+Imogen Clarke: Thanks, Kendall. Lorna moved to Ashby Lane Home in July, so I've taken over the merchandising dashboards.
+
+Kendall Ross: Thanks for telling me. I'm glad you're the one picking them up. How has the transition been so far?
+
+Imogen Clarke: Pretty smooth. Lorna left good notes, and most of the dashboards were already documented. I'm still learning which ones the buyers lean on most.
+
+Kendall Ross: That makes sense. On our side, usage looks steady. About 101 of your 120 licensed seats are active each week.
+
+Imogen Clarke: That sounds right. The category managers are in there regularly, and the planning team uses the sell-through views a lot.
+
+Kendall Ross: Good. Is there anything you wish the dashboards did that they don't today?
+
+Imogen Clarke: I'd like the markdown views to refresh faster. Right now people export the data and check it themselves, which defeats the purpose.
+
+Kendall Ross: I'll take that back and find out what's possible. Can you send me an example of one of those views?
+
+Imogen Clarke: Sure, I'll send two examples this week, along with who uses them.
+
+Kendall Ross: Perfect. I'll follow up once I've talked with our product team, and we can pick this up at our next check-in.
+
+Imogen Clarke: Sounds good. Thanks, Kendall.

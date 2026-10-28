@@ -1,0 +1,30 @@
+transcript_id: T-0051
+account_id: ACC-048
+date: 2026-08-12
+call_type: Decision call
+contact_ids: CON-069
+participants: Jordan Pike (Larkspur Analytics, account owner); Bram Hoekstra (Fleet Planning Director, Graywater Shipping)
+---
+Jordan Pike: Thanks for making time, Bram. I know you wanted to give us a clear answer today, so I'll mostly listen. Where did your team land after the evaluation?
+
+Bram Hoekstra: We liked the dashboards and the scenario views. The planners who tried it said the layout made sense. The problem is the data side. Without a native connector to our vessel tracking feed, my team would still be exporting by hand, so it's a no for now.
+
+Jordan Pike: That's fair, and I appreciate you saying it plainly. Can I ask how often your team pulls from that feed today?
+
+Bram Hoekstra: Every day, and sometimes several times a day when schedules shift. If we add a manual export step on top of that, the planners will stop using the tool within a few weeks.
+
+Jordan Pike: Understood. We don't have a native connector for that feed right now, and I'd rather tell you that than promise something I can't commit to.
+
+Bram Hoekstra: I appreciate that. We looked at building a workaround with our own developers, but they're booked on other projects through the rest of the year.
+
+Jordan Pike: That makes sense. I wouldn't want you to take on a custom build just to make our product fit. Would it help if I sent your connector request to our product team, with the details on how your planners use the feed?
+
+Bram Hoekstra: Yes, please. If it ever becomes a supported connection, I'd want to look again.
+
+Jordan Pike: I'll write it up and send you a copy so you can correct anything I got wrong. Is it all right if I check back with you after our next product update?
+
+Bram Hoekstra: That works. Just don't expect a different answer unless the connector is there.
+
+Jordan Pike: Understood, and no pressure from me. Thanks for the straight answer, Bram, and for the time your team put into the evaluation.
+
+Bram Hoekstra: Thank you, Jordan. Send me the write-up and we'll stay in touch.

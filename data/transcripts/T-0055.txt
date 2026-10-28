@@ -1,0 +1,30 @@
+transcript_id: T-0055
+account_id: ACC-050
+date: 2026-06-03
+call_type: Decision call
+contact_ids: CON-072
+participants: Mei Lindqvist (Larkspur Analytics, account owner); Tilde Sorensen (COO, Kinsale)
+---
+Mei Lindqvist: Thanks for making time, Tilde. I know today was meant to be the decision call, and I heard there have been some changes on your side.
+
+Tilde Sorensen: Yes, and I'd rather tell you directly. Ngozi left the company two weeks ago. With Ngozi gone, nobody here will own the rollout, so we're stopping the evaluation.
+
+Mei Lindqvist: I appreciate you being straight with me. Can I ask whether the concern is about the product or about having someone to lead it?
+
+Tilde Sorensen: It's about ownership. The pilot results were fine, and the team liked the dashboards. But Ngozi was the one pushing it, and I can't assign it to anyone else right now.
+
+Mei Lindqvist: That makes sense. Rollouts like this tend to stall without a clear owner, so I'd rather you wait than start something that won't get used.
+
+Tilde Sorensen: Agreed. We're also hiring for Ngozi's role, and I don't want the new person walking into a tool they didn't choose.
+
+Mei Lindqvist: Would it help if I put together a short summary of what the pilot covered and what the team said? Then whoever steps in has something to pick up from.
+
+Tilde Sorensen: That would be useful. Send it to me and I'll keep it on file for the new hire.
+
+Mei Lindqvist: Will do. I'll get it to you this week, and I won't push a follow-up until you tell me the role is filled.
+
+Tilde Sorensen: Thank you. I'll reach out once someone is in the seat and has the bandwidth.
+
+Mei Lindqvist: Sounds good. Best of luck with the search, Tilde.
+
+Tilde Sorensen: Thanks, Mei. Talk to you then.

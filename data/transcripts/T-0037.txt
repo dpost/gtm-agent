@@ -1,0 +1,30 @@
+transcript_id: T-0037
+account_id: ACC-039
+date: 2026-05-20
+call_type: QBR
+contact_ids: CON-056
+participants: Grace Adeyemi (Larkspur Analytics, account owner); Rupert Glass (Director of Network Planning, Wexmoor Network Planning)
+---
+Grace Adeyemi: Thanks for making time, Rupert. This is our quarterly review, and I'd like to spend most of it on the network capacity dashboards, since I hear they've become a regular part of your planning cycle.
+
+Rupert Glass: They have. My team opens the capacity dashboard first thing on Monday now. We use it to decide which regions get attention in the weekly planning meeting.
+
+Grace Adeyemi: That's great to hear. On usage, about 88 of your 110 licensed seats are active each week, which is a strong adoption level for a rollout this size.
+
+Rupert Glass: I'm happy with that. The people who aren't logging in are mostly in the field or on the procurement side. I'm working on getting them a simpler view.
+
+Grace Adeyemi: That makes sense. We could set up a lighter read-only summary for field staff, so they don't need to open the full dashboard.
+
+Rupert Glass: I'd like that. Right now they ask my planners for screenshots, and that's a bit of a time sink.
+
+Grace Adeyemi: Understood. Which dashboard has been most valuable for you this quarter?
+
+Rupert Glass: The congestion forecast view. It helped us make the case for moving a couple of upgrades earlier in the schedule, and leadership signed off quickly because the data was clear.
+
+Grace Adeyemi: That's exactly the kind of outcome we hope for. Would it help if I ran a short session for your newer planners on building their own forecast views?
+
+Rupert Glass: Yes, please. Two of them joined recently and are still learning their way around.
+
+Grace Adeyemi: Great. I'll send over a few times for next week, and I'll include the read-only summary mockup so you can react to it.
+
+Rupert Glass: Perfect. Thanks, Grace. This was a good review.

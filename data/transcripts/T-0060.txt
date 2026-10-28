@@ -1,0 +1,30 @@
+transcript_id: T-0060
+account_id: ACC-053
+date: 2026-05-19
+call_type: QBR
+contact_ids: CON-076
+participants: Kendall Ross (Larkspur Analytics, account owner); Lorna Fitzgerald (Merchandising Analytics Manager, Tillery)
+---
+Kendall Ross: Hi Lorna, thanks for making time today. This is our quarterly review, and I wanted to start with the merchandising dashboards. How have they been landing with your team?
+
+Lorna Fitzgerald: Really well, honestly. The category performance dashboard is the one everyone opens first on Monday mornings. Our buyers stopped asking for custom spreadsheets.
+
+Kendall Ross: That's great to hear. On our side, about 105 of your 120 licensed seats are active each week, which is a strong number for a team your size.
+
+Lorna Fitzgerald: That matches what I see. The buyers and the planning group are in there constantly. A few of the regional analysts are still getting comfortable with it.
+
+Kendall Ross: Would it help if we ran a short working session for those regional analysts? We could focus on the markdown tracking view and how to filter by store cluster.
+
+Lorna Fitzgerald: Yes, that would be useful. Markdown timing is a big topic for us heading into the back half of the year, so they would get value right away.
+
+Kendall Ross: Perfect. Is there anything in the dashboards you wish worked differently?
+
+Lorna Fitzgerald: One small thing. I'd like to save filter presets for each buyer, so they don't rebuild the same view every week.
+
+Kendall Ross: I'll pass that to our product team and tell you what I hear back. It's a reasonable request and others have asked for something similar.
+
+Lorna Fitzgerald: Thanks, I appreciate that. Overall we're happy, and the team feels the dashboards have made our weekly reviews much faster.
+
+Kendall Ross: Wonderful. I'll schedule the regional session and send you a few options. Thanks again, Lorna.
+
+Lorna Fitzgerald: Sounds good, talk soon.

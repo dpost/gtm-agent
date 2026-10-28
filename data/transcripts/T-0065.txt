@@ -1,0 +1,30 @@
+transcript_id: T-0065
+account_id: ACC-057
+date: 2026-05-27
+call_type: QBR
+contact_ids: CON-079
+participants: Priya Nandakumar (Larkspur Analytics, account owner); Samir Qureshi (Distribution Planning Manager, Mossgiel Distribution)
+---
+Priya Nandakumar: Thanks for joining, Samir. This is our quarterly review for the distribution planning dashboards, and I'm glad to say it's an upbeat one. Usage looks strong on our side.
+
+Samir Qureshi: Good to hear. I've been pleased with how the team has taken to them.
+
+Priya Nandakumar: About 77 of your 85 licensed seats are active each week. That's a very healthy rate for a rollout of this size.
+
+Samir Qureshi: I rolled this out to every distribution planner myself, so I know it end to end.
+
+Priya Nandakumar: That shows. Which dashboard are your planners leaning on most right now?
+
+Samir Qureshi: The replenishment view, mostly. Planners check it first thing each morning to see which warehouses are running low, and it has cut a lot of back and forth between sites.
+
+Priya Nandakumar: That's great. Is there anything the planners find clunky or wish it did differently?
+
+Samir Qureshi: A few of them asked for easier filtering by region. It's a small request, nothing that slows anyone down.
+
+Priya Nandakumar: I'll take that back to our product team and share what I hear. Would it help if I set up a short refresher session for the planners who are less active?
+
+Samir Qureshi: Yes, that would be useful. I'll pull together the names and send them over.
+
+Priya Nandakumar: Perfect. I'll send a calendar invite once I have the list, and we'll plan the next review for the end of the quarter.
+
+Samir Qureshi: Sounds good. Thanks, Priya.

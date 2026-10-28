@@ -1,0 +1,30 @@
+transcript_id: T-0009
+account_id: ACC-009
+date: 2026-08-12
+call_type: QBR
+contact_ids: CON-035
+participants: Nikhil Varma (Larkspur Analytics, account owner); Celia Okonkwo (SVP Retail Analytics, Halvard Retail)
+---
+Nikhil Varma: Thanks for making time, Celia. This is our quarterly review, and I want to start with the good news. About 167 of your 200 licensed seats are active each week.
+
+Celia Okonkwo: That matches what I see. The branch performance dashboards are the main reason. Branch managers open them every Monday before their team huddles.
+
+Nikhil Varma: That's great to hear. Are the regional leads using them too, or is it mostly branch level?
+
+Celia Okonkwo: Both. The regional leads use them to compare branches, and they've started pulling them into their own reviews. It's cut down a lot of the manual spreadsheet work.
+
+Nikhil Varma: Good. Is there anything about the dashboards you'd change?
+
+Celia Okonkwo: Not really, just small things. Some managers would like a cleaner way to filter by branch type. Overall people are happy with them.
+
+Nikhil Varma: I'll note the filter request and bring it to our product team. You mentioned earlier that you were thinking about a deposits view. What would you want it to show?
+
+Celia Okonkwo: Deposit growth by branch, plus account balances over time. Right now we track deposits in a separate report, and it would be better to see it next to branch performance.
+
+Nikhil Varma: That makes sense. We could build it from the same data you already have connected, so the setup should be light. Would your team want to scope it together?
+
+Celia Okonkwo: Yes, let's do that. I'll bring two people from my team who work with deposit data every day.
+
+Nikhil Varma: Perfect. I'll send a short agenda for that working session, and we can use it to decide who needs access.
+
+Celia Okonkwo: Sounds good. Thanks, Nikhil. This was a useful review.

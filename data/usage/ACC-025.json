@@ -1,0 +1,173 @@
+{
+  "account_id": "ACC-025",
+  "weeks": [
+    {
+      "week_ending": "2026-07-19",
+      "licensed_seats": 55,
+      "active_seats": 47,
+      "utilization_pct": 85.5,
+      "features": {
+        "dashboards_viewed": 313,
+        "scheduled_reports_active": 15,
+        "data_exports": 15,
+        "shared_workspaces": 8
+      },
+      "health_score": 89,
+      "health_band": "green"
+    },
+    {
+      "week_ending": "2026-07-26",
+      "licensed_seats": 55,
+      "active_seats": 47,
+      "utilization_pct": 85.5,
+      "features": {
+        "dashboards_viewed": 309,
+        "scheduled_reports_active": 15,
+        "data_exports": 15,
+        "shared_workspaces": 7
+      },
+      "health_score": 89,
+      "health_band": "green"
+    },
+    {
+      "week_ending": "2026-08-02",
+      "licensed_seats": 55,
+      "active_seats": 47,
+      "utilization_pct": 85.5,
+      "features": {
+        "dashboards_viewed": 320,
+        "scheduled_reports_active": 14,
+        "data_exports": 16,
+        "shared_workspaces": 8
+      },
+      "health_score": 87,
+      "health_band": "green"
+    },
+    {
+      "week_ending": "2026-08-09",
+      "licensed_seats": 55,
+      "active_seats": 47,
+      "utilization_pct": 85.5,
+      "features": {
+        "dashboards_viewed": 292,
+        "scheduled_reports_active": 14,
+        "data_exports": 16,
+        "shared_workspaces": 8
+      },
+      "health_score": 88,
+      "health_band": "green"
+    },
+    {
+      "week_ending": "2026-08-16",
+      "licensed_seats": 55,
+      "active_seats": 46,
+      "utilization_pct": 83.6,
+      "features": {
+        "dashboards_viewed": 306,
+        "scheduled_reports_active": 14,
+        "data_exports": 15,
+        "shared_workspaces": 7
+      },
+      "health_score": 84,
+      "health_band": "green"
+    },
+    {
+      "week_ending": "2026-08-23",
+      "licensed_seats": 55,
+      "active_seats": 48,
+      "utilization_pct": 87.3,
+      "features": {
+        "dashboards_viewed": 306,
+        "scheduled_reports_active": 15,
+        "data_exports": 15,
+        "shared_workspaces": 8
+      },
+      "health_score": 89,
+      "health_band": "green"
+    },
+    {
+      "week_ending": "2026-08-30",
+      "licensed_seats": 55,
+      "active_seats": 48,
+      "utilization_pct": 87.3,
+      "features": {
+        "dashboards_viewed": 323,
+        "scheduled_reports_active": 15,
+        "data_exports": 16,
+        "shared_workspaces": 8
+      },
+      "health_score": 89,
+      "health_band": "green"
+    },
+    {
+      "week_ending": "2026-09-06",
+      "licensed_seats": 55,
+      "active_seats": 46,
+      "utilization_pct": 83.6,
+      "features": {
+        "dashboards_viewed": 308,
+        "scheduled_reports_active": 14,
+        "data_exports": 14,
+        "shared_workspaces": 8
+      },
+      "health_score": 87,
+      "health_band": "green"
+    },
+    {
+      "week_ending": "2026-09-13",
+      "licensed_seats": 55,
+      "active_seats": 45,
+      "utilization_pct": 81.8,
+      "features": {
+        "dashboards_viewed": 297,
+        "scheduled_reports_active": 14,
+        "data_exports": 14,
+        "shared_workspaces": 7
+      },
+      "health_score": 84,
+      "health_band": "green"
+    },
+    {
+      "week_ending": "2026-09-20",
+      "licensed_seats": 55,
+      "active_seats": 45,
+      "utilization_pct": 81.8,
+      "features": {
+        "dashboards_viewed": 302,
+        "scheduled_reports_active": 13,
+        "data_exports": 14,
+        "shared_workspaces": 7
+      },
+      "health_score": 83,
+      "health_band": "green"
+    },
+    {
+      "week_ending": "2026-09-27",
+      "licensed_seats": 55,
+      "active_seats": 48,
+      "utilization_pct": 87.3,
+      "features": {
+        "dashboards_viewed": 316,
+        "scheduled_reports_active": 15,
+        "data_exports": 15,
+        "shared_workspaces": 8
+      },
+      "health_score": 91,
+      "health_band": "green"
+    },
+    {
+      "week_ending": "2026-10-04",
+      "licensed_seats": 55,
+      "active_seats": 48,
+      "utilization_pct": 87.3,
+      "features": {
+        "dashboards_viewed": 301,
+        "scheduled_reports_active": 15,
+        "data_exports": 16,
+        "shared_workspaces": 8
+      },
+      "health_score": 89,
+      "health_band": "green"
+    }
+  ]
+}

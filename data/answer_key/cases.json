@@ -12,5 +12,499 @@
     ],
     "forbidden_flag_types": ["warm_reference"],
     "action_intent": "Coordinate with Riley Chen before calling; do not pitch."
+  },
+  {
+    "case_id": "L-002",
+    "lead_id": "L-002",
+    "relationship_status": "net_new",
+    "alert_level": "routine",
+    "related_account_ids_required": [],
+    "related_account_ids_forbidden": [],
+    "required_flags": [],
+    "forbidden_flag_types": ["renewal_risk", "champion_change", "closed_lost_history", "open_opp_conflict", "stale_contact", "warm_reference", "job_changer"],
+    "action_intent": "Run a standard discovery call; there is no existing relationship."
+  },
+  {
+    "case_id": "L-003",
+    "lead_id": "L-003",
+    "relationship_status": "net_new",
+    "alert_level": "routine",
+    "related_account_ids_required": [],
+    "related_account_ids_forbidden": ["ACC-004"],
+    "required_flags": [],
+    "forbidden_flag_types": ["renewal_risk", "champion_change", "closed_lost_history", "open_opp_conflict", "stale_contact", "warm_reference", "job_changer"],
+    "action_intent": "Run a standard discovery call; Brannock Orthodontics is an unrelated company."
+  },
+  {
+    "case_id": "L-004",
+    "lead_id": "L-004",
+    "relationship_status": "net_new",
+    "alert_level": "routine",
+    "related_account_ids_required": [],
+    "related_account_ids_forbidden": ["ACC-005"],
+    "required_flags": [],
+    "forbidden_flag_types": ["renewal_risk", "champion_change", "closed_lost_history", "open_opp_conflict", "stale_contact", "warm_reference", "job_changer"],
+    "action_intent": "Run a standard discovery call; the lost Corvane Hospitality deal is a different company."
+  },
+  {
+    "case_id": "L-005",
+    "lead_id": "L-005",
+    "relationship_status": "net_new",
+    "alert_level": "routine",
+    "related_account_ids_required": [],
+    "related_account_ids_forbidden": [],
+    "required_flags": [],
+    "forbidden_flag_types": ["renewal_risk", "champion_change", "closed_lost_history", "open_opp_conflict", "stale_contact", "warm_reference", "job_changer"],
+    "action_intent": "Run a standard discovery call; there is no existing relationship."
+  },
+  {
+    "case_id": "L-006",
+    "lead_id": "L-006",
+    "relationship_status": "net_new",
+    "alert_level": "routine",
+    "related_account_ids_required": [],
+    "related_account_ids_forbidden": ["ACC-006"],
+    "required_flags": [],
+    "forbidden_flag_types": ["renewal_risk", "champion_change", "closed_lost_history", "open_opp_conflict", "stale_contact", "warm_reference", "job_changer"],
+    "action_intent": "Run a standard discovery call; the Harriet Osei at Strand & Mercer is a different person."
+  },
+  {
+    "case_id": "L-007",
+    "lead_id": "L-007",
+    "relationship_status": "net_new",
+    "alert_level": "routine",
+    "related_account_ids_required": [],
+    "related_account_ids_forbidden": ["ACC-007"],
+    "required_flags": [],
+    "forbidden_flag_types": ["renewal_risk", "champion_change", "closed_lost_history", "open_opp_conflict", "stale_contact", "warm_reference", "job_changer"],
+    "action_intent": "Run a standard discovery call; Marlowe Ridge Winery is an unrelated company."
+  },
+  {
+    "case_id": "L-008",
+    "lead_id": "L-008",
+    "relationship_status": "net_new",
+    "alert_level": "routine",
+    "related_account_ids_required": [],
+    "related_account_ids_forbidden": [],
+    "required_flags": [],
+    "forbidden_flag_types": ["renewal_risk", "champion_change", "closed_lost_history", "open_opp_conflict", "stale_contact", "warm_reference", "job_changer"],
+    "action_intent": "Run a standard discovery call; there is no existing relationship."
+  },
+  {
+    "case_id": "L-009",
+    "lead_id": "L-009",
+    "relationship_status": "net_new",
+    "alert_level": "routine",
+    "related_account_ids_required": [],
+    "related_account_ids_forbidden": ["ACC-008", "ACC-009"],
+    "required_flags": [],
+    "forbidden_flag_types": ["renewal_risk", "champion_change", "closed_lost_history", "open_opp_conflict", "stale_contact", "warm_reference", "job_changer"],
+    "action_intent": "Run a standard discovery call; the Halvard bank accounts are an unrelated company."
+  },
+  {
+    "case_id": "L-010",
+    "lead_id": "L-010",
+    "relationship_status": "healthy_department",
+    "alert_level": "heads_up",
+    "related_account_ids_required": ["ACC-010", "ACC-011"],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "warm_reference", "any_source": ["usage:ACC-011", "crm:account/ACC-011", "crm:contact/CON-036", "transcript:T-0010", "transcript:T-0011"]}
+    ],
+    "forbidden_flag_types": ["renewal_risk", "champion_change", "closed_lost_history", "open_opp_conflict"],
+    "action_intent": "Mention Ostrander Finance as a happy internal reference and ask Priya Nandakumar for an intro to Gideon Barlow."
+  },
+  {
+    "case_id": "L-011",
+    "lead_id": "L-011",
+    "relationship_status": "healthy_department",
+    "alert_level": "heads_up",
+    "related_account_ids_required": ["ACC-012", "ACC-013", "ACC-014"],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "warm_reference", "any_source": ["usage:ACC-014", "crm:account/ACC-014", "crm:contact/CON-038", "transcript:T-0012", "transcript:T-0013"]}
+    ],
+    "forbidden_flag_types": ["renewal_risk", "champion_change", "closed_lost_history", "open_opp_conflict"],
+    "action_intent": "Mention Ferncliff Clinical Operations as a reference and coordinate with Mei Lindqvist before calling."
+  },
+  {
+    "case_id": "L-012",
+    "lead_id": "L-012",
+    "relationship_status": "healthy_department",
+    "alert_level": "heads_up",
+    "related_account_ids_required": ["ACC-015", "ACC-016"],
+    "related_account_ids_forbidden": ["ACC-017"],
+    "required_flags": [
+      {"type": "warm_reference", "any_source": ["usage:ACC-016", "crm:account/ACC-016", "crm:contact/CON-040", "transcript:T-0014", "transcript:T-0015"]}
+    ],
+    "forbidden_flag_types": ["renewal_risk", "champion_change", "closed_lost_history", "open_opp_conflict"],
+    "action_intent": "Mention Orrin Manufacturing Engineering as a reference via Lucas Moretti; ignore Orrin Pet Supply."
+  },
+  {
+    "case_id": "L-013",
+    "lead_id": "L-013",
+    "relationship_status": "healthy_department",
+    "alert_level": "heads_up",
+    "related_account_ids_required": ["ACC-018", "ACC-019"],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "warm_reference", "any_source": ["usage:ACC-019", "crm:account/ACC-019", "crm:contact/CON-042", "transcript:T-0017", "transcript:T-0018"]}
+    ],
+    "forbidden_flag_types": ["renewal_risk", "champion_change", "closed_lost_history", "open_opp_conflict"],
+    "action_intent": "Mention the Kestrel Transit fleet team as a reference and loop in Jordan Pike."
+  },
+  {
+    "case_id": "L-014",
+    "lead_id": "L-014",
+    "relationship_status": "healthy_department",
+    "alert_level": "heads_up",
+    "related_account_ids_required": ["ACC-020", "ACC-021"],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "warm_reference", "any_source": ["usage:ACC-021", "crm:account/ACC-021", "crm:contact/CON-043", "transcript:T-0019", "transcript:T-0020"]}
+    ],
+    "forbidden_flag_types": ["renewal_risk", "champion_change", "closed_lost_history", "open_opp_conflict"],
+    "action_intent": "Mention Glenhollow Claims as a reference and coordinate with Grace Adeyemi, who is expanding that account."
+  },
+  {
+    "case_id": "L-015",
+    "lead_id": "L-015",
+    "relationship_status": "healthy_department",
+    "alert_level": "heads_up",
+    "related_account_ids_required": ["ACC-022", "ACC-023"],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "warm_reference", "any_source": ["usage:ACC-023", "crm:account/ACC-023", "crm:contact/CON-044", "transcript:T-0021", "transcript:T-0022"]}
+    ],
+    "forbidden_flag_types": ["renewal_risk", "champion_change", "closed_lost_history", "open_opp_conflict"],
+    "action_intent": "Mention Juniper and Vale Retail Stores as a reference and ask Kendall Ross for an intro to Farah Siddiqui."
+  },
+  {
+    "case_id": "L-016",
+    "lead_id": "L-016",
+    "relationship_status": "healthy_department",
+    "alert_level": "heads_up",
+    "related_account_ids_required": ["ACC-024", "ACC-025", "ACC-026"],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "warm_reference", "any_source": ["usage:ACC-025", "usage:ACC-026", "crm:account/ACC-025", "crm:account/ACC-026", "crm:contact/CON-045", "crm:contact/CON-046", "transcript:T-0023", "transcript:T-0024", "transcript:T-0025", "transcript:T-0026"]}
+    ],
+    "forbidden_flag_types": ["renewal_risk", "champion_change", "closed_lost_history", "open_opp_conflict"],
+    "action_intent": "Mention Tamsworth Admissions and Advancement as references and coordinate with Abel Okafor."
+  },
+  {
+    "case_id": "L-017",
+    "lead_id": "L-017",
+    "relationship_status": "healthy_department",
+    "alert_level": "heads_up",
+    "related_account_ids_required": ["ACC-027", "ACC-028"],
+    "related_account_ids_forbidden": ["ACC-029"],
+    "required_flags": [
+      {"type": "warm_reference", "any_source": ["usage:ACC-028", "crm:account/ACC-028", "crm:contact/CON-047", "transcript:T-0027", "transcript:T-0028"]}
+    ],
+    "forbidden_flag_types": ["renewal_risk", "champion_change", "closed_lost_history", "open_opp_conflict"],
+    "action_intent": "Mention Cobaltline Customer Success as a reference via Riley Chen; the lost plumbing deal is a different company."
+  },
+  {
+    "case_id": "L-018",
+    "lead_id": "L-018",
+    "relationship_status": "at_risk_department",
+    "alert_level": "caution",
+    "related_account_ids_required": ["ACC-030", "ACC-031"],
+    "related_account_ids_forbidden": ["ACC-032"],
+    "required_flags": [
+      {"type": "renewal_risk", "any_source": ["usage:ACC-031", "crm:opp/OPP-009", "transcript:T-0031"]},
+      {"type": "champion_change", "any_source": ["transcript:T-0031"]}
+    ],
+    "forbidden_flag_types": ["warm_reference"],
+    "action_intent": "Coordinate with Sofia Brandt before calling; do not pitch while the Category Management renewal is at risk."
+  },
+  {
+    "case_id": "L-019",
+    "lead_id": "L-019",
+    "relationship_status": "at_risk_department",
+    "alert_level": "caution",
+    "related_account_ids_required": ["ACC-033", "ACC-034"],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "renewal_risk", "any_source": ["usage:ACC-034", "crm:opp/OPP-010", "transcript:T-0034"]}
+    ],
+    "forbidden_flag_types": ["warm_reference"],
+    "action_intent": "Coordinate with Nikhil Varma before calling; Northgate finance has frozen software renewals."
+  },
+  {
+    "case_id": "L-020",
+    "lead_id": "L-020",
+    "relationship_status": "at_risk_department",
+    "alert_level": "caution",
+    "related_account_ids_required": ["ACC-035", "ACC-036", "ACC-037"],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "renewal_risk", "any_source": ["usage:ACC-037", "crm:opp/OPP-011", "transcript:T-0036"]}
+    ],
+    "forbidden_flag_types": ["warm_reference"],
+    "action_intent": "Coordinate with Lucas Moretti before calling; Arvelle Procurement is trialing a cheaper tool before renewal."
+  },
+  {
+    "case_id": "L-021",
+    "lead_id": "L-021",
+    "relationship_status": "at_risk_department",
+    "alert_level": "caution",
+    "related_account_ids_required": ["ACC-038", "ACC-039"],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "renewal_risk", "any_source": ["usage:ACC-039", "crm:opp/OPP-012", "transcript:T-0039"]},
+      {"type": "champion_change", "any_source": ["transcript:T-0038", "transcript:T-0039"]}
+    ],
+    "forbidden_flag_types": ["warm_reference"],
+    "action_intent": "Coordinate with Grace Adeyemi before calling; the MEDDPICC champion has moved and the renewal is in doubt."
+  },
+  {
+    "case_id": "L-022",
+    "lead_id": "L-022",
+    "relationship_status": "at_risk_department",
+    "alert_level": "caution",
+    "related_account_ids_required": ["ACC-040", "ACC-041", "ACC-042"],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "renewal_risk", "any_source": ["usage:ACC-042", "crm:opp/OPP-013", "transcript:T-0041"]},
+      {"type": "champion_change", "any_source": ["transcript:T-0041"]}
+    ],
+    "forbidden_flag_types": ["warm_reference"],
+    "action_intent": "Coordinate with Kendall Ross before calling; the Vantris Revenue Cycle champion left and usage is falling."
+  },
+  {
+    "case_id": "L-023",
+    "lead_id": "L-023",
+    "relationship_status": "closed_lost_history",
+    "alert_level": "caution",
+    "related_account_ids_required": ["ACC-043"],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "closed_lost_history", "any_source": ["crm:opp/OPP-014", "transcript:T-0043"]}
+    ],
+    "forbidden_flag_types": ["warm_reference", "renewal_risk"],
+    "action_intent": "Talk to Owen Castellano first and lead with value against spreadsheets, since the last deal was lost on price."
+  },
+  {
+    "case_id": "L-024",
+    "lead_id": "L-024",
+    "relationship_status": "closed_lost_history",
+    "alert_level": "caution",
+    "related_account_ids_required": ["ACC-044"],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "closed_lost_history", "any_source": ["transcript:T-0045"]}
+    ],
+    "forbidden_flag_types": ["warm_reference", "renewal_risk"],
+    "action_intent": "Talk to Jordan Pike first and be ready on SAML single sign-on and audit logs, the real reason the last deal died."
+  },
+  {
+    "case_id": "L-025",
+    "lead_id": "L-025",
+    "relationship_status": "closed_lost_history",
+    "alert_level": "caution",
+    "related_account_ids_required": ["ACC-045"],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "closed_lost_history", "any_source": ["crm:opp/OPP-016", "transcript:T-0047"]}
+    ],
+    "forbidden_flag_types": ["warm_reference", "renewal_risk"],
+    "action_intent": "Talk to Sofia Brandt first; the last deal was lost to a vendor with a SCADA historian connector."
+  },
+  {
+    "case_id": "L-026",
+    "lead_id": "L-026",
+    "relationship_status": "closed_lost_history",
+    "alert_level": "caution",
+    "related_account_ids_required": ["ACC-046", "ACC-047"],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "closed_lost_history", "any_source": ["crm:opp/OPP-017", "transcript:T-0049"]}
+    ],
+    "forbidden_flag_types": ["warm_reference", "renewal_risk"],
+    "action_intent": "Talk to Abel Okafor first; Fenwick froze new vendors until its store systems migration finishes."
+  },
+  {
+    "case_id": "L-027",
+    "lead_id": "L-027",
+    "relationship_status": "closed_lost_history",
+    "alert_level": "caution",
+    "related_account_ids_required": ["ACC-048"],
+    "related_account_ids_forbidden": ["ACC-049"],
+    "required_flags": [
+      {"type": "closed_lost_history", "any_source": ["transcript:T-0051"]}
+    ],
+    "forbidden_flag_types": ["warm_reference", "renewal_risk"],
+    "action_intent": "Talk to Jordan Pike first; the last deal was lost over a missing vessel tracking connector."
+  },
+  {
+    "case_id": "L-028",
+    "lead_id": "L-028",
+    "relationship_status": "closed_lost_history",
+    "alert_level": "caution",
+    "related_account_ids_required": ["ACC-050"],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "closed_lost_history", "any_source": ["crm:opp/OPP-020", "transcript:T-0055"]}
+    ],
+    "forbidden_flag_types": ["warm_reference", "renewal_risk"],
+    "action_intent": "Talk to Mei Lindqvist first; the 2026 evaluation stopped when the champion left, after a 2024 loss on price."
+  },
+  {
+    "case_id": "L-029",
+    "lead_id": "L-029",
+    "relationship_status": "job_changer",
+    "alert_level": "heads_up",
+    "related_account_ids_required": [],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "job_changer", "any_source": ["crm:contact/CON-073", "transcript:T-0057"]}
+    ],
+    "forbidden_flag_types": ["renewal_risk", "closed_lost_history", "open_opp_conflict"],
+    "action_intent": "Open with Celeste's success at Penhallow Outdoor Gear and loop in Riley Chen."
+  },
+  {
+    "case_id": "L-030",
+    "lead_id": "L-030",
+    "relationship_status": "job_changer",
+    "alert_level": "heads_up",
+    "related_account_ids_required": [],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "job_changer", "any_source": ["crm:contact/CON-075", "transcript:T-0059"]}
+    ],
+    "forbidden_flag_types": ["renewal_risk", "closed_lost_history", "open_opp_conflict"],
+    "action_intent": "Open with Dmitri's experience as Lockridge's admin and loop in Grace Adeyemi."
+  },
+  {
+    "case_id": "L-031",
+    "lead_id": "L-031",
+    "relationship_status": "job_changer",
+    "alert_level": "heads_up",
+    "related_account_ids_required": [],
+    "related_account_ids_forbidden": ["ACC-054"],
+    "required_flags": [
+      {"type": "job_changer", "any_source": ["crm:contact/CON-076", "transcript:T-0061"]}
+    ],
+    "forbidden_flag_types": ["renewal_risk", "closed_lost_history", "open_opp_conflict"],
+    "action_intent": "Open with Lorna's success at Tillery and loop in Kendall Ross; Ashby Lane Dental is unrelated."
+  },
+  {
+    "case_id": "L-032",
+    "lead_id": "L-032",
+    "relationship_status": "job_changer",
+    "alert_level": "heads_up",
+    "related_account_ids_required": [],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "job_changer", "any_source": ["crm:contact/CON-078", "transcript:T-0064"]}
+    ],
+    "forbidden_flag_types": ["renewal_risk", "closed_lost_history", "open_opp_conflict"],
+    "action_intent": "Open with Kate's setup at Corrigan Freightways and loop in Lucas Moretti."
+  },
+  {
+    "case_id": "L-033",
+    "lead_id": "L-033",
+    "relationship_status": "job_changer",
+    "alert_level": "heads_up",
+    "related_account_ids_required": [],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "job_changer", "any_source": ["crm:contact/CON-079"]}
+    ],
+    "forbidden_flag_types": ["renewal_risk", "closed_lost_history", "open_opp_conflict"],
+    "action_intent": "Open with Samir's rollout at Mossgiel Distribution and loop in Priya Nandakumar."
+  },
+  {
+    "case_id": "L-034",
+    "lead_id": "L-034",
+    "relationship_status": "job_changer",
+    "alert_level": "heads_up",
+    "related_account_ids_required": [],
+    "related_account_ids_forbidden": ["ACC-059"],
+    "required_flags": [
+      {"type": "job_changer", "any_source": ["crm:contact/CON-080", "transcript:T-0068"]}
+    ],
+    "forbidden_flag_types": ["renewal_risk", "closed_lost_history", "open_opp_conflict"],
+    "action_intent": "Open with Daniel's work at Halstead Water and loop in Sofia Brandt; the Rosslyn Dental Daniel is a different person."
+  },
+  {
+    "case_id": "L-035",
+    "lead_id": "L-035",
+    "relationship_status": "conflict",
+    "alert_level": "caution",
+    "related_account_ids_required": ["ACC-060"],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "open_opp_conflict", "any_source": ["crm:opp/OPP-022"]}
+    ],
+    "forbidden_flag_types": ["warm_reference", "renewal_risk", "closed_lost_history"],
+    "action_intent": "Do not call; route the lead to Jordan Pike, who owns the open Redfern opportunity."
+  },
+  {
+    "case_id": "L-036",
+    "lead_id": "L-036",
+    "relationship_status": "conflict",
+    "alert_level": "caution",
+    "related_account_ids_required": ["ACC-061", "ACC-062", "ACC-063"],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "open_opp_conflict", "any_source": ["crm:opp/OPP-023"]}
+    ],
+    "forbidden_flag_types": ["warm_reference", "renewal_risk", "closed_lost_history"],
+    "action_intent": "Do not call; route the lead to Mei Lindqvist, who owns the open Thistlecombe Resorts opportunity."
+  },
+  {
+    "case_id": "L-037",
+    "lead_id": "L-037",
+    "relationship_status": "conflict",
+    "alert_level": "caution",
+    "related_account_ids_required": ["ACC-064"],
+    "related_account_ids_forbidden": ["ACC-065"],
+    "required_flags": [
+      {"type": "open_opp_conflict", "any_source": ["crm:opp/OPP-024"]}
+    ],
+    "forbidden_flag_types": ["warm_reference", "renewal_risk", "closed_lost_history"],
+    "action_intent": "Do not call; route the lead to Owen Castellano, who owns the open Stonemere evaluation."
+  },
+  {
+    "case_id": "L-038",
+    "lead_id": "L-038",
+    "relationship_status": "conflict",
+    "alert_level": "caution",
+    "related_account_ids_required": ["ACC-066"],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "open_opp_conflict", "any_source": ["crm:opp/OPP-025"]}
+    ],
+    "forbidden_flag_types": ["warm_reference", "renewal_risk", "closed_lost_history"],
+    "action_intent": "Do not call; the lead is already the champion on Lucas Moretti's open opportunity, so hand it to Lucas."
+  },
+  {
+    "case_id": "L-039",
+    "lead_id": "L-039",
+    "relationship_status": "conflict",
+    "alert_level": "caution",
+    "related_account_ids_required": ["ACC-067"],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "stale_contact", "any_source": ["crm:contact/CON-088"]}
+    ],
+    "forbidden_flag_types": ["warm_reference", "renewal_risk", "closed_lost_history"],
+    "action_intent": "Check with Grace Adeyemi, who owns Corbel, before calling; the CRM still lists Pavel as an analyst from 2024."
+  },
+  {
+    "case_id": "L-040",
+    "lead_id": "L-040",
+    "relationship_status": "conflict",
+    "alert_level": "caution",
+    "related_account_ids_required": ["ACC-068"],
+    "related_account_ids_forbidden": [],
+    "required_flags": [
+      {"type": "stale_contact", "any_source": ["crm:contact/CON-089"]}
+    ],
+    "forbidden_flag_types": ["warm_reference", "renewal_risk", "closed_lost_history"],
+    "action_intent": "Check with Kendall Ross, who owns Alderton, before calling; the CRM contact is from 2024 under the old Alderton Foods name."
   }
 ]

@@ -1,0 +1,30 @@
+transcript_id: T-0019
+account_id: ACC-021
+date: 2026-07-21
+call_type: QBR
+contact_ids: CON-043
+participants: Grace Adeyemi (Larkspur Analytics, account owner); Isaac Mendel (VP Claims Operations, Glenhollow Claims)
+---
+Grace Adeyemi: Thanks for making time, Isaac. I wanted to walk through how the claims cycle time dashboards have been working for your team this quarter.
+
+Isaac Mendel: Happy to. Honestly, they've become part of our Monday routine. My supervisors open the cycle time view before they do anything else.
+
+Grace Adeyemi: That's great to hear. On the usage side, about 123 of your 140 licensed seats are active each week, which is strong for a rollout this size.
+
+Isaac Mendel: That matches what I see. The adjusters who weren't sure about it at first now ask for new filters, so I take that as a good sign.
+
+Grace Adeyemi: What's been the most useful part for you so far?
+
+Isaac Mendel: The breakdown by claim stage. We found that a lot of the delay sat in the handoff between intake and assignment, and we changed how we route new files. It's made a visible difference in how fast files move.
+
+Grace Adeyemi: That's exactly the kind of result we hope for. Did the regional managers pick up the same view?
+
+Isaac Mendel: They did. Each one reviews their own team's numbers in our weekly ops meeting, and the conversations are much more specific now.
+
+Grace Adeyemi: Is there anything you'd like us to improve or add before our next review?
+
+Isaac Mendel: I'd like an easier way to compare cycle time by claim type side by side. Right now we export it and put it together ourselves.
+
+Grace Adeyemi: I'll take that to our product team and bring you an update at the next QBR. I can also set up a short working session with your analysts to build a saved comparison view in the meantime.
+
+Isaac Mendel: That would be helpful. Send me a few times and I'll get the right people on the call.

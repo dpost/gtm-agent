@@ -1,0 +1,30 @@
+transcript_id: T-0031
+account_id: ACC-031
+date: 2026-09-24
+call_type: Check-in
+contact_ids: CON-049
+participants: Sofia Brandt (Larkspur Analytics, account owner); Naomi Kerr (Head of Category Insights, Bramblecote Category)
+---
+Sofia Brandt: Hi Naomi, thanks for making time. I wanted to check in because I heard there might be some changes on your side.
+
+Naomi Kerr: Yes, I should be upfront about that. My last day at Bramblecote is October 16, and nobody has been named to take over the Larkspur work.
+
+Sofia Brandt: Thank you for telling me directly. That's a real concern for us both. Who has been using the tool most day to day?
+
+Naomi Kerr: Mostly my team, and a few people in the pricing group. Honestly, I was the one pushing everyone to log in, and since I've been winding things down, the logins have dropped.
+
+Sofia Brandt: That matches what I see. About 56 of your 100 licensed seats are active each week, and that's lower than it was earlier in the year.
+
+Naomi Kerr: That doesn't surprise me. Ralph has also asked to review the renewal, and with usage down and no owner, I don't know how that conversation will go.
+
+Sofia Brandt: That's fair, and I'd rather deal with it openly than have it surprise anyone. What would help Ralph most when he looks at it?
+
+Naomi Kerr: A clear picture of who is actually using it and what they get from it. He'll want to know who is accountable for it going forward, too.
+
+Sofia Brandt: I can pull together a usage summary by team. Could you suggest one or two people who might be a good interim owner?
+
+Naomi Kerr: I'll think about who has the most interest and talk to Ralph this week. I don't want to hand it to someone who doesn't want it.
+
+Sofia Brandt: Agreed. I'll send the usage summary tomorrow, and let's set up a handover session with whoever is named before October 16.
+
+Naomi Kerr: That works. I'll let you know as soon as there's a name.

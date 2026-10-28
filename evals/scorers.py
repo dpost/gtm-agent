@@ -10,6 +10,12 @@ class Check:
     name: str
     passed: bool
     detail: str
+    expected: str = ""  # short, human-readable; shown side by side in the HTML report
+    got: str = ""
+
+
+def _ids(ids) -> str:
+    return ", ".join(sorted(ids)) or "none"
 
 
 def correctness(brief: Brief, case: dict, known_source_ids: set[str]) -> list[Check]:
@@ -21,6 +27,8 @@ def correctness(brief: Brief, case: dict, known_source_ids: set[str]) -> list[Ch
         "relationship_status",
         brief.relationship_status == expected,
         f"expected {expected}, got {brief.relationship_status}",
+        expected,
+        brief.relationship_status,
     ))
 
     expected = case["alert_level"]
@@ -28,6 +36,8 @@ def correctness(brief: Brief, case: dict, known_source_ids: set[str]) -> list[Ch
         "alert_level",
         brief.alert_level == expected,
         f"expected {expected}, got {brief.alert_level}",
+        expected,
+        brief.alert_level,
     ))
 
     related = set(brief.related_account_ids)
@@ -37,6 +47,8 @@ def correctness(brief: Brief, case: dict, known_source_ids: set[str]) -> list[Ch
         "related_accounts",
         not missing and not forbidden,
         f"got {sorted(related)}; missing {missing}; forbidden present {forbidden}",
+        f"{_ids(case['related_account_ids_required'])}; not {_ids(case['related_account_ids_forbidden'])}",
+        _ids(related),
     ))
 
     problems = []
@@ -51,6 +63,8 @@ def correctness(brief: Brief, case: dict, known_source_ids: set[str]) -> list[Ch
         "required_flags",
         not problems,
         "; ".join(problems) or f"found {[r['type'] for r in case['required_flags']]} with expected sources",
+        "; ".join(f"{r['type']} citing {' or '.join(r['any_source'])}" for r in case["required_flags"]) or "none",
+        "; ".join(f"{f.type} citing {', '.join(f.source_ids)}" for f in brief.flags) or "no flags",
     ))
 
     bad_types = sorted({f.type for f in brief.flags} & set(case["forbidden_flag_types"]))
@@ -58,6 +72,8 @@ def correctness(brief: Brief, case: dict, known_source_ids: set[str]) -> list[Ch
         "forbidden_flags",
         not bad_types,
         f"forbidden types present: {bad_types}" if bad_types else f"none of {case['forbidden_flag_types']}",
+        f"none of {_ids(case['forbidden_flag_types'])}",
+        _ids(bad_types) if bad_types else "none present",
     ))
 
     cited = {s for f in brief.flags for s in f.source_ids}
@@ -66,6 +82,8 @@ def correctness(brief: Brief, case: dict, known_source_ids: set[str]) -> list[Ch
         "source_ids_exist",
         not unknown,
         f"unknown IDs: {unknown}" if unknown else f"all {len(cited)} cited IDs exist",
+        "every cited ID exists in the data",
+        f"unknown: {_ids(unknown)}" if unknown else f"all {len(cited)} exist",
     ))
 
     return checks

@@ -2,14 +2,19 @@
 
 Working notes for the lead brief prototype.
 
+## Next
+
+- **More eval cases: the 40 generated leads (SPEC milestone, Oct 9, overdue).** Only L-001 exists, so pass rates, the by-situation breakdown, and the false alarm and buried signal counts don't mean much yet. Follow SPEC's case mix and order: write all 40 answers in `data/answer_key/cases.json` first, then `scripts/generate_data.py` (code makes every number, an LLM writes only transcript prose), then `scripts/check_data.py` to verify each planted fact landed. Spread name variants, subsidiaries, and look-alike companies across all six situations.
+
 ## Later
 
-- **Structured outputs for the final brief.** `output_config.format` with the Brief JSON schema, instead of parse plus one retry. A candidate for the Oct 13 "one change". Seen on the first live eval run (Oct 6): the model's first answer added a field outside the schema (`flags_note`), validation rejected it, and the one retry fixed it. Structured outputs would rule this out and save the retry's cost and latency.
+- **Structured outputs for the final brief.** `output_config.format` with the Brief JSON schema, instead of parse plus one retry. A candidate for the Oct 13 "one change". Seen on the first live eval run (Oct 6): the model's first answer added a field outside the schema (`flags_note`), validation rejected it, and the one retry fixed it. Structured outputs would rule this out and save the retry's cost and latency. Seen again on Oct 28: the first answer was invalid JSON (a trailing `,"` before the closing brace), and the retry fixed it. It happened again on a later Oct 28 run, so roughly every other live run needs the retry so far. Eval reports now count retries per run, so the baseline shows the rate before the change.
 - **Server-side refusal fallback** (`fallbacks: "default"`) is left out. On the current agent model it only reroutes `cyber` and `frontier_llm` declines, neither plausible for sales briefs, and a silent switch to another model would muddy eval comparisons. Refusals fail loudly instead.
 - **Smarter `search_accounts`.** Match on email domain, fuzzy names, and the reverse substring direction (a variant inside the query, e.g. "Pellwick Freight Inc").
 - **`search_transcripts` returns full text.** Fine at 2 to 3 short transcripts per account. Revisit (snippets plus a `get_transcript` tool) if transcripts grow.
 - **Activity notes.** `activity` is an empty list on every account today. Notes need their own IDs, which needs a source ID convention (e.g. `crm:activity/ACT-001`) added to CLAUDE.md first.
 - **Routine-case check.** SPEC's "zero caution flags on routine cases" is not in today's six checks. It needs a definition of which flag types count as caution flags.
+- **HTML report into MLflow.** Log each run's `reports/eval-*.html` as an MLflow artifact next to the per-case table (Oct 9). Add token cost to the report once it is logged.
 - **Cost and latency per run.** Log token usage and wall time per case (MLflow, Oct 9).
 
 ## Decisions (Oct 6)

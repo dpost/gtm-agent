@@ -66,8 +66,13 @@ def _text(response) -> str:
     return "".join(block.text for block in response.content if block.type == "text")
 
 
-def brief_lead(lead_id: str, client=None) -> Brief:
-    """Run the agent for one lead and return a validated Brief. Raises BriefError on failure."""
+def brief_lead(lead_id: str, client=None, trace: list | None = None) -> Brief:
+    """Run the agent for one lead and return a validated Brief. Raises BriefError on failure.
+
+    If `trace` is a list, each tool call (with its result) and validation retry is appended to it as a dict,
+    for eval reports.
+    """
+    trace = [] if trace is None else trace
     lead = data_store.get_lead(lead_id)
     if client is None:
         config.load_env()
@@ -87,6 +92,7 @@ def brief_lead(lead_id: str, client=None) -> Brief:
             if block.type != "tool_use":
                 continue
             if tool_calls >= config.MAX_TOOL_CALLS:
+                trace.append({"kind": "skipped", "name": block.name, "input": block.input})
                 results.append({
                     "type": "tool_result",
                     "tool_use_id": block.id,
@@ -97,6 +103,9 @@ def brief_lead(lead_id: str, client=None) -> Brief:
             tool_calls += 1
             log.info("tool %d/%d: %s %s", tool_calls, config.MAX_TOOL_CALLS, block.name, json.dumps(block.input))
             content, is_error = run_tool(block.name, block.input)
+            trace.append({
+                "kind": "tool", "name": block.name, "input": block.input, "output": content, "is_error": is_error,
+            })
             results.append({"type": "tool_result", "tool_use_id": block.id, "content": content, "is_error": is_error})
 
         out_of_budget = tool_calls >= config.MAX_TOOL_CALLS
@@ -113,6 +122,7 @@ def brief_lead(lead_id: str, client=None) -> Brief:
         return parse_brief(text)
     except ValidationError as first_error:
         log.warning("Brief failed validation; retrying once.\n%s", first_error)
+        trace.append({"kind": "retry", "error": str(first_error), "output": text})
         messages.append({
             "role": "user",
             "content": f"That brief failed validation:\n{first_error}\n\nReply with only the corrected JSON object.",
